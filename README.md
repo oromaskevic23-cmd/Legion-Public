@@ -570,3 +570,170 @@ The long-term objective of Legion is to provide a professionally governed enviro
 
 Its purpose is to strengthen engineering quality, professional collaboration, transparency and evidence-driven execution while preserving the established Public / Private Boundary and protecting confidential engineering assets.
 ---
+---
+
+# Adaptive Organizational Architecture
+
+Legion is publicly envisioned as an adaptive organizational environment capable of supporting many different organizational structures rather than one predefined configuration.
+
+Organizations differ in size, objectives, industries and operational models.
+
+For this reason, Legion is designed around scalable orchestration concepts instead of fixed organizational templates.
+
+This section describes only the approved public architectural vision.
+
+It does not disclose implementation architecture, runtime topology, internal orchestration logic or protected engineering assets.
+
+---
+
+# Public Organizational Model
+
+```mermaid
+flowchart LR
+
+A["Architect"] --> H["HANTER"]
+
+H --> L["Legion"]
+
+L --> O["Professional Orchestrators"]
+
+O --> T1["Architecture Team"]
+O --> T2["Engineering Team"]
+O --> T3["Research Team"]
+O --> T4["Documentation Team"]
+O --> T5["Security Team"]
+O --> T6["Business Team"]
+
+T1 --> N["Nano Core Agents"]
+T2 --> N
+T3 --> N
+T4 --> N
+T5 --> N
+T6 --> N
+
+N --> R["Mission Results and Evidence"]
+```
+
+The diagram represents an approved public architectural concept only.
+
+It does not describe runtime implementation, deployment architecture or operational infrastructure.
+
+---
+
+# Organizational Flexibility
+
+Legion is publicly intended to support organizations of different scales.
+
+Examples include:
+
+• individual professionals;
+
+• startups;
+
+• software companies;
+
+• research laboratories;
+
+• consulting organizations;
+
+• educational institutions;
+
+• engineering enterprises;
+
+• international organizations.
+
+Each organization may define its own professional structure while preserving the engineering governance principles established by IMPERIAL Core.
+
+---
+
+# Dynamic Professional Teams
+
+Professional teams are publicly envisioned as dynamic rather than static.
+
+Depending on the mission, organizations may assemble different combinations of professional Nano Core Agents with appropriate Skills and Plugins.
+
+Possible examples include:
+
+• Architecture Teams
+
+• Engineering Teams
+
+• Documentation Teams
+
+• Research Teams
+
+• Quality Assurance Teams
+
+• Security Review Teams
+
+• Public Communication Teams
+
+• Repository Governance Teams
+
+The public repository intentionally describes only the concept.
+
+Private implementation remains confidential.
+
+---
+
+# Engineering Scalability
+
+The long-term architectural vision of Legion emphasizes scalability through specialization.
+
+Rather than increasing complexity inside a single orchestrator, Legion distributes professional responsibilities across multiple orchestrators and specialized Nano Core Agent teams operating within governed mission boundaries.
+
+This approach supports long-term maintainability, professional collaboration and architectural clarity.
+
+---
+
+# Public and Private Separation
+
+## Public Repository
+
+Documents:
+
+• architectural vision;
+
+• organizational concepts;
+
+• governance principles;
+
+• professional coordination;
+
+• engineering philosophy;
+
+• documentation.
+
+## Private Engineering
+
+Contains:
+
+• implementation;
+
+• runtime orchestration;
+
+• source code;
+
+• internal Skills;
+
+• internal Plugins;
+
+• capability management;
+
+• execution policies;
+
+• infrastructure;
+
+• deployment procedures;
+
+• security architecture.
+
+These materials are intentionally excluded from this repository.
+
+---
+
+# Long-Term Vision
+
+Legion is intended to become a scalable professional coordination environment capable of supporting multiple industries, organizational structures and engineering disciplines.
+
+The public repository communicates this long-term engineering direction while maintaining strict separation between public architectural knowledge and private implementation.
