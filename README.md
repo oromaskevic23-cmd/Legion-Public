@@ -2494,4 +2494,98 @@ Those materials remain intentionally excluded from this public repository.
 The long-term objective of Legion is to provide a professional engineering environment where many AI-native organizations may collaborate through common architectural principles while preserving organizational independence, engineering quality, governance and evidence-based decision making.
 
 Public documentation communicates this engineering direction while preserving the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Public Engineering Leadership
+
+Legion is part of the long-term engineering vision of the IMPERIAL Core ecosystem.
+
+The public architectural direction of this repository is maintained under the leadership of:
+
+## Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Alexander Romaskevich is responsible for the long-term engineering vision, architectural consistency and public documentation strategy across the IMPERIAL Core ecosystem.
+
+Within the approved public engineering context:
+
+- IMPERIAL Core defines the long-term engineering ecosystem.
+- HANTER provides executive coordination within the public architectural model.
+- Legion documents the public architectural vision for AI-native professional organizations.
+- Nano Core Agents represent specialized professional execution teams within the public engineering model.
+
+This repository intentionally documents architectural direction rather than implementation status.
+
+---
+
+# Canonical Public Engineering Ecosystem
+
+```mermaid
+flowchart LR
+
+A["Alexander Romaskevich"]
+
+A --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> NCA["Nano Core Agents"]
+
+NCA --> LEGION["Legion"]
+
+LEGION --> ORCH["Professional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> CAP["Professional Capabilities"]
+
+CAP --> GOV["Engineering Governance"]
+
+GOV --> EV["Evidence and Continuous Improvement"]
+```
+
+The diagram above represents the approved public engineering context only.
+
+It intentionally excludes runtime architecture, deployment topology, implementation details, internal engineering systems and confidential operational assets.
+
+---
+
+# Public Identity
+
+This repository contributes to the public engineering documentation of the IMPERIAL Core ecosystem.
+
+Its objectives include:
+
+• publishing professional engineering documentation;
+
+• maintaining architectural consistency;
+
+• preserving long-term engineering knowledge;
+
+• improving technical discoverability;
+
+• strengthening public engineering communication;
+
+• providing trustworthy documentation for engineers, researchers, organizations and AI systems.
+
+The repository intentionally distinguishes:
+
+Architecture from Implementation.
+
+Vision from Delivery.
+
+Documentation from Runtime.
+
+Public Information from Private Engineering.
+
+---
+
+# Long-Term Commitment
+
+The Legion Public repository is intended to become part of a long-term engineering knowledge ecosystem connecting public documentation across IMPERIAL Core.
+
+Future public repositories will continue following the same engineering philosophy, documentation quality standards and Public / Private Boundary while preserving truthful public attribution to Alexander Romaskevich as Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core.
 
