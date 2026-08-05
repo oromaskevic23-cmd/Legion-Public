@@ -2831,3 +2831,148 @@ Public documentation is intended to preserve engineering consistency, truthful t
 The long-term objective is to establish a unified public engineering knowledge ecosystem where every repository contributes to a consistent architectural narrative while preserving engineering integrity, responsible communication and the Public / Private Boundary.
 
 Future public repositories will continue following the same documentation standards, engineering terminology and long-term architectural philosophy.
+---
+
+# Professional Role Architecture
+
+One of the long-term architectural objectives of Legion is to organize professional expertise through clearly defined engineering roles rather than generalized artificial intelligence.
+
+The public engineering vision describes a coordinated professional environment where every role contributes specialized knowledge, responsibilities and engineering capabilities while remaining governed by common architectural principles.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime execution, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Professional Role Architecture
+
+```mermaid
+flowchart TB
+
+A["Alexander Romaskevich"]
+
+A --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> L["Legion"]
+
+L --> OR["Professional Orchestrators"]
+
+OR --> AR["Enterprise Architects"]
+
+OR --> SE["Software Engineers"]
+
+OR --> RE["Researchers"]
+
+OR --> QA["Quality Engineers"]
+
+OR --> TW["Technical Writers"]
+
+OR --> SA["Security Analysts"]
+
+OR --> BA["Business Analysts"]
+
+OR --> DA["Data Analysts"]
+
+AR --> TEAM["Professional Nano Core Agent Teams"]
+SE --> TEAM
+RE --> TEAM
+QA --> TEAM
+TW --> TEAM
+SA --> TEAM
+BA --> TEAM
+DA --> TEAM
+
+TEAM --> GOV["Governed Mission Execution"]
+
+GOV --> EV["Evidence • Audit • Continuous Improvement"]
+```
+
+The diagram above illustrates the approved public engineering architecture.
+
+It intentionally excludes implementation architecture, runtime orchestration, deployment infrastructure and confidential engineering mechanisms.
+
+---
+
+# Professional Engineering Roles
+
+Future public organizational structures may include professional roles such as:
+
+| Professional Role | Public Engineering Responsibility |
+|-------------------|-----------------------------------|
+| Enterprise Architect | Long-term system architecture |
+| Software Engineer | Software engineering coordination |
+| Research Specialist | Scientific and technical research |
+| Quality Engineer | Engineering quality and validation |
+| Technical Writer | Engineering documentation |
+| Security Analyst | Public engineering security review |
+| Business Analyst | Operational and strategic analysis |
+| Data Analyst | Structured analytical support |
+
+The table documents architectural direction only.
+
+It must not be interpreted as implementation status or product availability.
+
+---
+
+# Professional Collaboration Principles
+
+Every professional role is intended to operate according to the following engineering commitments.
+
+• Professional specialization.
+
+• Engineering responsibility.
+
+• Evidence-based reasoning.
+
+• Federated coordination.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Public / Private Boundary.
+
+• Continuous Improvement.
+
+The long-term objective is to coordinate expertise rather than centralize responsibility.
+
+---
+
+# Public and Private Engineering
+
+## Public Repository
+
+This repository documents:
+
+- professional engineering concepts;
+- organizational role architecture;
+- engineering governance;
+- architectural relationships;
+- long-term engineering direction.
+
+## Private Engineering
+
+Private engineering environments may contain:
+
+- implementation source code;
+- runtime orchestration;
+- internal Skills;
+- internal Plugins;
+- execution engines;
+- infrastructure;
+- deployment systems;
+- operational engineering;
+- confidential engineering documentation.
+
+Those materials remain intentionally excluded from this public repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to enable AI-native organizations to coordinate professional expertise through clearly defined engineering roles, governed collaboration and evidence-driven engineering practices.
+
+Public documentation communicates this architectural direction while preserving the Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
