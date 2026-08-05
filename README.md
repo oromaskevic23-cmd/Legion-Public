@@ -1242,3 +1242,146 @@ The long-term objective of Legion is to enable organizations to design professio
 
 The public repository communicates this architectural direction while maintaining strict separation between public engineering knowledge and confidential implementation.
 ---
+
+# Public Architecture Map
+
+The long-term public architecture of Legion is designed around professional coordination, governed specialization and scalable organizational structures.
+
+Rather than exposing implementation details, the public architecture explains how responsibilities are conceptually organized throughout the Legion ecosystem.
+
+Every architectural layer has a clearly defined public purpose while confidential engineering implementation remains protected.
+
+---
+
+# Public Enterprise Architecture
+
+```mermaid
+flowchart TB
+
+A["Alexander Romaskevich<br/>Founder • Owner • CEO"]
+
+A --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER<br/>Executive Coordination"]
+
+H --> L["Legion"]
+
+L --> OR["Domain & Functional Orchestrators"]
+
+OR --> T1["Architecture Teams"]
+OR --> T2["Engineering Teams"]
+OR --> T3["Research Teams"]
+OR --> T4["Business Teams"]
+OR --> T5["Documentation Teams"]
+OR --> T6["Security Review Teams"]
+
+T1 --> AG["Professional Nano Core Agents"]
+T2 --> AG
+T3 --> AG
+T4 --> AG
+T5 --> AG
+T6 --> AG
+
+AG --> SK["Specialized Skills"]
+
+AG --> PL["Professional Plugins"]
+
+SK --> GOV["Governed Mission Framework"]
+
+PL --> GOV
+
+GOV --> EV["Evidence • Audit • Continuous Improvement"]
+```
+
+This architecture illustrates the approved public engineering vision only.
+
+It does not represent runtime topology, deployment infrastructure, implementation architecture or confidential engineering systems.
+
+---
+
+# Public Responsibility Layers
+
+| Layer | Public Responsibility |
+|--------|-----------------------|
+| Architect | Long-term engineering vision and architectural authority |
+| IMPERIAL Core | Engineering ecosystem |
+| HANTER | Executive coordination |
+| Legion | Professional organizational coordination |
+| Domain Orchestrators | Professional domain management |
+| Professional Teams | Domain expertise |
+| Nano Core Agents | Specialized mission execution |
+| Skills | Professional capabilities |
+| Plugins | Controlled external integrations |
+| Governance | Mission boundaries and engineering integrity |
+| Evidence | Transparency and traceability |
+
+Every layer has a clearly defined engineering purpose.
+
+The public documentation intentionally avoids implementation-specific behavior.
+
+---
+
+# Public Design Philosophy
+
+Legion is not publicly envisioned as one universal AI system.
+
+Instead, it is designed as an engineering architecture capable of coordinating multiple professional organizations composed of specialized orchestrators, professional Nano Core Agent teams, governed mission frameworks and evidence-driven engineering practices.
+
+Professional specialization improves:
+
+• scalability;
+
+• maintainability;
+
+• engineering quality;
+
+• governance;
+
+• transparency;
+
+• long-term sustainability.
+
+---
+
+# Public Engineering Boundaries
+
+This repository documents:
+
+• architectural concepts;
+
+• engineering relationships;
+
+• organizational models;
+
+• governance philosophy;
+
+• professional coordination;
+
+• documentation standards.
+
+This repository intentionally does not document:
+
+• implementation source code;
+
+• runtime architecture;
+
+• infrastructure;
+
+• internal orchestration;
+
+• private Skills;
+
+• private Plugins;
+
+• operational systems;
+
+• confidential engineering documentation.
+
+---
+
+# Public Vision
+
+The long-term public objective of Legion is to become a professional engineering coordination environment where organizations can assemble scalable AI-native operational structures while maintaining engineering integrity, professional governance and evidence-based collaboration.
+
+Every future public publication will continue to distinguish architectural vision from implementation, roadmap from delivery and documentation from operational capability.
+
