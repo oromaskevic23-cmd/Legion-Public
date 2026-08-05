@@ -2158,4 +2158,165 @@ These materials remain intentionally outside the scope of this public repository
 The long-term public objective of Legion is to provide an architectural foundation where organizations can design AI-native operational environments through professional capability composition, governed orchestration and evidence-driven engineering practices.
 
 Public documentation communicates this engineering direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# AI Organization Catalog
+
+The long-term public vision of Legion includes a structured catalog of AI-native organizational architectures.
+
+Rather than prescribing one universal organizational model, Legion is publicly envisioned as providing architectural patterns that can be adapted to different industries, organizational sizes and professional disciplines.
+
+Every organization remains unique while sharing a common engineering foundation.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation, runtime behavior, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Organization Catalog
+
+```mermaid
+flowchart TB
+
+L["Legion"]
+
+L --> ENG["Engineering Organization"]
+
+L --> RES["Research Organization"]
+
+L --> BUS["Business Organization"]
+
+L --> DOC["Documentation Organization"]
+
+L --> SEC["Security Organization"]
+
+L --> EDU["Education Organization"]
+
+L --> OPS["Operations Organization"]
+
+L --> IND["Industry Organization"]
+
+ENG --> O["Professional Orchestrators"]
+RES --> O
+BUS --> O
+DOC --> O
+SEC --> O
+EDU --> O
+OPS --> O
+IND --> O
+
+O --> T["Professional Nano Core Agent Teams"]
+
+T --> C["Professional Capabilities"]
+
+C --> G["Engineering Governance"]
+
+G --> E["Evidence and Continuous Improvement"]
+```
+
+The catalog above represents the approved public engineering vision only.
+
+It must not be interpreted as implementation architecture, production deployment or commercial availability.
+
+---
+
+# Example Organizational Blueprints
+
+Future public architectural blueprints may include organizations focused on:
+
+| Blueprint | Public Architectural Purpose |
+|------------|------------------------------|
+| Engineering Company | Professional engineering coordination |
+| Research Institute | Scientific research and analysis |
+| Digital Product Studio | Product design and engineering |
+| Technical Documentation Center | Knowledge engineering and publications |
+| Quality Engineering Office | Review, validation and engineering quality |
+| Security Review Organization | Public engineering security analysis |
+| Educational Organization | Learning and knowledge development |
+| Enterprise Operations Center | Operational planning and coordination |
+
+These examples describe architectural direction only.
+
+They do not represent existing commercial offerings or implemented functionality.
+
+---
+
+# Engineering Consistency
+
+Every future organizational blueprint is intended to preserve the same engineering foundation.
+
+Common principles include:
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Federated Professional Coordination.
+
+• Human Responsibility.
+
+• Engineering Transparency.
+
+• Public / Private Boundary.
+
+• Minimal Disclosure.
+
+• Continuous Improvement.
+
+These principles remain constant regardless of organizational specialization.
+
+---
+
+# Public Architecture vs Private Engineering
+
+## Public Repository
+
+This repository documents:
+
+• organizational blueprints;
+
+• engineering philosophy;
+
+• architectural concepts;
+
+• governance principles;
+
+• public diagrams;
+
+• long-term engineering direction.
+
+## Private Engineering
+
+Private engineering environments may contain:
+
+• implementation source code;
+
+• runtime orchestration;
+
+• orchestration policies;
+
+• internal Skills;
+
+• internal Plugins;
+
+• execution engines;
+
+• infrastructure;
+
+• deployment architecture;
+
+• operational engineering;
+
+• confidential engineering documentation.
+
+Those materials remain intentionally excluded from this public repository.
+
+---
+
+# Long-Term Engineering Vision
+
+The long-term objective of Legion is to provide a reusable architectural foundation from which many different AI-native organizations may be designed while preserving engineering consistency, governance, transparency and evidence-based collaboration.
+
+The public repository communicates this architectural direction while maintaining strict separation between public engineering knowledge and confidential implementation.
 
