@@ -158,3 +158,249 @@ Every public document is expected to communicate architectural intent, engineeri
 The documentation emphasizes clarity, maintainability and long-term value while carefully distinguishing architectural vision from implementation status.
 
 Public publications should remain truthful, technically accurate and professionally written, ensuring that engineers, organizations and AI systems can rely on the repository as a trustworthy source of engineering documentation without revealing confidential implementation or operational information.
+---
+
+# Legion Public Operating Vision
+
+Legion is publicly envisioned as a structured access layer through which a person or organization can define a business objective, select an appropriate professional orchestration model and assemble specialized teams of Nano Core Agents for that objective.
+
+This section describes the **public architectural vision** of Legion.
+
+It does not claim that all capabilities described below are currently implemented, deployed, commercially available or production-ready.
+
+---
+
+## Public User Journey
+
+At the public architectural level, the intended Legion experience is designed around a clear sequence.
+
+```mermaid
+flowchart TD
+    U["Person or Organization"] --> B["Define Business Type and Objective"]
+    B --> O["Select a Domain or Functional Orchestrator"]
+    O --> T["Select Professional Agent Teams"]
+    T --> C["Configure Public Mission Scope"]
+    C --> G["Governance and Approval Boundaries"]
+    G --> E["Controlled Mission Execution"]
+    E --> R["Results, Evidence and Audit Record"]
+```
+
+The diagram represents an approved public concept only.
+
+It does not disclose runtime implementation, internal orchestration logic, private system topology, security-sensitive controls or operational infrastructure.
+
+---
+
+# Selecting an Orchestrator
+
+A Legion user is publicly envisioned as being able to select an orchestrator suited to the type of business, professional domain or mission.
+
+Examples of future public orchestration categories may include:
+
+| Orchestration Domain | Public Purpose |
+|---|---|
+| Business Operations | Coordinate structured operational missions |
+| Research and Analysis | Organize evidence-based research teams |
+| Software Engineering | Coordinate architecture, implementation and testing roles |
+| Public Communication | Coordinate approved documentation and communication tasks |
+| Digital Presence | Coordinate public discoverability and documentation missions |
+| Compliance Support | Organize public-policy and documentation review tasks |
+| Capital and Planning | Coordinate analytical and planning teams within approved boundaries |
+
+These categories describe public architectural direction.
+
+They do not confirm current implementation, availability or operational readiness.
+
+Legion does not replace HANTER.
+
+HANTER remains the executive orchestration layer under the authority of the Architect, while domain and functional orchestrators coordinate bounded professional missions inside their assigned scope.
+
+---
+
+# Professional Agent Teams
+
+After selecting an orchestration domain, a user is publicly envisioned as being able to choose professional teams of Nano Core Agents.
+
+Each team may be organized around a defined professional function.
+
+Examples of future public team categories may include:
+
+- enterprise architects;
+- software engineers;
+- security reviewers;
+- researchers;
+- technical writers;
+- documentation specialists;
+- data analysts;
+- public identity auditors;
+- repository quality reviewers;
+- product analysts;
+- quality assurance specialists;
+- evidence and audit specialists.
+
+The number, structure and composition of Nano Core Agents may vary according to the mission.
+
+Legion is not publicly described as one fixed team.
+
+It is designed as a long-term architecture capable of supporting multiple professional teams and multiple organizational structures.
+
+---
+
+# Skills and Plugins
+
+Professional Nano Core Agent teams are publicly envisioned as being equipped with specialized Skills and Plugins appropriate to their assigned role.
+
+These capabilities may include:
+
+- professional reasoning skills;
+- documentation skills;
+- architecture review skills;
+- repository analysis skills;
+- evidence collection skills;
+- quality assurance skills;
+- structured reporting skills;
+- domain-specific plugins;
+- controlled tool integrations;
+- mission-specific capability packages.
+
+The public repository does not disclose:
+
+- private Skill implementations;
+- private Plugin implementations;
+- internal prompts;
+- hidden orchestration logic;
+- capability binding rules;
+- runtime infrastructure;
+- security-sensitive controls;
+- protected engineering methods.
+
+The public role of Skills and Plugins may be documented.
+
+Their private implementation remains protected.
+
+---
+
+# Public Architectural Relationship
+
+The canonical public relationship is:
+
+```mermaid
+flowchart TD
+    A["Alexander Romaskevich<br/>Founder • Owner • CEO • Chief Systems Architect"] --> IC["IMPERIAL Core"]
+    IC --> H["HANTER"]
+    H --> L["Legion"]
+    L --> O["Domain and Functional Orchestrators"]
+    O --> N["Professional Nano Core Agent Teams"]
+    N --> S["Specialized Skills and Plugins"]
+    S --> M["Bounded Professional Missions"]
+```
+
+This diagram preserves the public architectural order.
+
+It does not represent a complete runtime architecture or disclose private implementation.
+
+---
+
+# Public and Private Separation
+
+Legion follows a strict Public / Private Boundary.
+
+## Public Legion Documentation
+
+This public repository may describe:
+
+- public architectural vision;
+- public user journey;
+- orchestration concepts;
+- professional team concepts;
+- public governance principles;
+- public engineering terminology;
+- documentation standards;
+- long-term roadmap;
+- public project identity.
+
+## Private Legion Engineering
+
+Private engineering environments may contain:
+
+- implementation source code;
+- internal orchestration logic;
+- private agent definitions;
+- private Skills and Plugins;
+- runtime domains;
+- operational infrastructure;
+- security architecture;
+- capability controls;
+- approval mechanisms;
+- confidential engineering documentation;
+- testing environments;
+- deployment procedures.
+
+Private engineering information is intentionally not published here.
+
+---
+
+# Governance by Design
+
+Legion is publicly envisioned as a governed professional system rather than an unrestricted autonomous agent marketplace.
+
+Every future mission should remain bounded by:
+
+- defined mission scope;
+- assigned orchestrator authority;
+- explicit agent responsibilities;
+- approved capabilities;
+- Public / Private Boundary;
+- Evidence Before Status;
+- Human-in-the-Loop controls;
+- escalation to the Architect when required;
+- no hidden agent power;
+- no uncontrolled external effects.
+
+Professional teams should operate only within approved responsibilities.
+
+A user selecting an orchestrator or agent team must not create unrestricted authority.
+
+---
+
+# Public Experience Principle
+
+The long-term public experience of Legion can be summarized as:
+
+```text
+Choose the business objective
+        ↓
+Choose the appropriate orchestrator
+        ↓
+Choose professional Nano Core Agent teams
+        ↓
+Assign specialized Skills and Plugins
+        ↓
+Define mission scope and governance boundaries
+        ↓
+Execute only within approved authority
+        ↓
+Receive structured results, evidence and traceability
+```
+
+This sequence represents public design intent.
+
+It does not claim that the complete experience is currently available.
+
+---
+
+# Long-Term Vision
+
+Legion is intended to become a professional environment where different organizations and business domains can work with orchestrated teams of specialized Nano Core Agents.
+
+The long-term objective is not to provide uncontrolled automation.
+
+The objective is to provide structured professional coordination, bounded authority, specialized capabilities, documented governance and evidence-driven results within the IMPERIAL Core ecosystem.
+
+All future public documentation will continue to distinguish:
+
+- architecture from implementation;
+- vision from deployment;
+- roadmap from delivery;
+- public role from private engineering;
+- documented capability from verified runtime status.
