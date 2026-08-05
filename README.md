@@ -3143,3 +3143,148 @@ Those materials remain intentionally excluded from this public repository.
 The long-term objective of Legion is to provide an engineering environment where professional decisions remain architecture-driven, evidence-based and transparently documented.
 
 Public documentation communicates this architectural direction while preserving the Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Global Legion Ecosystem
+
+Legion is publicly envisioned as an AI-native organizational architecture capable of supporting professional collaboration across multiple industries, engineering disciplines and organizational structures.
+
+Rather than describing one software product, the public documentation presents an engineering ecosystem where specialized organizations, orchestrators and professional Nano Core Agent teams may cooperate through common architectural principles.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation architecture, runtime execution, deployment infrastructure or confidential engineering systems.
+
+---
+
+# Public Ecosystem Architecture
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich<br/>Founder • Owner • CEO"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER<br/>Executive Coordination"]
+
+H --> NCA["Nano Core Agents"]
+
+NCA --> LEGION["Legion"]
+
+LEGION --> ENG["Engineering Organizations"]
+
+LEGION --> RES["Research Organizations"]
+
+LEGION --> BUS["Business Organizations"]
+
+LEGION --> EDU["Educational Organizations"]
+
+LEGION --> SEC["Security Organizations"]
+
+LEGION --> OPS["Operational Organizations"]
+
+ENG --> ORCH["Domain & Functional Orchestrators"]
+RES --> ORCH
+BUS --> ORCH
+EDU --> ORCH
+SEC --> ORCH
+OPS --> ORCH
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> SKILLS["Specialized Skills"]
+
+TEAM --> PLUGINS["Professional Plugins"]
+
+SKILLS --> GOV["Engineering Governance"]
+
+PLUGINS --> GOV
+
+GOV --> MISSIONS["Governed Professional Missions"]
+
+MISSIONS --> EVIDENCE["Evidence • Audit • Continuous Improvement"]
+```
+
+The diagram above represents the approved public engineering ecosystem.
+
+It intentionally excludes implementation details, runtime topology, deployment architecture, operational infrastructure and protected engineering assets.
+
+---
+
+# Engineering Ecosystem Principles
+
+Every future organization documented within Legion is intended to preserve a common engineering foundation.
+
+The ecosystem is designed around:
+
+• professional specialization;
+
+• federated coordination;
+
+• engineering governance;
+
+• modular scalability;
+
+• transparent documentation;
+
+• evidence-driven engineering;
+
+• responsible human oversight;
+
+• continuous architectural evolution.
+
+These principles define engineering direction rather than implementation status.
+
+---
+
+# Public Architectural Scope
+
+The Legion Public repository communicates:
+
+- engineering ecosystem concepts;
+- professional organizational architecture;
+- orchestrator relationships;
+- engineering governance philosophy;
+- public architectural diagrams;
+- documentation standards;
+- long-term engineering direction.
+
+The repository intentionally does not communicate:
+
+- implementation source code;
+- runtime orchestration;
+- execution engines;
+- infrastructure;
+- deployment systems;
+- private Skills;
+- private Plugins;
+- confidential engineering documentation.
+
+---
+
+# Engineering Identity
+
+The public engineering documentation of Legion forms part of the broader IMPERIAL Core documentation ecosystem.
+
+Every publication is intended to preserve consistent terminology, engineering philosophy and architectural identity while strengthening the long-term discoverability of:
+
+• Alexander Romaskevich
+
+• IMPERIAL Core
+
+• HANTER
+
+• Nano Core Agents
+
+• Legion
+
+through truthful engineering documentation and responsible public communication.
+
+---
+
+# Long-Term Vision
+
+The long-term objective is to establish Legion as a professional engineering architecture for AI-native organizations that emphasizes quality, governance, transparency and engineering excellence.
+
+Future public documentation will continue expanding this engineering knowledge ecosystem while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
