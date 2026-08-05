@@ -1725,4 +1725,138 @@ This repository intentionally excludes:
 The long-term objective of Legion is to become a professional engineering coordination environment capable of supporting organizations across many industries while preserving architectural consistency, professional governance and evidence-driven collaboration.
 
 Public documentation communicates this engineering direction while maintaining strict separation between public engineering knowledge and confidential implementation.
+---
+
+# AI Organization Blueprint
+
+The long-term public vision of Legion is to provide a structured architectural framework for designing AI-native organizations.
+
+Rather than simply interacting with independent AI assistants, organizations are publicly envisioned to define operational structures composed of professional orchestrators, specialized Nano Core Agent teams, governance policies and mission-oriented engineering workflows.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime behavior, deployment architecture or confidential engineering systems.
+
+---
+
+# Public AI Organization Blueprint
+
+```mermaid
+flowchart TB
+
+ORG["Person • Company • Enterprise"]
+
+ORG --> STR["Organization Strategy"]
+
+STR --> LEGION["Legion"]
+
+LEGION --> DOM["Professional Domains"]
+
+DOM --> ORCH["Domain & Functional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> ROLE["Professional Roles"]
+
+ROLE --> SKILLS["Specialized Skills"]
+
+ROLE --> PLUGINS["Professional Plugins"]
+
+SKILLS --> GOV["Governed Mission Framework"]
+
+PLUGINS --> GOV
+
+GOV --> EXEC["Professional Mission Execution"]
+
+EXEC --> AUDIT["Evidence • Audit • Traceability"]
+
+AUDIT --> IMP["Continuous Organizational Improvement"]
+```
+
+This blueprint illustrates the approved public engineering concept only.
+
+It must not be interpreted as implementation evidence or confirmation of production capability.
+
+---
+
+# Public Organizational Layers
+
+Future AI-native organizations are publicly envisioned as being composed of complementary architectural layers.
+
+| Layer | Public Responsibility |
+|--------|-----------------------|
+| Organization Strategy | Define long-term objectives |
+| Legion | Organizational coordination |
+| Professional Domains | Separate business and engineering responsibilities |
+| Orchestrators | Coordinate professional activities |
+| Professional Teams | Group specialized Nano Core Agents |
+| Professional Roles | Assign mission responsibilities |
+| Skills | Provide professional capabilities |
+| Plugins | Enable controlled integrations |
+| Governance | Define operational boundaries |
+| Evidence | Preserve transparency and traceability |
+
+Each layer has a distinct architectural purpose while remaining governed by the engineering principles of IMPERIAL Core.
+
+---
+
+# Organizational Design Principles
+
+Future organizational blueprints are intended to support:
+
+• modular growth;
+
+• professional specialization;
+
+• federated coordination;
+
+• engineering transparency;
+
+• mission traceability;
+
+• long-term maintainability;
+
+• evidence-driven improvement.
+
+Organizations may evolve their structure without changing the underlying engineering principles.
+
+---
+
+# Public and Private Separation
+
+## Public Repository
+
+This repository documents:
+
+- organizational architecture;
+- engineering concepts;
+- governance philosophy;
+- public diagrams;
+- documentation standards;
+- long-term architectural direction.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+- runtime orchestration;
+- execution engines;
+- internal Skills;
+- internal Plugins;
+- capability management;
+- deployment systems;
+- infrastructure;
+- operational engineering;
+- confidential documentation.
+
+These materials remain intentionally excluded from this public repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to provide an engineering foundation upon which organizations may design scalable AI-native operational structures while preserving professional governance, engineering consistency and evidence-based collaboration.
+
+Public documentation communicates this architectural direction while maintaining the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
 
