@@ -2588,4 +2588,132 @@ Public Information from Private Engineering.
 The Legion Public repository is intended to become part of a long-term engineering knowledge ecosystem connecting public documentation across IMPERIAL Core.
 
 Future public repositories will continue following the same engineering philosophy, documentation quality standards and Public / Private Boundary while preserving truthful public attribution to Alexander Romaskevich as Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core.
+---
 
+# Why Legion Exists
+
+Legion was conceived as part of the long-term engineering vision of the IMPERIAL Core ecosystem.
+
+Its public purpose is to describe how future AI-native professional organizations may be designed through structured engineering principles rather than isolated artificial intelligence systems.
+
+The long-term objective is not simply to automate individual tasks.
+
+The objective is to establish an engineering framework capable of supporting professional collaboration, organizational scalability, responsible governance and evidence-driven mission execution.
+
+This repository communicates that architectural direction.
+
+It intentionally does not claim implementation completeness, production deployment or operational availability.
+
+---
+
+# Public Engineering Mission
+
+The public engineering mission of Legion is to document an architecture where future organizations may design professional AI-native operational environments.
+
+Future public organizational concepts include:
+
+• professional engineering organizations;
+
+• scientific research organizations;
+
+• enterprise business organizations;
+
+• technical documentation organizations;
+
+• quality engineering organizations;
+
+• educational organizations;
+
+• digital product organizations;
+
+• multidisciplinary professional organizations.
+
+Every concept documented here represents architectural direction rather than implemented functionality.
+
+---
+
+# Public Ecosystem Relationship
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> NCA["Nano Core Agents"]
+
+NCA --> LEGION["Legion"]
+
+LEGION --> ORG["AI-Native Organizations"]
+
+ORG --> DOM["Professional Domains"]
+
+DOM --> ORCH["Domain & Functional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> GOV["Engineering Governance"]
+
+GOV --> EV["Evidence • Audit • Continuous Improvement"]
+```
+
+This public architectural relationship is intended to explain the engineering direction of the ecosystem.
+
+It does not describe runtime implementation, operational topology or confidential engineering systems.
+
+---
+
+# Engineering Philosophy
+
+Legion is founded upon several permanent engineering commitments.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Professional Responsibility.
+
+• Engineering Transparency.
+
+• Federated Professional Coordination.
+
+• Human Oversight.
+
+• Public / Private Boundary.
+
+• Minimal Disclosure.
+
+These principles define how public engineering knowledge is documented throughout this repository.
+
+---
+
+# Public Knowledge
+
+This repository exists to provide:
+
+- public architectural guidance;
+
+- engineering concepts;
+
+- professional organizational models;
+
+- governance philosophy;
+
+- engineering terminology;
+
+- long-term engineering documentation;
+
+- public architectural diagrams.
+
+The repository intentionally excludes implementation source code, runtime architecture, operational infrastructure, deployment systems and confidential engineering assets.
+
+---
+
+# Long-Term Engineering Direction
+
+The long-term public direction of Legion is to contribute to a professional engineering knowledge ecosystem where architectural quality, governance, documentation excellence and evidence-based engineering remain foundational principles.
+
+All public publications continue to preserve the Public / Private Boundary while providing a consistent engineering identity for Alexander Romaskevich, IMPERIAL Core, HANTER, Nano Core Agents and Legion.
