@@ -737,3 +737,164 @@ These materials are intentionally excluded from this repository.
 Legion is intended to become a scalable professional coordination environment capable of supporting multiple industries, organizational structures and engineering disciplines.
 
 The public repository communicates this long-term engineering direction while maintaining strict separation between public architectural knowledge and private implementation.
+--
+---
+
+# Building an AI Organization
+
+The long-term public vision of Legion is not limited to providing individual AI agents.
+
+Legion is publicly envisioned as an engineering platform where individuals, companies and organizations can assemble complete AI-native professional organizations composed of orchestrators, specialized Nano Core Agent teams and domain-specific capabilities.
+
+The objective is to provide structured professional collaboration rather than isolated automation.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation, deployment, runtime execution or internal engineering mechanisms.
+
+---
+
+# Public Organizational Lifecycle
+
+```mermaid
+flowchart TD
+
+A["Business Goal"] --> B["Organization Design"]
+
+B --> C["Select Professional Orchestrators"]
+
+C --> D["Create Professional Teams"]
+
+D --> E["Assign Specialized Skills and Plugins"]
+
+E --> F["Governed Mission Planning"]
+
+F --> G["Professional Collaboration"]
+
+G --> H["Evidence-Based Results"]
+
+H --> I["Continuous Organizational Improvement"]
+```
+
+The diagram represents an approved public engineering concept only.
+
+---
+
+# Professional Organization Structure
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> L["Legion"]
+
+L --> DO["Domain Orchestrators"]
+
+DO --> PT["Professional Teams"]
+
+PT --> NA["Nano Core Agents"]
+
+NA --> SP["Specialized Skills and Plugins"]
+
+SP --> MS["Governed Mission Scope"]
+
+MS --> EV["Evidence and Results"]
+```
+
+The hierarchy above documents only the public architectural relationship.
+
+It must not be interpreted as runtime implementation or deployment architecture.
+
+---
+
+# Engineering Philosophy
+
+Legion is intended to support professional collaboration through specialization.
+
+Rather than assigning one universal AI system to every task, Legion distributes responsibilities across orchestrators, professional teams and specialized Nano Core Agents.
+
+Each organizational structure may evolve according to the objectives, scale and professional requirements of the organization while preserving engineering governance and architectural consistency.
+
+---
+
+# Public Mission Principles
+
+Every publicly described mission should remain aligned with the following commitments.
+
+• Clearly defined objectives.
+
+• Professional specialization.
+
+• Structured governance.
+
+• Evidence Before Status.
+
+• Architecture Before Implementation.
+
+• Public / Private Boundary.
+
+• Responsible engineering communication.
+
+• Long-term maintainability.
+
+---
+
+# Public and Private Architecture
+
+## Public Documentation
+
+This repository documents:
+
+• organizational concepts;
+
+• orchestration philosophy;
+
+• professional collaboration;
+
+• engineering governance;
+
+• architectural diagrams;
+
+• documentation standards;
+
+• long-term engineering direction.
+
+## Private Engineering
+
+Private engineering environments contain:
+
+• implementation source code;
+
+• runtime orchestration;
+
+• internal Skills;
+
+• internal Plugins;
+
+• execution policies;
+
+• infrastructure;
+
+• deployment mechanisms;
+
+• security architecture;
+
+• capability management;
+
+• confidential engineering documentation.
+
+These materials remain intentionally outside the scope of this public repository.
+
+---
+
+# Long-Term Public Vision
+
+Legion is intended to become a professional AI-native organizational environment where people and organizations can design scalable professional structures composed of orchestrators, specialized Nano Core Agent teams and governed mission execution.
+
+The public repository communicates this long-term engineering direction while preserving the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
