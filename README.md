@@ -2003,4 +2003,159 @@ This repository intentionally excludes:
 The long-term public vision of Legion is to become an architectural platform where organizations can design professional AI-native operating models using reusable engineering blueprints, specialized orchestrators and coordinated Nano Core Agent teams.
 
 The public repository communicates this architectural direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Professional Capability Architecture
+
+The long-term public vision of Legion includes an architectural capability model that allows organizations to compose professional operational environments from reusable engineering capabilities.
+
+Rather than treating artificial intelligence as one monolithic system, Legion is publicly envisioned as supporting modular capability composition where professional orchestrators coordinate specialized Nano Core Agent teams equipped with mission-appropriate Skills and controlled Plugins.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation, runtime execution, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Capability Architecture
+
+```mermaid
+flowchart TB
+
+ORG["Person • Company • Organization"]
+
+ORG --> LEGION["Legion"]
+
+LEGION --> DOM["Professional Domain"]
+
+DOM --> ORCH["Domain & Functional Orchestrator"]
+
+ORCH --> TEAM["Professional Nano Core Agent Team"]
+
+TEAM --> CAP["Professional Capability Layer"]
+
+CAP --> SK["Specialized Skills"]
+
+CAP --> PL["Professional Plugins"]
+
+CAP --> GOV["Engineering Governance"]
+
+GOV --> MISSION["Governed Mission"]
+
+MISSION --> EVIDENCE["Evidence • Audit • Traceability"]
+
+EVIDENCE --> IMPROVE["Continuous Improvement"]
+```
+
+The diagram above illustrates the approved public architectural concept.
+
+It does not represent implementation architecture, runtime topology, deployment infrastructure or confidential engineering systems.
+
+---
+
+# Public Capability Categories
+
+Future capability groups may include:
+
+| Capability Category | Public Purpose |
+|---------------------|----------------|
+| Architecture | Engineering planning and system design |
+| Engineering | Professional software engineering support |
+| Research | Structured evidence-based research |
+| Documentation | Technical documentation and knowledge engineering |
+| Quality | Review, validation and engineering quality |
+| Security | Public engineering security review |
+| Business | Operational planning and business analysis |
+| Communication | Professional public communication support |
+
+The categories above represent public architectural direction only.
+
+They do not confirm implementation, commercial availability or production deployment.
+
+---
+
+# Capability Composition Philosophy
+
+Future organizations are publicly envisioned to compose professional environments by combining:
+
+• organizational objectives;
+
+• professional orchestrators;
+
+• Nano Core Agent teams;
+
+• specialized Skills;
+
+• controlled Plugins;
+
+• governance policies;
+
+• mission definitions;
+
+• evidence requirements.
+
+This modular approach is intended to improve engineering quality, flexibility and long-term maintainability.
+
+---
+
+# Engineering Governance
+
+Every future capability is intended to operate within engineering governance principles.
+
+Professional capabilities should remain:
+
+• bounded;
+
+• traceable;
+
+• evidence-driven;
+
+• professionally specialized;
+
+• architecture-oriented;
+
+• aligned with Human Responsibility;
+
+• consistent with the Public / Private Boundary.
+
+The public repository intentionally documents engineering principles rather than implementation mechanisms.
+
+---
+
+# Public and Private Boundary
+
+## Public Repository
+
+This repository documents:
+
+- engineering capability concepts;
+- architectural models;
+- organizational design philosophy;
+- governance principles;
+- documentation standards;
+- long-term engineering vision.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+- runtime capability binding;
+- internal Skills;
+- internal Plugins;
+- orchestration engines;
+- infrastructure;
+- deployment mechanisms;
+- operational engineering;
+- confidential engineering documentation.
+
+These materials remain intentionally outside the scope of this public repository.
+
+---
+
+# Long-Term Vision
+
+The long-term public objective of Legion is to provide an architectural foundation where organizations can design AI-native operational environments through professional capability composition, governed orchestration and evidence-driven engineering practices.
+
+Public documentation communicates this engineering direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
 
