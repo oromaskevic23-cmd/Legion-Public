@@ -1384,4 +1384,178 @@ This repository intentionally does not document:
 The long-term public objective of Legion is to become a professional engineering coordination environment where organizations can assemble scalable AI-native operational structures while maintaining engineering integrity, professional governance and evidence-based collaboration.
 
 Every future public publication will continue to distinguish architectural vision from implementation, roadmap from delivery and documentation from operational capability.
+---
+
+# Designing Professional AI Teams
+
+One of the long-term public objectives of Legion is to provide a structured environment where individuals and organizations can design professional AI-native teams for different business domains.
+
+Rather than relying on a single general-purpose assistant, Legion is publicly envisioned as supporting coordinated professional teams, each focused on a clearly defined engineering or business responsibility.
+
+This document describes only the approved public architectural vision.
+
+It does not describe implementation details, runtime behavior, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Team Design Flow
+
+```mermaid
+flowchart LR
+
+U["Person or Organization"]
+
+--> V["Business Vision"]
+
+V --> D["Select Professional Domain"]
+
+D --> O["Choose Domain Orchestrator"]
+
+O --> T["Assemble Professional Team"]
+
+T --> S["Assign Specialized Skills"]
+
+S --> P["Assign Professional Plugins"]
+
+P --> G["Define Governance"]
+
+G --> M["Professional Mission"]
+
+M --> E["Evidence and Continuous Improvement"]
+```
+
+The diagram above illustrates the intended public engineering workflow only.
+
+It must not be interpreted as implementation evidence or proof of production availability.
+
+---
+
+# Public Professional Domains
+
+Future public engineering domains may include:
+
+| Domain | Public Purpose |
+|---------|----------------|
+| Enterprise Architecture | System architecture and engineering planning |
+| Software Engineering | Software development coordination |
+| Scientific Research | Evidence-based research missions |
+| Business Operations | Business planning and operational analysis |
+| Documentation Engineering | Technical documentation and knowledge management |
+| Quality Assurance | Review, validation and engineering quality |
+| Security Review | Public engineering security analysis |
+| Digital Presence | Public documentation and discoverability |
+
+The examples above illustrate possible public engineering directions.
+
+They do not confirm implementation or commercial availability.
+
+---
+
+# Professional Team Composition
+
+Each professional team is publicly envisioned as a coordinated collection of Nano Core Agents operating under a professional orchestrator.
+
+Future teams may include:
+
+• architects;
+
+• software engineers;
+
+• researchers;
+
+• analysts;
+
+• documentation specialists;
+
+• quality reviewers;
+
+• security reviewers;
+
+• business specialists;
+
+• communication specialists.
+
+Every team is intended to operate within clearly defined mission boundaries and engineering governance.
+
+---
+
+# Public Capability Model
+
+Future professional teams are envisioned to receive mission-specific capabilities through specialized Skills and Plugins.
+
+Public documentation may describe their purpose.
+
+The following remain intentionally confidential:
+
+- internal Skill implementation;
+- Plugin implementation;
+- orchestration logic;
+- prompts;
+- runtime infrastructure;
+- capability binding;
+- execution policies;
+- security architecture.
+
+---
+
+# Public Engineering Principles
+
+Professional AI teams are intended to operate according to the following long-term engineering commitments.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Professional Specialization.
+
+• Federated Coordination.
+
+• Human Responsibility.
+
+• Public / Private Boundary.
+
+• Minimal Disclosure.
+
+• Continuous Improvement.
+
+These principles define the approved public engineering direction of Legion.
+
+---
+
+# Public and Private Engineering
+
+## Public Repository
+
+This repository documents:
+
+- engineering concepts;
+- professional team architecture;
+- orchestration philosophy;
+- governance principles;
+- documentation standards;
+- long-term architectural direction.
+
+## Private Engineering
+
+Private repositories contain:
+
+- implementation source code;
+- runtime orchestration;
+- internal Skills;
+- internal Plugins;
+- infrastructure;
+- security mechanisms;
+- deployment systems;
+- operational engineering;
+- protected engineering assets.
+
+Those materials remain intentionally outside the scope of this public repository.
+
+---
+
+# Long-Term Public Vision
+
+The long-term objective of Legion is to enable organizations to assemble professional AI-native teams capable of addressing complex engineering and business objectives through governed coordination, professional specialization and evidence-driven collaboration.
+
+The public repository communicates this architectural direction while preserving the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
 
