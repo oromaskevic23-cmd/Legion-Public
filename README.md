@@ -3430,3 +3430,178 @@ Those materials remain intentionally outside the scope of this repository.
 The long-term objective of Legion is to establish a professional Engineering Knowledge Architecture capable of supporting AI-native organizations through consistent engineering documentation, architectural clarity, professional governance and evidence-driven collaboration.
 
 Public documentation communicates this architectural direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Mission Architecture
+
+One of the fundamental architectural concepts of Legion is the professional mission.
+
+Within the public engineering vision, a mission represents a structured unit of professional work executed inside clearly defined architectural, organizational and governance boundaries.
+
+A mission is not simply a task.
+
+It is an engineering process designed to coordinate professional expertise, architectural responsibility, evidence collection and continuous improvement.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime orchestration, deployment infrastructure or confidential engineering systems.
+
+---
+
+# Public Mission Lifecycle
+
+```mermaid
+flowchart TD
+
+A["Business Objective"]
+
+--> B["Mission Definition"]
+
+B --> C["Professional Domain Selection"]
+
+C --> D["Domain & Functional Orchestrator"]
+
+D --> E["Professional Nano Core Agent Teams"]
+
+E --> F["Mission Planning"]
+
+F --> G["Engineering Governance"]
+
+G --> H["Professional Execution"]
+
+H --> I["Evidence Collection"]
+
+I --> J["Engineering Review"]
+
+J --> K["Continuous Improvement"]
+
+K --> L["Mission Knowledge"]
+```
+
+The workflow above illustrates the approved public engineering concept.
+
+It intentionally distinguishes architectural vision from implementation and operational capability.
+
+---
+
+# Public Mission Components
+
+Every future professional mission is publicly envisioned as being composed of complementary engineering elements.
+
+| Component | Public Engineering Purpose |
+|-----------|----------------------------|
+| Objective | Define the desired engineering outcome |
+| Professional Domain | Identify the required expertise |
+| Orchestrator | Coordinate professional activities |
+| Professional Teams | Provide specialized engineering capabilities |
+| Governance | Establish engineering boundaries |
+| Evidence | Preserve transparency and traceability |
+| Review | Evaluate engineering quality |
+| Improvement | Strengthen future organizational performance |
+
+The table documents architectural direction only.
+
+It does not represent implementation status or production functionality.
+
+---
+
+# Mission Engineering Principles
+
+Future professional missions are intended to preserve permanent engineering commitments.
+
+• Clearly defined objectives.
+
+• Professional specialization.
+
+• Federated coordination.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Engineering transparency.
+
+• Human responsibility.
+
+• Public / Private Boundary.
+
+• Continuous improvement.
+
+Professional missions are publicly envisioned to remain governed, traceable and evidence-oriented throughout their lifecycle.
+
+---
+
+# Public Architectural Relationships
+
+```mermaid
+flowchart LR
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> LEGION["Legion"]
+
+LEGION --> ORCH["Professional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> MISSION["Professional Mission"]
+
+MISSION --> EVIDENCE["Evidence"]
+
+EVIDENCE --> KNOWLEDGE["Engineering Knowledge"]
+```
+
+The diagram above illustrates only the approved public engineering relationship.
+
+It intentionally excludes runtime architecture, deployment systems, internal orchestration logic and confidential engineering assets.
+
+---
+
+# Public and Private Engineering
+
+## Public Repository
+
+This repository documents:
+
+- mission architecture;
+- engineering governance;
+- professional coordination;
+- architectural concepts;
+- documentation standards;
+- long-term engineering direction.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+
+- runtime orchestration;
+
+- execution engines;
+
+- internal Skills;
+
+- internal Plugins;
+
+- infrastructure;
+
+- deployment systems;
+
+- operational engineering;
+
+- confidential engineering documentation.
+
+Those materials remain intentionally excluded from this repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional mission architecture capable of coordinating AI-native organizations through governed engineering processes, professional specialization, architectural consistency and evidence-driven collaboration.
+
+Public documentation communicates this engineering direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
