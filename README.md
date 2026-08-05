@@ -1062,3 +1062,183 @@ The long-term objective of Legion is to support the creation of scalable AI-nati
 
 Public documentation communicates this engineering direction while preserving the established Public / Private Boundary.
 ---
+---
+
+# Designing an AI-Native Organization
+
+The long-term public vision of Legion extends beyond task automation.
+
+Legion is publicly envisioned as an engineering environment where organizations can design structured AI-native operational models aligned with their professional objectives, governance requirements and organizational culture.
+
+Instead of interacting with isolated AI assistants, future users are envisioned to assemble coordinated professional organizations composed of orchestrators, specialized Nano Core Agent teams and governed mission workflows.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime execution, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Organization Design Workflow
+
+```mermaid
+flowchart TD
+
+A["Business Vision"]
+
+--> B["Organization Design"]
+
+B --> C["Select Professional Domains"]
+
+C --> D["Assign Domain Orchestrators"]
+
+D --> E["Assemble Professional Nano Core Agent Teams"]
+
+E --> F["Select Specialized Skills"]
+
+F --> G["Select Professional Plugins"]
+
+G --> H["Define Governance Rules"]
+
+H --> I["Plan Professional Missions"]
+
+I --> J["Evidence-Based Outcomes"]
+```
+
+The workflow above illustrates an approved public engineering concept.
+
+It must not be interpreted as implementation evidence or production capability.
+
+---
+
+# Public Organizational Layers
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> L["Legion"]
+
+L --> OR["Professional Orchestrators"]
+
+OR --> TM["Professional Nano Core Agent Teams"]
+
+TM --> SK["Specialized Skills"]
+
+TM --> PL["Professional Plugins"]
+
+SK --> MS["Governed Mission Execution"]
+
+PL --> MS
+
+MS --> EV["Evidence • Audit • Continuous Improvement"]
+```
+
+This diagram communicates only the approved public engineering architecture.
+
+Private implementation details remain intentionally undisclosed.
+
+---
+
+# Organizational Design Principles
+
+Future public organizational models are intended to support:
+
+• multiple industries;
+
+• multiple organizational structures;
+
+• multiple engineering disciplines;
+
+• multiple mission categories;
+
+• multiple professional teams;
+
+• multiple orchestration domains;
+
+• long-term architectural scalability.
+
+The objective is to support sustainable organizational evolution while preserving engineering consistency and governance.
+
+---
+
+# Public Governance Philosophy
+
+Legion is publicly envisioned as a governed engineering environment.
+
+Future organizations are intended to operate through:
+
+• clearly defined responsibilities;
+
+• bounded professional authority;
+
+• specialized orchestrators;
+
+• professional Nano Core Agent teams;
+
+• evidence-driven mission execution;
+
+• continuous engineering improvement.
+
+Professional governance remains more important than unrestricted automation.
+
+---
+
+# Public Repository and Private Engineering
+
+## Public Repository
+
+Documents:
+
+• architectural vision;
+
+• engineering concepts;
+
+• organizational design philosophy;
+
+• governance principles;
+
+• documentation standards;
+
+• public diagrams;
+
+• long-term engineering direction.
+
+## Private Engineering
+
+Contains:
+
+• implementation source code;
+
+• runtime orchestration;
+
+• execution engines;
+
+• internal Skills;
+
+• internal Plugins;
+
+• security mechanisms;
+
+• infrastructure;
+
+• deployment;
+
+• operational engineering;
+
+• confidential documentation.
+
+Private engineering information is intentionally excluded from this repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to enable organizations to design professional AI-native operational structures that remain scalable, governed and evidence-driven.
+
+The public repository communicates this architectural direction while maintaining strict separation between public engineering knowledge and confidential implementation.
+---
