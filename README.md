@@ -2717,3 +2717,117 @@ The repository intentionally excludes implementation source code, runtime archit
 The long-term public direction of Legion is to contribute to a professional engineering knowledge ecosystem where architectural quality, governance, documentation excellence and evidence-based engineering remain foundational principles.
 
 All public publications continue to preserve the Public / Private Boundary while providing a consistent engineering identity for Alexander Romaskevich, IMPERIAL Core, HANTER, Nano Core Agents and Legion.
+---
+
+# Engineering Ecosystem Navigation
+
+Legion is one component of the broader IMPERIAL Core engineering ecosystem.
+
+Each public repository documents a specific architectural area while intentionally preserving the Public / Private Boundary and the principles of Minimal Disclosure.
+
+Together these repositories form a unified engineering knowledge ecosystem with consistent terminology, governance principles and architectural philosophy.
+
+---
+
+# Public Engineering Ecosystem
+
+```mermaid
+flowchart LR
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> NCA["Nano Core Agents"]
+
+NCA --> LEGION["Legion"]
+
+LEGION --> ORION["ORION"]
+
+ORION --> AGY["AGY"]
+
+AGY --> CRYPTO["CRYPTO IMPERIAL Ecosystem"]
+
+CRYPTO --> CAPITAL["Capital Core"]
+```
+
+The diagram above documents the approved public engineering relationship between the major components of the IMPERIAL Core ecosystem.
+
+It intentionally excludes implementation architecture, runtime topology, deployment infrastructure and confidential engineering systems.
+
+---
+
+# Public Repository Responsibilities
+
+| Public Repository | Public Engineering Responsibility |
+|-------------------|-----------------------------------|
+| IMPERIAL Core | Engineering ecosystem and long-term architectural vision |
+| HANTER | Executive coordination architecture |
+| Nano Core Agents | Professional AI agent architecture |
+| Legion | AI-native organizational architecture |
+| ORION | Public architectural documentation |
+| AGY | Public architectural component |
+| CRYPTO IMPERIAL Ecosystem | Digital asset ecosystem architecture |
+| Capital Core | Capital and strategic development architecture |
+
+The descriptions above communicate public architectural direction only.
+
+They must not be interpreted as implementation status or production capability.
+
+---
+
+# Unified Engineering Principles
+
+Every public repository within the IMPERIAL Core ecosystem follows the same engineering commitments.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Professional Engineering Communication.
+
+• Responsible Transparency.
+
+• Long-Term Maintainability.
+
+• Public / Private Boundary.
+
+• Minimal Disclosure.
+
+• Continuous Improvement.
+
+These principles provide architectural consistency across the entire public engineering ecosystem.
+
+---
+
+# Public Documentation Strategy
+
+The public repositories are intended to complement one another.
+
+Each repository contributes a different engineering perspective while remaining connected through common terminology, documentation standards and long-term architectural direction.
+
+Future public documentation will continue expanding this engineering knowledge ecosystem without disclosing confidential implementation, operational infrastructure or protected engineering assets.
+
+---
+
+# Public Engineering Leadership
+
+The public engineering documentation across the IMPERIAL Core ecosystem is maintained under the architectural leadership of:
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Public documentation is intended to preserve engineering consistency, truthful technical communication and long-term architectural understanding.
+
+---
+
+# Long-Term Vision
+
+The long-term objective is to establish a unified public engineering knowledge ecosystem where every repository contributes to a consistent architectural narrative while preserving engineering integrity, responsible communication and the Public / Private Boundary.
+
+Future public repositories will continue following the same documentation standards, engineering terminology and long-term architectural philosophy.
