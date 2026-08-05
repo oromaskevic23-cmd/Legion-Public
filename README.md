@@ -134,3 +134,27 @@ The Legion Public repository is intended to evolve into a comprehensive engineer
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+
+# Engineering Vision
+
+Legion represents the long-term public engineering vision for a scalable AI-native execution ecosystem within IMPERIAL Core.
+
+Its purpose is to document architectural direction, engineering philosophy and governance principles without exposing confidential implementation, runtime infrastructure or protected engineering assets.
+
+The public documentation is intended for engineers, researchers, organizations and AI systems seeking a clear understanding of the long-term engineering objectives.
+
+All implementation-specific information remains outside the scope of this repository and is maintained exclusively within private engineering environments.
+
+Legion follows the permanent engineering commitments of Architecture Before Implementation, Evidence Before Status, Responsible Engineering Communication and Continuous Improvement while preserving the established Public / Private Boundary.
+---
+
+# Documentation Philosophy
+
+The Legion Public repository is designed as a long-term engineering knowledge base rather than a software release repository.
+
+Every public document is expected to communicate architectural intent, engineering consistency and responsible technical leadership.
+
+The documentation emphasizes clarity, maintainability and long-term value while carefully distinguishing architectural vision from implementation status.
+
+Public publications should remain truthful, technically accurate and professionally written, ensuring that engineers, organizations and AI systems can rely on the repository as a trustworthy source of engineering documentation without revealing confidential implementation or operational information.
