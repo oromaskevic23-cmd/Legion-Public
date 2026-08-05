@@ -404,3 +404,169 @@ All future public documentation will continue to distinguish:
 - roadmap from delivery;
 - public role from private engineering;
 - documented capability from verified runtime status.
+---
+
+# Federated Professional Coordination
+
+Legion is publicly envisioned as a federated professional coordination environment.
+
+Rather than relying on a single centralized execution model, Legion is designed to coordinate multiple professional domains through specialized orchestrators operating within clearly defined governance boundaries.
+
+This section describes only the approved public architectural vision.
+
+It does not disclose runtime implementation, internal orchestration mechanisms, protected engineering methods or operational infrastructure.
+
+---
+
+# Public Coordination Model
+
+```mermaid
+flowchart TB
+
+A["Alexander Romaskevich<br/>Founder • Owner • CEO"] --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER<br/>Executive Coordination"]
+
+H --> L["Legion"]
+
+L --> O1["Business Orchestrator"]
+L --> O2["Engineering Orchestrator"]
+L --> O3["Research Orchestrator"]
+L --> O4["Documentation Orchestrator"]
+L --> O5["Operations Orchestrator"]
+
+O1 --> T1["Professional Agent Teams"]
+O2 --> T2["Professional Agent Teams"]
+O3 --> T3["Professional Agent Teams"]
+O4 --> T4["Professional Agent Teams"]
+O5 --> T5["Professional Agent Teams"]
+
+T1 --> M["Governed Mission Execution"]
+T2 --> M
+T3 --> M
+T4 --> M
+T5 --> M
+
+M --> E["Evidence and Results"]
+```
+
+The diagram illustrates only the approved public engineering concept.
+
+It must not be interpreted as a complete implementation architecture or operational deployment model.
+
+---
+
+# Federated Engineering Philosophy
+
+Each orchestrator is responsible for coordinating a specific professional domain.
+
+Examples include:
+
+- software engineering;
+- enterprise architecture;
+- technical documentation;
+- scientific research;
+- business analysis;
+- operational planning;
+- quality assurance;
+- repository governance;
+- digital presence.
+
+This federated model allows multiple professional teams to operate simultaneously while remaining coordinated through HANTER and governed by the architectural principles of IMPERIAL Core.
+
+---
+
+# Professional Mission Lifecycle
+
+Every future public mission is envisioned as following a structured lifecycle.
+
+```text
+Business Objective
+        ↓
+Mission Definition
+        ↓
+Orchestrator Selection
+        ↓
+Professional Team Assignment
+        ↓
+Skills and Plugins Allocation
+        ↓
+Mission Execution
+        ↓
+Evidence Collection
+        ↓
+Mission Review
+        ↓
+Continuous Improvement
+```
+
+The sequence above represents architectural intent only.
+
+It should not be interpreted as evidence of implementation or production deployment.
+
+---
+
+# Public Governance Principles
+
+The public engineering model is based upon several permanent commitments.
+
+• Federated coordination rather than centralized control.
+
+• Professional specialization rather than general-purpose execution.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Human responsibility and governance.
+
+• Public / Private Boundary.
+
+• Minimal Disclosure.
+
+• Long-term engineering sustainability.
+
+These principles define the public architectural direction of Legion and its relationship with the wider IMPERIAL Core ecosystem.
+
+---
+
+# Public and Private Architecture
+
+## Public Repository
+
+This repository documents:
+
+- engineering vision;
+- orchestration concepts;
+- governance philosophy;
+- professional team structures;
+- public diagrams;
+- documentation standards;
+- long-term architectural direction.
+
+## Private Engineering
+
+Private repositories contain implementation artifacts including:
+
+- source code;
+- runtime orchestration;
+- capability management;
+- execution policies;
+- internal Skills;
+- internal Plugins;
+- security controls;
+- infrastructure;
+- deployment;
+- testing;
+- operational engineering.
+
+These materials are intentionally excluded from the public repository.
+
+---
+
+# Long-Term Objective
+
+The long-term objective of Legion is to provide a professionally governed environment capable of coordinating specialized Nano Core Agent teams across multiple industries and organizational structures.
+
+Its purpose is to strengthen engineering quality, professional collaboration, transparency and evidence-driven execution while preserving the established Public / Private Boundary and protecting confidential engineering assets.
+---
