@@ -2319,4 +2319,179 @@ Those materials remain intentionally excluded from this public repository.
 The long-term objective of Legion is to provide a reusable architectural foundation from which many different AI-native organizations may be designed while preserving engineering consistency, governance, transparency and evidence-based collaboration.
 
 The public repository communicates this architectural direction while maintaining strict separation between public engineering knowledge and confidential implementation.
+---
+
+# Enterprise Collaboration Architecture
+
+The long-term public vision of Legion extends beyond coordinating individual professional teams.
+
+Legion is publicly envisioned as an engineering environment where multiple AI-native organizations may collaborate through governed engineering principles, professional orchestration and evidence-driven mission coordination.
+
+Every organization preserves its own structure while participating in a common engineering ecosystem.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation, runtime execution, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Enterprise Collaboration Map
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> LEGION["Legion"]
+
+LEGION --> ORG1["Engineering Organization"]
+
+LEGION --> ORG2["Research Organization"]
+
+LEGION --> ORG3["Business Organization"]
+
+LEGION --> ORG4["Documentation Organization"]
+
+LEGION --> ORG5["Security Organization"]
+
+ORG1 --> EO["Engineering Orchestrator"]
+ORG2 --> RO["Research Orchestrator"]
+ORG3 --> BO["Business Orchestrator"]
+ORG4 --> DO["Documentation Orchestrator"]
+ORG5 --> SO["Security Orchestrator"]
+
+EO --> TEAM["Professional Nano Core Agent Teams"]
+RO --> TEAM
+BO --> TEAM
+DO --> TEAM
+SO --> TEAM
+
+TEAM --> GOV["Mission Governance"]
+
+GOV --> AUDIT["Evidence • Audit • Traceability"]
+
+AUDIT --> IMP["Continuous Improvement"]
+```
+
+This architecture represents the approved public engineering vision.
+
+It does not describe runtime implementation, deployment infrastructure, operational topology or confidential engineering mechanisms.
+
+---
+
+# Enterprise Collaboration Philosophy
+
+The public engineering philosophy of Legion is based on professional cooperation rather than centralized automation.
+
+Future organizations are intended to collaborate through:
+
+• shared engineering principles;
+
+• professional specialization;
+
+• federated orchestration;
+
+• governed responsibilities;
+
+• transparent documentation;
+
+• evidence-driven decision making.
+
+Every participating organization remains independently organized while following common engineering standards.
+
+---
+
+# Public Organizational Independence
+
+Each future organization is publicly envisioned as maintaining:
+
+• independent professional leadership;
+
+• specialized orchestrators;
+
+• dedicated Nano Core Agent teams;
+
+• organization-specific engineering workflows;
+
+• domain expertise;
+
+• mission-specific capabilities.
+
+Legion provides architectural coordination rather than replacing organizational identity.
+
+---
+
+# Engineering Governance Model
+
+Professional collaboration is intended to remain governed by permanent engineering principles.
+
+```text
+Architecture Before Implementation
+            ↓
+Evidence Before Status
+            ↓
+Professional Responsibility
+            ↓
+Governed Coordination
+            ↓
+Continuous Engineering Improvement
+```
+
+These principles define the public engineering direction of Legion.
+
+---
+
+# Public Repository and Private Engineering
+
+## Public Repository
+
+This repository documents:
+
+• enterprise collaboration concepts;
+
+• engineering architecture;
+
+• organizational coordination;
+
+• governance philosophy;
+
+• engineering diagrams;
+
+• documentation standards.
+
+## Private Engineering
+
+Private repositories may contain:
+
+• implementation source code;
+
+• runtime orchestration;
+
+• execution engines;
+
+• infrastructure;
+
+• deployment systems;
+
+• internal Skills;
+
+• internal Plugins;
+
+• capability management;
+
+• confidential engineering documentation.
+
+Those materials remain intentionally excluded from this public repository.
+
+---
+
+# Long-Term Engineering Vision
+
+The long-term objective of Legion is to provide a professional engineering environment where many AI-native organizations may collaborate through common architectural principles while preserving organizational independence, engineering quality, governance and evidence-based decision making.
+
+Public documentation communicates this engineering direction while preserving the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
 
