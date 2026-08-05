@@ -2976,3 +2976,170 @@ Those materials remain intentionally excluded from this public repository.
 The long-term objective of Legion is to enable AI-native organizations to coordinate professional expertise through clearly defined engineering roles, governed collaboration and evidence-driven engineering practices.
 
 Public documentation communicates this architectural direction while preserving the Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Engineering Decision Framework
+
+Professional AI-native organizations require structured engineering decision-making rather than ad hoc execution.
+
+The long-term public vision of Legion includes an Engineering Decision Framework designed to help organizations evaluate architectural choices, professional responsibilities and engineering priorities in a transparent and governed manner.
+
+This framework documents architectural principles only.
+
+It does not describe implementation logic, runtime behavior, deployment mechanisms or confidential engineering processes.
+
+---
+
+# Public Engineering Decision Lifecycle
+
+```mermaid
+flowchart TD
+
+REQ["Business or Engineering Objective"]
+
+--> ANA["Professional Analysis"]
+
+ANA --> ARC["Architectural Evaluation"]
+
+ARC --> GOV["Governance Review"]
+
+GOV --> PLAN["Mission Planning"]
+
+PLAN --> EXEC["Professional Mission"]
+
+EXEC --> EVID["Evidence Collection"]
+
+EVID --> REVIEW["Engineering Review"]
+
+REVIEW --> IMP["Continuous Improvement"]
+```
+
+The workflow above illustrates the approved public engineering concept.
+
+It must not be interpreted as implementation evidence or confirmation of production capability.
+
+---
+
+# Engineering Decision Principles
+
+Professional engineering decisions are intended to preserve the following permanent commitments.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Professional Responsibility.
+
+• Long-Term Thinking.
+
+• Federated Coordination.
+
+• Transparent Documentation.
+
+• Public / Private Boundary.
+
+• Responsible Engineering Communication.
+
+These principles remain applicable regardless of organizational size, industry or mission type.
+
+---
+
+# Public Decision Categories
+
+Future public organizational decisions may include:
+
+| Decision Category | Public Purpose |
+|-------------------|----------------|
+| Architecture | Long-term engineering direction |
+| Organization | Professional structure and responsibilities |
+| Governance | Engineering boundaries and accountability |
+| Documentation | Public engineering communication |
+| Quality | Engineering review and continuous improvement |
+| Research | Evidence-based investigation |
+| Planning | Mission preparation and prioritization |
+
+The categories above describe architectural intent only.
+
+They do not represent implementation status or operational capability.
+
+---
+
+# Public Engineering Relationships
+
+```mermaid
+flowchart LR
+
+A["Alexander Romaskevich"]
+
+A --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> L["Legion"]
+
+L --> O["Professional Orchestrators"]
+
+O --> T["Professional Nano Core Agent Teams"]
+
+T --> D["Engineering Decisions"]
+
+D --> E["Evidence"]
+
+E --> Q["Engineering Quality"]
+```
+
+This public engineering relationship explains architectural governance only.
+
+It intentionally excludes runtime architecture, deployment topology, internal orchestration logic and confidential engineering assets.
+
+---
+
+# Public and Private Separation
+
+## Public Repository
+
+Documents:
+
+• engineering decision philosophy;
+
+• architectural governance;
+
+• professional coordination;
+
+• public engineering diagrams;
+
+• documentation standards;
+
+• long-term engineering direction.
+
+## Private Engineering
+
+Private repositories may contain:
+
+• implementation source code;
+
+• runtime decision engines;
+
+• internal orchestration;
+
+• execution policies;
+
+• private Skills;
+
+• private Plugins;
+
+• infrastructure;
+
+• deployment systems;
+
+• confidential engineering documentation.
+
+Those materials remain intentionally excluded from this public repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to provide an engineering environment where professional decisions remain architecture-driven, evidence-based and transparently documented.
+
+Public documentation communicates this architectural direction while preserving the Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
