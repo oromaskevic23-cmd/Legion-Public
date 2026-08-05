@@ -898,3 +898,167 @@ Legion is intended to become a professional AI-native organizational environment
 
 The public repository communicates this long-term engineering direction while preserving the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
 ---
+---
+
+# From Individual Professionals to Enterprise Organizations
+
+Legion is publicly envisioned as an engineering platform capable of supporting organizations at different stages of growth.
+
+The same architectural principles are intended to remain applicable whether the objective belongs to an individual professional, a startup, a mature enterprise or a global organization.
+
+This section describes only the approved public architectural vision.
+
+It does not describe current implementation, production deployment, runtime topology or commercial availability.
+
+---
+
+# Public Growth Model
+
+```mermaid
+flowchart LR
+
+A["Individual Professional"]
+--> B["Small Team"]
+
+B
+--> C["Startup"]
+
+C
+--> D["Growing Company"]
+
+D
+--> E["Enterprise"]
+
+E
+--> F["Multi-Organization Ecosystem"]
+
+F
+--> G["Global Professional Collaboration"]
+```
+
+The diagram illustrates the intended scalability of the public engineering architecture.
+
+It must not be interpreted as evidence that every stage has been implemented.
+
+---
+
+# Professional Coordination Layers
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> L["Legion"]
+
+L --> DO["Professional Orchestrators"]
+
+DO --> PT["Professional Teams"]
+
+PT --> AG["Nano Core Agents"]
+
+AG --> SK["Specialized Skills"]
+
+SK --> PL["Professional Plugins"]
+
+PL --> MS["Governed Mission Scope"]
+
+MS --> EV["Evidence and Traceability"]
+```
+
+This diagram represents only the approved public engineering relationship.
+
+It intentionally excludes runtime implementation, infrastructure and confidential engineering systems.
+
+---
+
+# Professional Scaling Principles
+
+As organizations evolve, Legion is publicly envisioned to scale through professional specialization rather than increasing the complexity of a single execution engine.
+
+Future organizational growth may include:
+
+• additional professional orchestrators;
+
+• additional domain-specific teams;
+
+• additional engineering disciplines;
+
+• additional Skills and Plugins;
+
+• additional mission categories;
+
+• additional governance policies.
+
+The architectural objective is sustainable long-term growth without sacrificing engineering consistency.
+
+---
+
+# Public Engineering Commitments
+
+Legion follows permanent engineering commitments.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Federated Professional Coordination.
+
+• Human Responsibility.
+
+• Public / Private Boundary.
+
+• Responsible Transparency.
+
+• Minimal Disclosure.
+
+• Continuous Improvement.
+
+These commitments apply to every future public architectural publication.
+
+---
+
+# Public Repository Scope
+
+This repository intentionally documents:
+
+• public engineering concepts;
+
+• organizational scalability;
+
+• architectural direction;
+
+• governance philosophy;
+
+• professional coordination;
+
+• documentation standards.
+
+It intentionally excludes:
+
+• implementation source code;
+
+• runtime orchestration;
+
+• deployment architecture;
+
+• internal engineering processes;
+
+• confidential Skills;
+
+• confidential Plugins;
+
+• protected engineering assets.
+
+---
+
+# Long-Term Engineering Direction
+
+The long-term objective of Legion is to support the creation of scalable AI-native professional organizations capable of coordinating specialized teams while maintaining engineering quality, governance, transparency and architectural consistency.
+
+Public documentation communicates this engineering direction while preserving the established Public / Private Boundary.
+---
