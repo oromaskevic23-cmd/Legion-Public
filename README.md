@@ -1558,4 +1558,171 @@ Those materials remain intentionally outside the scope of this public repository
 The long-term objective of Legion is to enable organizations to assemble professional AI-native teams capable of addressing complex engineering and business objectives through governed coordination, professional specialization and evidence-driven collaboration.
 
 The public repository communicates this architectural direction while preserving the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Industry Architecture
+
+Legion is publicly envisioned as a domain-independent AI-native engineering platform.
+
+Rather than being designed for a single industry, the long-term architecture is intended to support multiple professional domains through specialized orchestration, professional Nano Core Agent teams and governed engineering practices.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation, deployment, runtime execution or confidential engineering systems.
+
+---
+
+# Public Industry Architecture
+
+```mermaid
+flowchart TB
+
+ORG["Person • Company • Organization"]
+
+ORG --> LEGION["Legion"]
+
+LEGION --> B["Business"]
+
+LEGION --> E["Engineering"]
+
+LEGION --> R["Research"]
+
+LEGION --> M["Manufacturing"]
+
+LEGION --> F["Finance"]
+
+LEGION --> H["Healthcare"]
+
+LEGION --> EDU["Education"]
+
+LEGION --> GOV["Public Administration"]
+
+LEGION --> IT["Information Technology"]
+
+LEGION --> COM["Communication"]
+
+B --> O["Professional Orchestrators"]
+
+E --> O
+
+R --> O
+
+M --> O
+
+F --> O
+
+H --> O
+
+EDU --> O
+
+GOV --> O
+
+IT --> O
+
+COM --> O
+
+O --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> GOV2["Governed Mission Framework"]
+
+GOV2 --> EV["Evidence • Audit • Continuous Improvement"]
+```
+
+This diagram illustrates the intended public engineering architecture.
+
+It must not be interpreted as implementation evidence or confirmation that every industry-specific capability currently exists.
+
+---
+
+# Domain Independence
+
+The public architectural objective of Legion is to remain independent from any single business sector.
+
+Future professional organizations may apply the same engineering principles while adapting to different operational environments.
+
+Every industry may organize:
+
+- its own professional orchestrators;
+
+- its own engineering disciplines;
+
+- its own Nano Core Agent teams;
+
+- its own Skills;
+
+- its own Plugins;
+
+- its own governance policies;
+
+- its own mission structures.
+
+The engineering architecture remains consistent while organizational specialization evolves.
+
+---
+
+# Professional Engineering Principles
+
+Every future public organizational model is intended to preserve:
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Federated Professional Coordination.
+
+• Engineering Transparency.
+
+• Human Responsibility.
+
+• Public / Private Boundary.
+
+• Minimal Disclosure.
+
+• Continuous Improvement.
+
+These principles remain independent of industry or organizational size.
+
+---
+
+# Public Engineering Boundaries
+
+This repository documents:
+
+• engineering concepts;
+
+• organizational architecture;
+
+• industry-independent coordination;
+
+• governance philosophy;
+
+• documentation standards;
+
+• long-term engineering direction.
+
+This repository intentionally excludes:
+
+• implementation source code;
+
+• runtime orchestration;
+
+• deployment architecture;
+
+• infrastructure;
+
+• private Skills;
+
+• private Plugins;
+
+• security mechanisms;
+
+• confidential engineering assets.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to become a professional engineering coordination environment capable of supporting organizations across many industries while preserving architectural consistency, professional governance and evidence-driven collaboration.
+
+Public documentation communicates this engineering direction while maintaining strict separation between public engineering knowledge and confidential implementation.
 
