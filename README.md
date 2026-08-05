@@ -3288,3 +3288,145 @@ through truthful engineering documentation and responsible public communication.
 The long-term objective is to establish Legion as a professional engineering architecture for AI-native organizations that emphasizes quality, governance, transparency and engineering excellence.
 
 Future public documentation will continue expanding this engineering knowledge ecosystem while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Engineering Knowledge Architecture
+
+The long-term public vision of Legion includes a structured Engineering Knowledge Architecture designed to organize engineering knowledge as a strategic organizational asset.
+
+Knowledge is publicly envisioned as more than documentation.
+
+It represents the collective engineering understanding that supports architectural consistency, professional collaboration and long-term organizational evolution.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime systems, deployment architecture or confidential engineering assets.
+
+---
+
+# Public Knowledge Architecture
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich"]
+
+AR --> IC["IMPERIAL Core Knowledge"]
+
+IC --> H["HANTER"]
+
+H --> LEGION["Legion"]
+
+LEGION --> ARCH["Architecture Knowledge"]
+
+LEGION --> ENG["Engineering Knowledge"]
+
+LEGION --> RES["Research Knowledge"]
+
+LEGION --> DOC["Documentation Knowledge"]
+
+LEGION --> GOV["Governance Knowledge"]
+
+LEGION --> QA["Quality Knowledge"]
+
+ARCH --> HUB["Engineering Knowledge Hub"]
+ENG --> HUB
+RES --> HUB
+DOC --> HUB
+GOV --> HUB
+QA --> HUB
+
+HUB --> ORCH["Professional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> MISS["Governed Professional Missions"]
+
+MISS --> EV["Evidence • Audit • Continuous Improvement"]
+```
+
+The diagram above represents the approved public engineering knowledge architecture.
+
+It intentionally excludes runtime implementation, infrastructure, deployment systems and confidential engineering processes.
+
+---
+
+# Public Knowledge Domains
+
+Future engineering knowledge may be organized into complementary domains.
+
+| Knowledge Domain | Public Purpose |
+|------------------|----------------|
+| Architecture | Long-term engineering design |
+| Engineering | Technical implementation concepts |
+| Research | Evidence-based investigation |
+| Documentation | Technical communication |
+| Governance | Organizational engineering principles |
+| Quality | Validation and continuous improvement |
+
+These domains describe architectural direction only.
+
+They must not be interpreted as implementation status or operational capability.
+
+---
+
+# Engineering Knowledge Principles
+
+The Engineering Knowledge Architecture is intended to preserve:
+
+• engineering consistency;
+
+• architectural traceability;
+
+• professional documentation;
+
+• transparent communication;
+
+• evidence-driven reasoning;
+
+• long-term maintainability;
+
+• organizational learning;
+
+• continuous improvement.
+
+Knowledge is treated as a permanent engineering asset rather than temporary project documentation.
+
+---
+
+# Public and Private Boundary
+
+## Public Repository
+
+This repository documents:
+
+- engineering knowledge concepts;
+- architectural relationships;
+- governance philosophy;
+- public diagrams;
+- documentation standards;
+- long-term engineering direction.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+- runtime knowledge systems;
+- internal engineering documentation;
+- private Skills;
+- private Plugins;
+- infrastructure;
+- deployment mechanisms;
+- operational engineering;
+- protected engineering assets.
+
+Those materials remain intentionally outside the scope of this repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional Engineering Knowledge Architecture capable of supporting AI-native organizations through consistent engineering documentation, architectural clarity, professional governance and evidence-driven collaboration.
+
+Public documentation communicates this architectural direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
