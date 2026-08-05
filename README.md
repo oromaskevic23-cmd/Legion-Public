@@ -1859,4 +1859,148 @@ These materials remain intentionally excluded from this public repository.
 The long-term objective of Legion is to provide an engineering foundation upon which organizations may design scalable AI-native operational structures while preserving professional governance, engineering consistency and evidence-based collaboration.
 
 Public documentation communicates this architectural direction while maintaining the established Public / Private Boundary and respecting the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+---
+
+# AI-Native Enterprise Blueprints
+
+One of the long-term public objectives of Legion is to provide architectural blueprints for different categories of AI-native organizations.
+
+Each blueprint represents a reusable organizational concept that can be adapted to different industries, business models and professional disciplines while preserving a consistent engineering philosophy.
+
+These blueprints describe architectural direction only.
+
+They do not represent implemented products, deployed services or production-ready organizational templates.
+
+---
+
+# Public Enterprise Blueprint Library
+
+```mermaid
+flowchart TB
+
+A["Person • Company • Organization"]
+
+A --> L["Legion"]
+
+L --> B1["Engineering Organization"]
+
+L --> B2["Research Organization"]
+
+L --> B3["Business Organization"]
+
+L --> B4["Documentation Organization"]
+
+L --> B5["Quality Organization"]
+
+L --> B6["Security Organization"]
+
+L --> B7["Education Organization"]
+
+L --> B8["Industry-Specific Organization"]
+
+B1 --> O["Professional Orchestrators"]
+B2 --> O
+B3 --> O
+B4 --> O
+B5 --> O
+B6 --> O
+B7 --> O
+B8 --> O
+
+O --> T["Professional Nano Core Agent Teams"]
+
+T --> S["Specialized Skills"]
+
+T --> P["Professional Plugins"]
+
+S --> G["Governed Mission Framework"]
+
+P --> G
+
+G --> E["Evidence • Audit • Continuous Improvement"]
+```
+
+The blueprint library above illustrates the approved public engineering vision.
+
+It does not describe runtime architecture, deployment topology or confidential engineering implementation.
+
+---
+
+# Blueprint Design Philosophy
+
+Every future organizational blueprint is intended to follow a common engineering foundation while allowing domain-specific specialization.
+
+The architectural objective is to provide consistency without limiting organizational flexibility.
+
+Each blueprint may define:
+
+• organizational structure;
+
+• professional responsibilities;
+
+• orchestration strategy;
+
+• mission categories;
+
+• engineering governance;
+
+• documentation standards;
+
+• evidence expectations.
+
+---
+
+# Public Engineering Characteristics
+
+Future AI-native organizations are publicly envisioned to be:
+
+• modular;
+
+• scalable;
+
+• governed;
+
+• professionally specialized;
+
+• evidence-driven;
+
+• architecture-oriented;
+
+• continuously evolving.
+
+These characteristics represent long-term architectural goals rather than implementation claims.
+
+---
+
+# Public Architectural Boundaries
+
+This repository documents:
+
+- engineering blueprints;
+- architectural concepts;
+- professional organization models;
+- governance philosophy;
+- engineering terminology;
+- public documentation standards.
+
+This repository intentionally excludes:
+
+- implementation source code;
+- runtime orchestration;
+- execution engines;
+- internal Skills;
+- internal Plugins;
+- infrastructure;
+- deployment systems;
+- operational engineering;
+- confidential engineering assets.
+
+---
+
+# Public Engineering Vision
+
+The long-term public vision of Legion is to become an architectural platform where organizations can design professional AI-native operating models using reusable engineering blueprints, specialized orchestrators and coordinated Nano Core Agent teams.
+
+The public repository communicates this architectural direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
 
