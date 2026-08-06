@@ -5916,4 +5916,174 @@ Public documentation continues to preserve the established Public / Private Boun
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# Engineering Knowledge
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document describes the approved public Engineering Knowledge architecture within the Legion ecosystem.
+
+Its objective is to explain how engineering knowledge is intended to evolve through professional documentation, architectural consistency, evidence-driven reasoning and continuous organizational learning.
+
+This document communicates architectural concepts only.
+
+It intentionally excludes implementation details, runtime knowledge systems, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Engineering Knowledge Philosophy
+
+Engineering knowledge is publicly envisioned as a strategic organizational asset.
+
+Knowledge is more than documentation.
+
+It represents accumulated architectural understanding, engineering experience, professional terminology and organizational learning preserved for future engineers, organizations and AI systems.
+
+The objective is long-term engineering continuity rather than short-term project documentation.
+
+---
+
+# Public Engineering Knowledge Architecture
+
+```mermaid
+flowchart TB
+
+VISION["Engineering Vision"]
+
+VISION --> ARCH["Architecture"]
+
+ARCH --> DOC["Engineering Documentation"]
+
+DOC --> MISSIONS["Professional Missions"]
+
+MISSIONS --> EVIDENCE["Engineering Evidence"]
+
+EVIDENCE --> KNOWLEDGE["Engineering Knowledge"]
+
+KNOWLEDGE --> LEARNING["Organizational Learning"]
+
+LEARNING --> IMPROVEMENT["Continuous Improvement"]
+
+IMPROVEMENT --> VISION
+```
+
+The diagram above illustrates the approved public engineering knowledge architecture.
+
+It intentionally excludes implementation mechanisms, runtime knowledge systems, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Engineering Knowledge Domains
+
+Future engineering knowledge is publicly envisioned as being organized into complementary domains.
+
+| Knowledge Domain | Public Engineering Purpose |
+|------------------|----------------------------|
+| Architecture | Long-term engineering structure |
+| Governance | Engineering responsibility and consistency |
+| Organizations | AI-native organizational concepts |
+| Missions | Professional engineering activities |
+| Documentation | Technical communication |
+| Evidence | Engineering transparency |
+| Standards | Documentation quality |
+| Terminology | Canonical engineering language |
+
+These domains describe architectural direction only.
+
+They must not be interpreted as implementation status or production capability.
+
+---
+
+# Engineering Knowledge Principles
+
+Every future engineering knowledge resource is intended to preserve:
+
+- Architecture Before Implementation.
+- Evidence Before Status.
+- Professional Responsibility.
+- Engineering Transparency.
+- Documentation Consistency.
+- Long-Term Maintainability.
+- Public / Private Boundary.
+- Continuous Improvement.
+
+These principles apply across the entire public IMPERIAL Core documentation ecosystem.
+
+---
+
+# Public Repository Scope
+
+This document describes:
+
+- engineering knowledge architecture;
+- knowledge lifecycle;
+- engineering learning concepts;
+- documentation philosophy;
+- architectural relationships.
+
+This document intentionally excludes:
+
+- implementation knowledge systems;
+- runtime infrastructure;
+- deployment mechanisms;
+- operational engineering;
+- internal Skills;
+- internal Plugins;
+- confidential engineering assets.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Engineering Knowledge
+
+↓
+
+Professional Engineers • Organizations • Researchers • AI Systems
+
+The relationship above represents only the approved public engineering context.
+
+---
+
+# Long-Term Vision
+
+The Engineering Knowledge architecture is intended to preserve and continuously improve professional engineering understanding across the public IMPERIAL Core ecosystem.
+
+Its objective is to provide a trusted engineering knowledge foundation while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
