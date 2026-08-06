@@ -4389,3 +4389,122 @@ docs/
  ├── PUBLIC-PRIVATE-BOUNDARY.md
  ├── ENGINEERING-STANDARDS.md
  └── NAVIGATION.md
+---
+
+# Repository Documentation Structure
+
+The Legion Public repository is designed to evolve as a structured engineering documentation portal rather than a single large document.
+
+As the documentation grows, engineering knowledge is intended to be organized into dedicated documents, allowing engineers, researchers, organizations and AI systems to navigate the repository efficiently while preserving architectural consistency.
+
+This repository intentionally documents public engineering knowledge only.
+
+Implementation, runtime systems, operational infrastructure and confidential engineering assets remain outside the scope of this repository.
+
+---
+
+# Public Documentation Architecture
+
+```mermaid
+flowchart TB
+
+README["README.md"]
+
+README --> ARCH["Architecture"]
+
+README --> GOV["Governance"]
+
+README --> MISS["Mission Architecture"]
+
+README --> ORG["Organizations"]
+
+README --> ORCH["Orchestrators"]
+
+README --> KNOW["Engineering Knowledge"]
+
+README --> ROAD["Roadmap"]
+
+README --> GLOSS["Glossary"]
+
+README --> FAQ["Frequently Asked Questions"]
+
+README --> BOUND["Public / Private Boundary"]
+```
+
+The structure above illustrates the intended public documentation architecture.
+
+It represents documentation organization only.
+
+It does not represent runtime architecture or implementation.
+
+---
+
+# Documentation Navigation Principles
+
+The long-term documentation architecture follows several permanent principles.
+
+• One engineering concept per document.
+
+• Consistent terminology across repositories.
+
+• Architecture before implementation.
+
+• Truthful engineering communication.
+
+• Public / Private Boundary.
+
+• Long-term maintainability.
+
+• AI-readable documentation.
+
+• Human-readable documentation.
+
+Documentation is treated as an engineering asset with its own lifecycle and quality requirements.
+
+---
+
+# Documentation Categories
+
+Future public engineering documentation is intended to be organized into complementary categories.
+
+| Documentation Area | Public Purpose |
+|--------------------|----------------|
+| Architecture | Engineering concepts and relationships |
+| Governance | Engineering responsibilities and principles |
+| Organizations | AI-native organizational architecture |
+| Missions | Professional mission concepts |
+| Knowledge | Engineering knowledge architecture |
+| Roadmap | Long-term public direction |
+| Glossary | Canonical engineering terminology |
+| FAQ | Public technical questions |
+| Public / Private Boundary | Information governance |
+
+Every document contributes to one unified engineering knowledge ecosystem.
+
+---
+
+# Engineering Documentation Philosophy
+
+The public documentation of Legion is intended to serve multiple audiences.
+
+• Engineers.
+
+• Researchers.
+
+• Organizations.
+
+• Students.
+
+• Technical writers.
+
+• AI systems.
+
+The objective is to communicate architectural concepts clearly while intentionally protecting confidential engineering implementation.
+
+---
+
+# Long-Term Vision
+
+The Legion Public repository is intended to become a comprehensive engineering documentation portal within the IMPERIAL Core ecosystem.
+
+Future public publications will continue expanding the documentation in a structured and maintainable manner while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
