@@ -3605,3 +3605,166 @@ Those materials remain intentionally excluded from this repository.
 The long-term objective of Legion is to establish a professional mission architecture capable of coordinating AI-native organizations through governed engineering processes, professional specialization, architectural consistency and evidence-driven collaboration.
 
 Public documentation communicates this engineering direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Engineering Governance Architecture
+
+Engineering governance is a fundamental architectural principle of Legion.
+
+The long-term public vision is to ensure that professional AI-native organizations operate within clearly defined engineering boundaries, documented responsibilities and transparent decision processes.
+
+Governance is publicly envisioned as enabling professional coordination rather than restricting innovation.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime authorization mechanisms, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Engineering Governance Model
+
+```mermaid
+flowchart TB
+
+AR["Alexander Romaskevich<br/>Founder • Owner • CEO"]
+
+AR --> IC["IMPERIAL Core"]
+
+IC --> H["HANTER"]
+
+H --> LEGION["Legion"]
+
+LEGION --> GOV["Engineering Governance"]
+
+GOV --> ORCH["Domain & Functional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> MISSION["Professional Missions"]
+
+MISSION --> REVIEW["Engineering Review"]
+
+REVIEW --> EVIDENCE["Evidence & Traceability"]
+
+EVIDENCE --> KNOWLEDGE["Engineering Knowledge"]
+
+KNOWLEDGE --> IMPROVEMENT["Continuous Improvement"]
+```
+
+The diagram above represents the approved public engineering governance architecture.
+
+It intentionally excludes implementation mechanisms, runtime authorization systems, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Public Governance Objectives
+
+The Engineering Governance Architecture is publicly intended to support:
+
+• architectural consistency;
+
+• professional accountability;
+
+• transparent engineering documentation;
+
+• governed organizational coordination;
+
+• evidence-driven engineering;
+
+• continuous organizational learning;
+
+• sustainable long-term engineering evolution.
+
+These objectives describe engineering direction rather than implementation status.
+
+---
+
+# Governance Principles
+
+Every future AI-native organization documented within Legion is intended to preserve the following engineering principles.
+
+| Principle | Public Engineering Purpose |
+|-----------|-----------------------------|
+| Architecture Before Implementation | Engineering quality begins with architecture |
+| Evidence Before Status | Public claims should be supported by evidence |
+| Professional Responsibility | Clear ownership of engineering decisions |
+| Federated Coordination | Specialized organizations cooperate through governance |
+| Human Oversight | Engineering remains accountable to people |
+| Public / Private Boundary | Public documentation never exposes confidential engineering |
+| Continuous Improvement | Every mission contributes to organizational learning |
+
+These principles apply consistently across the public engineering documentation.
+
+---
+
+# Public Engineering Relationships
+
+```mermaid
+flowchart LR
+
+Vision --> Architecture
+
+Architecture --> Governance
+
+Governance --> ProfessionalOrganizations
+
+ProfessionalOrganizations --> ProfessionalTeams
+
+ProfessionalTeams --> Missions
+
+Missions --> Evidence
+
+Evidence --> Knowledge
+
+Knowledge --> Improvement
+
+Improvement --> Vision
+```
+
+The engineering cycle above illustrates the intended public architectural philosophy.
+
+It should not be interpreted as implementation architecture or operational workflow.
+
+---
+
+# Public Repository Scope
+
+This repository documents:
+
+• engineering governance philosophy;
+
+• architectural principles;
+
+• organizational relationships;
+
+• governance concepts;
+
+• engineering diagrams;
+
+• long-term engineering direction.
+
+The repository intentionally excludes:
+
+• implementation source code;
+
+• runtime governance systems;
+
+• authorization mechanisms;
+
+• deployment architecture;
+
+• infrastructure;
+
+• private Skills;
+
+• private Plugins;
+
+• confidential engineering assets.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional engineering governance architecture capable of supporting scalable AI-native organizations while preserving engineering integrity, transparent documentation, professional accountability and evidence-driven collaboration.
+
+Public documentation communicates this architectural direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
