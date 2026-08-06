@@ -5752,4 +5752,168 @@ Future documentation will continue expanding while preserving the PUBLIC ONLY an
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# Engineering Standards
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document defines the canonical engineering standards used throughout the Legion Public repository.
+
+Its objective is to preserve documentation quality, architectural consistency and professional engineering communication across the public IMPERIAL Core ecosystem.
+
+These standards describe public engineering documentation only.
+
+They intentionally exclude implementation standards, runtime engineering practices and confidential operational procedures.
+
+---
+
+# Engineering Philosophy
+
+Engineering documentation is considered an engineering deliverable.
+
+Every public document should communicate architectural concepts accurately, consistently and responsibly while preserving the Public / Private Boundary.
+
+Professional documentation is intended to remain valuable for engineers, organizations, researchers and AI systems over the long term.
+
+---
+
+# Documentation Quality Standards
+
+Every public engineering document is intended to satisfy the following requirements.
+
+| Standard | Public Engineering Objective |
+|-----------|------------------------------|
+| Accuracy | Describe architectural concepts truthfully |
+| Consistency | Use canonical terminology throughout the ecosystem |
+| Clarity | Present engineering knowledge in a structured manner |
+| Traceability | Maintain consistent architectural relationships |
+| Maintainability | Support long-term documentation evolution |
+| Readability | Remain understandable for engineers and AI systems |
+| Transparency | Clearly distinguish architecture from implementation |
+
+---
+
+# Engineering Publication Principles
+
+All public engineering documentation follows permanent principles.
+
+- Architecture Before Implementation.
+- Evidence Before Status.
+- Professional Responsibility.
+- Responsible Technical Communication.
+- Engineering Transparency.
+- Public / Private Boundary.
+- Minimal Disclosure.
+- Continuous Improvement.
+
+These principles apply across every public repository within the IMPERIAL Core ecosystem.
+
+---
+
+# Documentation Lifecycle
+
+```mermaid
+flowchart LR
+
+VISION["Engineering Vision"]
+
+--> ARCH["Architecture"]
+
+ARCH --> DOCUMENT["Documentation"]
+
+DOCUMENT --> REVIEW["Professional Review"]
+
+REVIEW --> QUALITY["Engineering Quality"]
+
+QUALITY --> KNOWLEDGE["Engineering Knowledge"]
+
+KNOWLEDGE --> IMPROVEMENT["Continuous Improvement"]
+
+IMPROVEMENT --> VISION
+```
+
+The lifecycle above represents the approved public documentation philosophy.
+
+It intentionally excludes implementation workflows, runtime processes and operational engineering.
+
+---
+
+# Public Repository Scope
+
+This document defines:
+
+- engineering documentation standards;
+- publication principles;
+- quality objectives;
+- documentation lifecycle;
+- architectural communication practices.
+
+It intentionally excludes:
+
+- implementation standards;
+- coding standards;
+- runtime engineering procedures;
+- deployment processes;
+- operational infrastructure;
+- confidential engineering systems.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Engineering Documentation
+
+↓
+
+Engineering Knowledge
+
+↓
+
+Continuous Improvement
+
+The relationship above represents the approved public engineering context only.
+
+---
+
+# Long-Term Vision
+
+The Engineering Standards defined in this document are intended to support a professional engineering knowledge ecosystem where public documentation remains technically accurate, architecturally consistent and valuable for future generations of engineers.
+
+Public documentation continues to preserve the established Public / Private Boundary while maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
