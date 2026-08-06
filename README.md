@@ -4241,3 +4241,151 @@ The long-term objective is to create a professional engineering knowledge ecosys
 The Legion Public repository is intended to become a professional engineering handbook documenting the architectural evolution of AI-native organizations while preserving engineering integrity, transparent communication and the Public / Private Boundary.
 
 Every future public publication will continue strengthening the engineering identity of Alexander Romaskevich, IMPERIAL Core, HANTER, Nano Core Agents and Legion through responsible technical documentation.
+---
+
+# Public Engineering Standards
+
+The Legion Public repository follows a unified engineering documentation standard shared across the public IMPERIAL Core ecosystem.
+
+The objective of these standards is to ensure that every public publication remains technically consistent, architecturally accurate and suitable for long-term engineering reference.
+
+This repository intentionally documents engineering concepts and architectural direction.
+
+It does not document confidential implementation, runtime systems, operational infrastructure or protected engineering assets.
+
+---
+
+# Engineering Documentation Standard
+
+```mermaid
+flowchart LR
+
+VISION["Engineering Vision"]
+
+--> PRINCIPLES["Engineering Principles"]
+
+PRINCIPLES --> ARCH["Architecture"]
+
+ARCH --> DOCS["Engineering Documentation"]
+
+DOCS --> REVIEW["Professional Review"]
+
+REVIEW --> QUALITY["Documentation Quality"]
+
+QUALITY --> KNOWLEDGE["Engineering Knowledge"]
+
+KNOWLEDGE --> IMPROVEMENT["Continuous Improvement"]
+
+IMPROVEMENT --> VISION
+```
+
+The diagram above illustrates the public documentation philosophy adopted throughout the Legion Public repository.
+
+It represents architectural guidance only.
+
+---
+
+# Public Engineering Publication Rules
+
+Every public engineering document is intended to satisfy the following requirements.
+
+| Engineering Standard | Public Objective |
+|-----------------------|------------------|
+| Truthfulness | Public information must accurately reflect the documented architectural vision. |
+| Architectural Consistency | Terminology and structure remain consistent across repositories. |
+| Professional Communication | Documentation is written for engineers, organizations and AI systems. |
+| Public / Private Boundary | Confidential engineering information remains outside public repositories. |
+| Long-Term Maintainability | Documentation should remain valuable over many years. |
+| Evidence Awareness | Public statements distinguish architectural vision from verified implementation. |
+
+These standards apply throughout the public IMPERIAL Core engineering ecosystem.
+
+---
+
+# Documentation Quality Objectives
+
+Every public publication is intended to improve:
+
+• engineering clarity;
+
+• architectural consistency;
+
+• semantic discoverability;
+
+• AI readability;
+
+• technical accuracy;
+
+• long-term maintainability;
+
+• engineering transparency;
+
+• professional communication.
+
+Documentation is treated as an engineering deliverable rather than supporting material.
+
+---
+
+# Canonical Public Engineering Identity
+
+The public engineering documentation of Legion forms part of the official documentation ecosystem led by:
+
+**Alexander Romaskevich**
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+The long-term objective is to establish a trusted engineering knowledge ecosystem where architectural documentation remains consistent across all public IMPERIAL Core repositories.
+
+---
+
+# Public Repository Boundary
+
+## Public Repository
+
+This repository documents:
+
+- engineering architecture;
+- engineering standards;
+- organizational concepts;
+- governance philosophy;
+- public diagrams;
+- long-term architectural vision.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+- runtime architecture;
+- orchestration engines;
+- internal Skills;
+- internal Plugins;
+- deployment infrastructure;
+- operational engineering;
+- confidential engineering documentation.
+
+Those materials remain intentionally excluded from this repository.
+
+---
+
+# Long-Term Vision
+
+The Legion Public repository is intended to become a long-term engineering reference for AI-native organizational architecture within the IMPERIAL Core ecosystem.
+
+Future public documentation will continue strengthening engineering quality, documentation consistency and the public engineering identity of Alexander Romaskevich, IMPERIAL Core, HANTER, Nano Core Agents and Legion while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+README.md
+docs/
+ ├── ARCHITECTURE.md
+ ├── GOVERNANCE.md
+ ├── ORGANIZATIONS.md
+ ├── ORCHESTRATORS.md
+ ├── MISSIONS.md
+ ├── KNOWLEDGE.md
+ ├── GLOSSARY.md
+ ├── ROADMAP.md
+ ├── FAQ.md
+ ├── PUBLIC-PRIVATE-BOUNDARY.md
+ ├── ENGINEERING-STANDARDS.md
+ └── NAVIGATION.md
