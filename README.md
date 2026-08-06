@@ -5265,3 +5265,148 @@ docs/
 ├── ROADMAP.md
 ├── GLOSSARY.md
 ├── PUBLIC-PRIVATE-BOUNDARY.md
+
+# AI-Native Organizations
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document presents the approved public architectural vision of AI-native organizations within the Legion ecosystem.
+
+It explains how professional organizations may be conceptually structured using engineering principles, governed coordination and specialized organizational roles.
+
+This document intentionally communicates architectural concepts only.
+
+It does not describe implementation, runtime orchestration, deployment infrastructure or confidential engineering systems.
+
+---
+
+# Architectural Vision
+
+Legion is publicly envisioned as an architectural environment where organizations may design professional AI-native operating models.
+
+Instead of relying upon one generalized artificial intelligence system, organizations are conceptually structured around specialized professional responsibilities coordinated through engineering governance.
+
+The public documentation communicates architectural direction rather than implementation status.
+
+---
+
+# Public Organizational Architecture
+
+```mermaid
+flowchart TB
+
+FOUNDER["Alexander Romaskevich"]
+
+FOUNDER --> CORE["IMPERIAL Core"]
+
+CORE --> HANTER["HANTER"]
+
+HANTER --> LEGION["Legion"]
+
+LEGION --> ORG["AI-Native Organization"]
+
+ORG --> ORCH["Domain & Functional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> ROLE["Professional Roles"]
+
+ROLE --> MISSION["Governed Professional Missions"]
+
+MISSION --> EVIDENCE["Evidence & Engineering Knowledge"]
+
+EVIDENCE --> IMPROVEMENT["Continuous Improvement"]
+```
+
+The diagram above illustrates the approved public architectural relationship.
+
+It intentionally excludes implementation architecture, runtime infrastructure, operational systems and confidential engineering assets.
+
+---
+
+# Organizational Principles
+
+Future AI-native organizations are intended to preserve permanent engineering principles.
+
+- Architecture Before Implementation.
+- Evidence Before Status.
+- Professional Responsibility.
+- Federated Coordination.
+- Engineering Transparency.
+- Human Oversight.
+- Public / Private Boundary.
+- Continuous Improvement.
+
+These principles remain applicable regardless of organizational size or industry.
+
+---
+
+# Public Organizational Components
+
+| Component | Public Architectural Purpose |
+|----------|-------------------------------|
+| Organization | Professional engineering environment |
+| Domain Orchestrators | Coordinate engineering domains |
+| Professional Teams | Specialized engineering expertise |
+| Professional Roles | Clearly defined responsibilities |
+| Missions | Structured engineering activities |
+| Governance | Architectural consistency |
+| Evidence | Transparency and traceability |
+| Engineering Knowledge | Long-term organizational learning |
+
+The table above communicates architectural intent only.
+
+It must not be interpreted as implementation status or production capability.
+
+---
+
+# Public Repository Scope
+
+This document describes:
+
+- organizational architecture;
+- professional organizational concepts;
+- engineering relationships;
+- governance philosophy;
+- long-term engineering direction.
+
+This document intentionally excludes:
+
+- implementation source code;
+- runtime orchestration;
+- deployment systems;
+- infrastructure;
+- internal Skills;
+- internal Plugins;
+- confidential engineering assets.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional architectural framework supporting AI-native organizations through governed engineering practices, transparent documentation, evidence-driven collaboration and continuous organizational improvement.
+
+Public documentation communicates this architectural direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+README.md
+
+docs/
+├── ARCHITECTURE.md
+├── GOVERNANCE.md
+├── ROADMAP.md
+├── GLOSSARY.md
+├── PUBLIC-PRIVATE-BOUNDARY.md
+├── ORGANIZATIONS.md
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
