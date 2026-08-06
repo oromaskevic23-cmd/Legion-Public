@@ -5101,3 +5101,167 @@ The Legion Public Glossary is intended to serve as the canonical public engineer
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+# Public / Private Boundary
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document defines the canonical Public / Private Boundary adopted throughout the Legion Public repository and the broader public documentation of the IMPERIAL Core ecosystem.
+
+Its objective is to communicate architectural transparency while protecting confidential engineering implementation, operational infrastructure and proprietary engineering knowledge.
+
+The boundary exists to ensure that public documentation remains technically valuable without exposing protected engineering assets.
+
+---
+
+# Engineering Philosophy
+
+Public engineering documentation should explain:
+
+- architectural vision;
+- engineering principles;
+- governance philosophy;
+- organizational concepts;
+- documentation standards;
+- long-term engineering direction.
+
+Public documentation intentionally does not disclose confidential implementation or operational engineering.
+
+Transparency and confidentiality are complementary engineering responsibilities rather than conflicting objectives.
+
+---
+
+# Public Engineering Information
+
+The Legion Public repository may contain:
+
+- architectural concepts;
+- engineering diagrams;
+- engineering terminology;
+- governance principles;
+- documentation standards;
+- long-term roadmaps;
+- organizational concepts;
+- public engineering relationships;
+- repository navigation;
+- engineering philosophy.
+
+These materials are intended to support engineers, researchers, organizations and AI systems.
+
+---
+
+# Private Engineering Information
+
+Private engineering environments may contain information such as:
+
+- implementation source code;
+- runtime architecture;
+- deployment infrastructure;
+- orchestration mechanisms;
+- internal Skills;
+- internal Plugins;
+- capability management;
+- operational procedures;
+- testing environments;
+- engineering automation;
+- infrastructure configuration;
+- confidential engineering documentation.
+
+These materials are intentionally excluded from this repository.
+
+---
+
+# Engineering Disclosure Principles
+
+Every public publication should preserve the following commitments.
+
+## Truthfulness
+
+Public documentation should accurately distinguish architectural vision from verified implementation.
+
+---
+
+## Minimal Disclosure
+
+Only information appropriate for unrestricted public publication should appear in this repository.
+
+---
+
+## Responsible Transparency
+
+Public documentation should maximize architectural understanding without exposing confidential engineering assets.
+
+---
+
+## Long-Term Documentation
+
+Engineering documentation should remain useful, technically accurate and maintainable over many years.
+
+---
+
+## Professional Communication
+
+Documentation should remain understandable for engineers, researchers, organizations and AI systems.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Public Engineering Documentation
+
+↓
+
+Engineers • Researchers • Organizations • AI Systems
+
+The relationship above represents only the approved public engineering context.
+
+---
+
+# Long-Term Vision
+
+The Public / Private Boundary is intended to remain a permanent engineering principle throughout the public IMPERIAL Core ecosystem.
+
+Its objective is to preserve engineering integrity, responsible disclosure, architectural consistency and long-term public trust while protecting confidential engineering implementation.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+README.md
+
+docs/
+├── ARCHITECTURE.md
+├── GOVERNANCE.md
+├── ROADMAP.md
+├── GLOSSARY.md
+├── PUBLIC-PRIVATE-BOUNDARY.md
