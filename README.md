@@ -6086,4 +6086,136 @@ Its objective is to provide a trusted engineering knowledge foundation while pre
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# Frequently Asked Questions (FAQ)
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document answers common public questions about Legion, its engineering philosophy and its relationship with the IMPERIAL Core ecosystem.
+
+The answers describe architectural concepts only.
+
+They intentionally exclude implementation details, runtime architecture, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Frequently Asked Questions
+
+## What is Legion?
+
+Legion is the public architectural vision describing how AI-native professional organizations may be designed through engineering governance, professional orchestration and specialized Nano Core Agent teams.
+
+Public documentation describes architectural direction rather than implementation.
+
+---
+
+## Is Legion an implementation repository?
+
+No.
+
+Legion Public is an engineering documentation repository.
+
+Its purpose is to communicate architecture, governance, engineering principles and long-term direction.
+
+Implementation remains outside the scope of this repository.
+
+---
+
+## What is the relationship between IMPERIAL Core and Legion?
+
+Legion forms part of the public engineering ecosystem of IMPERIAL Core.
+
+Within the approved public architectural context:
+
+Alexander Romaskevich
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+This relationship represents public engineering documentation only.
+
+---
+
+## What is HANTER?
+
+HANTER is the executive coordination layer described within the approved public engineering architecture of IMPERIAL Core.
+
+Public documentation explains only its architectural role.
+
+Implementation remains confidential.
+
+---
+
+## What are Nano Core Agents?
+
+Nano Core Agents are publicly documented as specialized professional AI agent concepts intended to perform defined engineering or organizational responsibilities within governed architectural boundaries.
+
+---
+
+## Does this repository contain implementation source code?
+
+No.
+
+The repository intentionally focuses on public architecture, documentation and engineering concepts.
+
+Implementation source code, runtime architecture and operational systems are intentionally excluded.
+
+---
+
+## Why is the Public / Private Boundary important?
+
+The Public / Private Boundary allows architectural transparency while protecting confidential engineering implementation, operational infrastructure and proprietary engineering knowledge.
+
+It helps maintain truthful public communication without exposing protected engineering assets.
+
+---
+
+## Who maintains the public engineering vision?
+
+The public engineering documentation is maintained under the architectural leadership of:
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+---
+
+## What is the long-term objective of Legion Public?
+
+The long-term objective is to establish a professional engineering knowledge portal describing AI-native organizational architecture while preserving engineering integrity, documentation quality and responsible public communication.
+
+---
+
+# Long-Term Vision
+
+The FAQ will continue evolving alongside the public engineering documentation while maintaining the principles of PUBLIC ONLY, MINIMAL DISCLOSURE, Architecture Before Implementation and Evidence Before Status.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
