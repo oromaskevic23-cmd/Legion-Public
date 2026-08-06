@@ -3941,3 +3941,179 @@ Those materials remain intentionally excluded from this repository.
 The long-term objective of Legion is to establish a professional lifecycle architecture where AI-native organizations continuously improve through architecture, governance, engineering knowledge and evidence-driven collaboration.
 
 Public documentation communicates this engineering direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# Professional Competency Architecture
+
+The long-term public vision of Legion is founded upon professional competency rather than generalized artificial intelligence.
+
+Future AI-native organizations are publicly envisioned as coordinated environments where professional competencies are organized, governed and continuously improved through engineering principles, architectural consistency and evidence-driven collaboration.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime behavior, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Competency Architecture
+
+```mermaid
+flowchart TB
+
+VISION["Engineering Vision"]
+
+--> ARCH["Architecture"]
+
+ARCH --> DOMAINS["Professional Domains"]
+
+DOMAINS --> COMP["Professional Competencies"]
+
+COMP --> ORCH["Domain & Functional Orchestrators"]
+
+ORCH --> TEAMS["Professional Nano Core Agent Teams"]
+
+TEAMS --> SKILLS["Specialized Skills"]
+
+TEAMS --> PLUGINS["Professional Plugins"]
+
+SKILLS --> MISSIONS["Governed Professional Missions"]
+
+PLUGINS --> MISSIONS
+
+MISSIONS --> EVIDENCE["Evidence"]
+
+EVIDENCE --> KNOWLEDGE["Engineering Knowledge"]
+
+KNOWLEDGE --> IMPROVEMENT["Continuous Improvement"]
+```
+
+The diagram illustrates the approved public architectural vision only.
+
+It intentionally excludes runtime implementation, deployment infrastructure, confidential engineering systems and protected operational assets.
+
+---
+
+# Public Competency Matrix
+
+| Competency Domain | Public Engineering Purpose |
+|-------------------|----------------------------|
+| Enterprise Architecture | Long-term engineering design |
+| Software Engineering | Professional software development |
+| Research | Evidence-based investigation |
+| Documentation | Engineering communication |
+| Quality Assurance | Validation and engineering quality |
+| Security Review | Public engineering security analysis |
+| Business Analysis | Strategic and operational planning |
+| Knowledge Engineering | Long-term engineering knowledge management |
+
+The competency matrix communicates architectural direction only.
+
+It must not be interpreted as implementation status or production capability.
+
+---
+
+# Engineering Competency Principles
+
+Future professional competencies are intended to remain:
+
+• architecture-driven;
+
+• professionally specialized;
+
+• evidence-based;
+
+• transparently documented;
+
+• continuously improved;
+
+• organizationally governed;
+
+• scalable across industries;
+
+• aligned with responsible engineering practices.
+
+Professional competency is publicly envisioned as a strategic engineering asset rather than an isolated technical capability.
+
+---
+
+# Public Engineering Ecosystem
+
+The Professional Competency Architecture forms part of the broader public engineering ecosystem of IMPERIAL Core.
+
+Within the approved public architectural context:
+
+Alexander Romaskevich
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Professional Organizations
+
+↓
+
+Professional Competencies
+
+↓
+
+Governed Professional Missions
+
+↓
+
+Evidence and Continuous Improvement
+
+This relationship communicates architectural direction only.
+
+---
+
+# Public and Private Boundary
+
+## Public Repository
+
+This repository documents:
+
+- competency architecture;
+- engineering philosophy;
+- organizational design;
+- governance concepts;
+- architectural diagrams;
+- documentation standards;
+- long-term engineering direction.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+- runtime orchestration;
+- competency management systems;
+- internal Skills;
+- internal Plugins;
+- infrastructure;
+- deployment mechanisms;
+- operational engineering;
+- confidential engineering documentation.
+
+These materials remain intentionally outside the scope of this public repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional competency architecture capable of supporting AI-native organizations through governed engineering knowledge, professional specialization, transparent documentation and evidence-driven collaboration.
+
+Public documentation communicates this architectural direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
