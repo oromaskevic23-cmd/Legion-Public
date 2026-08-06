@@ -6218,4 +6218,133 @@ The FAQ will continue evolving alongside the public engineering documentation wh
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# Documentation Index
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document provides the canonical navigation index for the Legion Public engineering documentation.
+
+Its purpose is to organize public engineering knowledge into a structured documentation system that is understandable for engineers, researchers, organizations and AI systems.
+
+This document communicates public documentation only.
+
+It intentionally excludes implementation details, runtime architecture, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Public Documentation Portal
+
+The Legion Public repository is organized as an engineering knowledge portal.
+
+Each document has a clearly defined architectural purpose and contributes to one coherent public engineering narrative.
+
+---
+
+# Engineering Documentation Map
+
+```mermaid
+flowchart TB
+
+README["README.md"]
+
+README --> A["ARCHITECTURE.md"]
+
+README --> G["GOVERNANCE.md"]
+
+README --> R["ROADMAP.md"]
+
+README --> GL["GLOSSARY.md"]
+
+README --> PPB["PUBLIC-PRIVATE-BOUNDARY.md"]
+
+README --> ORG["ORGANIZATIONS.md"]
+
+README --> MIS["MISSIONS.md"]
+
+README --> NAV["NAVIGATION.md"]
+
+README --> STD["ENGINEERING-STANDARDS.md"]
+
+README --> KNOW["KNOWLEDGE.md"]
+
+README --> FAQ["FAQ.md"]
+
+README --> INDEX["DOCUMENTATION-INDEX.md"]
+```
+
+The diagram above illustrates the current public documentation architecture.
+
+Future documentation may extend this structure while preserving architectural consistency.
+
+---
+
+# Canonical Documentation Catalog
+
+| Document | Public Purpose |
+|----------|----------------|
+| README.md | Repository overview and public identity |
+| ARCHITECTURE.md | Public engineering architecture |
+| GOVERNANCE.md | Engineering governance principles |
+| ROADMAP.md | Long-term public direction |
+| GLOSSARY.md | Canonical engineering terminology |
+| PUBLIC-PRIVATE-BOUNDARY.md | Engineering disclosure policy |
+| ORGANIZATIONS.md | AI-native organization architecture |
+| MISSIONS.md | Professional mission architecture |
+| NAVIGATION.md | Documentation navigation |
+| ENGINEERING-STANDARDS.md | Documentation quality standards |
+| KNOWLEDGE.md | Engineering knowledge architecture |
+| FAQ.md | Frequently asked public questions |
+
+Each document contributes to the engineering knowledge ecosystem while preserving the Public / Private Boundary.
+
+---
+
+# Public Engineering Identity
+
+The public engineering documentation of Legion forms part of the broader IMPERIAL Core engineering ecosystem led by:
+
+**Alexander Romaskevich**
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+The objective is to preserve consistent engineering terminology, architectural quality and long-term documentation value.
+
+---
+
+# Engineering Documentation Principles
+
+Every public engineering document is intended to remain:
+
+- technically accurate;
+- architecturally consistent;
+- professionally maintained;
+- understandable by engineers;
+- understandable by AI systems;
+- suitable for long-term reference;
+- aligned with the Public / Private Boundary.
+
+---
+
+# Long-Term Vision
+
+The Documentation Index is intended to become the canonical entry point into the Legion Public engineering knowledge portal.
+
+Future engineering publications will continue expanding this documentation ecosystem while preserving the principles of PUBLIC ONLY, MINIMAL DISCLOSURE, Architecture Before Implementation and Evidence Before Status.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
