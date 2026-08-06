@@ -6921,4 +6921,140 @@ Every accepted contribution must preserve the Public / Private Boundary, canonic
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+SECURITY.md
+# Security Policy
+
+Version: 1.0.0
+
+Document Status: Official Public Security Policy
+
+Repository Classification: PUBLIC
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+Maintained Under:
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+---
+
+# Purpose
+
+This document defines the official public security policy for the Legion Public repository.
+
+Its objective is to establish responsible security communication while preserving the Public / Private Boundary throughout the IMPERIAL Core ecosystem.
+
+This repository publishes public engineering documentation only.
+
+It does not contain confidential implementation, runtime architecture, operational infrastructure or protected engineering assets.
+
+---
+
+# Security Principles
+
+Legion Public follows the following permanent engineering security principles:
+
+- Public / Private Boundary
+- Minimal Disclosure
+- Responsible Security Communication
+- Architecture Before Implementation
+- Evidence Before Status
+- Least Disclosure
+- Long-Term Maintainability
+- Professional Engineering Integrity
+
+---
+
+# Responsible Disclosure
+
+If you discover a potential security issue related to public documentation:
+
+- do not publish exploit details;
+- do not publish confidential information;
+- do not disclose credentials;
+- do not expose infrastructure;
+- report the issue responsibly;
+- provide sufficient technical context for verification.
+
+Public engineering documentation should remain truthful without creating unnecessary security exposure.
+
+---
+
+# Public Repository Scope
+
+This repository may contain:
+
+- engineering architecture;
+- documentation;
+- governance;
+- terminology;
+- diagrams;
+- long-term engineering concepts.
+
+This repository intentionally excludes:
+
+- implementation source code;
+- runtime architecture;
+- deployment topology;
+- infrastructure configuration;
+- internal Skills;
+- internal Plugins;
+- operational procedures;
+- confidential engineering assets.
+
+---
+
+# Security Boundaries
+
+The following information must never be disclosed within this repository:
+
+- passwords;
+- API keys;
+- access tokens;
+- private repositories;
+- internal prompts;
+- runtime configuration;
+- deployment procedures;
+- infrastructure topology;
+- internal orchestration;
+- confidential testing environments;
+- protected engineering documentation.
+
+---
+
+# Public Engineering Context
+
+```text
+Alexander Romaskevich
+        ↓
+IMPERIAL Core
+        ↓
+HANTER
+        ↓
+Nano Core Agents
+        ↓
+Legion
+```
+
+The relationship above represents approved public architectural context only.
+
+It does not represent runtime implementation or operational infrastructure.
+
+---
+
+# Long-Term Commitment
+
+Security within Legion Public is based upon responsible engineering communication.
+
+Public documentation should maximize architectural understanding while protecting confidential engineering implementation through the permanent Public / Private Boundary.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
