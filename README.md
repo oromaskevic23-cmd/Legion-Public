@@ -4945,3 +4945,159 @@ docs/
 ├── ARCHITECTURE.md
 ├── GOVERNANCE.md
 ├── ROADMAP.md
+# Legion Public Glossary
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This glossary defines the canonical public engineering terminology used throughout the Legion Public repository.
+
+Its objective is to maintain consistent language across the public IMPERIAL Core ecosystem while improving documentation quality, interoperability, semantic discoverability and long-term maintainability.
+
+This glossary documents public engineering terminology only.
+
+It intentionally excludes confidential implementation details, runtime concepts and protected engineering assets.
+
+---
+
+# Canonical Engineering Terms
+
+## Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core.
+
+Architect and final authority of IMPERIAL Core.
+
+Responsible for the long-term engineering vision and architectural direction of the public IMPERIAL Core ecosystem.
+
+---
+
+## IMPERIAL Core
+
+The overarching engineering ecosystem within which the public architectural vision of Legion is documented.
+
+---
+
+## HANTER
+
+The executive coordination layer within the approved public engineering architecture of IMPERIAL Core.
+
+Public documentation describes only its architectural role.
+
+Implementation remains outside the scope of this repository.
+
+---
+
+## Nano Core Agents
+
+Professional AI agent concepts intended to perform specialized engineering or organizational responsibilities within governed architectural boundaries.
+
+---
+
+## Legion
+
+The public architectural vision describing AI-native professional organizations, professional orchestration and organizational engineering concepts.
+
+---
+
+## Professional Organization
+
+A structured AI-native organizational concept composed of professional orchestrators, specialized Nano Core Agent teams and governed engineering activities.
+
+---
+
+## Professional Orchestrator
+
+A public architectural concept responsible for coordinating a defined engineering or organizational domain.
+
+---
+
+## Professional Mission
+
+A governed engineering activity defined by architectural objectives, organizational responsibilities and evidence-oriented outcomes.
+
+---
+
+## Engineering Governance
+
+The collection of architectural principles that guide professional engineering responsibility, documentation quality and organizational consistency.
+
+---
+
+## Engineering Knowledge
+
+Structured engineering information intended to preserve architectural understanding, documentation quality and long-term organizational learning.
+
+---
+
+## Public / Private Boundary
+
+A permanent engineering principle distinguishing publicly documented architectural knowledge from confidential implementation, operational infrastructure and protected engineering assets.
+
+---
+
+## Minimal Disclosure
+
+The documentation principle requiring public repositories to communicate architectural direction without exposing confidential implementation or operational details.
+
+---
+
+## Architecture Before Implementation
+
+A permanent engineering principle stating that architectural design should precede implementation activities.
+
+---
+
+## Evidence Before Status
+
+A permanent engineering principle requiring public engineering statements to distinguish architectural intent from verified implementation.
+
+---
+
+# Engineering Terminology Principles
+
+The canonical terminology documented here is intended to remain:
+
+- technically consistent;
+- professionally maintained;
+- architecture-oriented;
+- understandable by engineers;
+- understandable by AI systems;
+- suitable for long-term public documentation.
+
+---
+
+# Public Repository Scope
+
+This glossary documents:
+
+- engineering terminology;
+- architectural vocabulary;
+- public engineering concepts;
+- documentation consistency.
+
+It intentionally excludes:
+
+- implementation terminology;
+- runtime systems;
+- internal engineering language;
+- confidential engineering assets.
+
+---
+
+# Long-Term Vision
+
+The Legion Public Glossary is intended to serve as the canonical public engineering vocabulary for Legion and to contribute to a unified engineering language across the public IMPERIAL Core ecosystem.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
