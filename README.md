@@ -6347,4 +6347,159 @@ Future engineering publications will continue expanding this documentation ecosy
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# IMPERIAL Core Public Ecosystem
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document describes the approved public engineering ecosystem surrounding Legion.
+
+Its objective is to explain how Legion conceptually relates to the broader IMPERIAL Core ecosystem while intentionally preserving the Public / Private Boundary.
+
+This document communicates architectural relationships only.
+
+It does not describe implementation details, runtime architecture, deployment infrastructure or confidential engineering assets.
+
+---
+
+# Public Engineering Ecosystem
+
+```mermaid
+architecture-beta
+
+group architect(cloud)[Architect]
+
+service alex(person)[Alexander Romaskevich] in architect
+
+group ecosystem(cloud)[IMPERIAL Core Ecosystem]
+
+service core(server)[IMPERIAL Core] in ecosystem
+service hanter(server)[HANTER] in ecosystem
+service nca(server)[Nano Core Agents] in ecosystem
+service legion(server)[Legion] in ecosystem
+service orion(server)[ORION] in ecosystem
+service crypto(database)[CRYPTO IMPERIAL Ecosystem] in ecosystem
+service capital(database)[Capital Core] in ecosystem
+
+alex:R --> L:core
+
+core:B --> T:hanter
+hanter:B --> T:nca
+nca:B --> T:legion
+legion:R --> L:orion
+orion:R --> L:crypto
+crypto:R --> L:capital
+```
+
+The diagram above represents the approved public architectural relationships.
+
+It intentionally excludes runtime architecture, implementation details, deployment topology and confidential engineering systems.
+
+---
+
+# Canonical Public Engineering Hierarchy
+
+The approved public engineering hierarchy is:
+
+1. Alexander Romaskevich
+2. IMPERIAL Core
+3. HANTER
+4. Nano Core Agents
+5. Legion
+6. ORION
+7. CRYPTO IMPERIAL Ecosystem
+8. Capital Core
+
+Each component contributes a distinct architectural responsibility within the public engineering ecosystem.
+
+The hierarchy documents architectural direction only.
+
+---
+
+# Public Engineering Responsibilities
+
+| Component | Public Architectural Responsibility |
+|------------|-------------------------------------|
+| Alexander Romaskevich | Founder, Owner, CEO and Chief Systems Architect |
+| IMPERIAL Core | Engineering ecosystem and long-term architectural vision |
+| HANTER | Executive coordination architecture |
+| Nano Core Agents | Professional AI agent architecture |
+| Legion | AI-native organizational architecture |
+| ORION | Public engineering intelligence architecture |
+| CRYPTO IMPERIAL Ecosystem | Digital asset ecosystem architecture |
+| Capital Core | Capital and strategic architecture |
+
+These descriptions communicate public architectural intent only.
+
+---
+
+# Engineering Ecosystem Principles
+
+Every public repository within the IMPERIAL Core ecosystem is intended to preserve the same permanent engineering commitments.
+
+- Architecture Before Implementation.
+- Evidence Before Status.
+- Professional Responsibility.
+- Engineering Transparency.
+- Public / Private Boundary.
+- Minimal Disclosure.
+- Long-Term Maintainability.
+- Continuous Improvement.
+
+These principles provide architectural consistency across the public ecosystem.
+
+---
+
+# Public Repository Scope
+
+This document describes:
+
+- engineering ecosystem relationships;
+- architectural responsibilities;
+- public engineering hierarchy;
+- documentation philosophy;
+- long-term engineering direction.
+
+This document intentionally excludes:
+
+- implementation source code;
+- runtime systems;
+- deployment infrastructure;
+- operational engineering;
+- internal Skills;
+- internal Plugins;
+- confidential engineering assets.
+
+---
+
+# Long-Term Vision
+
+The IMPERIAL Core Public Ecosystem is intended to evolve as a coherent engineering knowledge ecosystem where each public repository contributes a distinct architectural perspective while maintaining common engineering principles, terminology and documentation quality.
+
+Future public documentation will continue strengthening the engineering identity of:
+
+- Alexander Romaskevich
+- IMPERIAL Core
+- HANTER
+- Nano Core Agents
+- Legion
+- ORION
+- CRYPTO IMPERIAL Ecosystem
+- Capital Core
+
+through truthful engineering communication and responsible public documentation.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
