@@ -6502,4 +6502,184 @@ through truthful engineering communication and responsible public documentation.
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+# Repository Map
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document provides the canonical map of the Legion Public repository.
+
+Its purpose is to explain how the public engineering documentation is organized, how individual documents relate to one another and how the repository is intended to evolve over time.
+
+The Repository Map communicates documentation architecture only.
+
+It intentionally excludes implementation source code, runtime architecture, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Repository Overview
+
+Legion Public is designed as a professional engineering documentation portal.
+
+The repository emphasizes architectural communication, engineering governance and long-term knowledge preservation while intentionally separating public documentation from private engineering implementation.
+
+---
+
+# Repository Architecture
+
+```mermaid
+mindmap
+  root((Legion Public))
+    README.md
+      Project Identity
+      Engineering Vision
+      Documentation Portal
+
+    docs
+      ARCHITECTURE.md
+      GOVERNANCE.md
+      ROADMAP.md
+      GLOSSARY.md
+      PUBLIC-PRIVATE-BOUNDARY.md
+      ORGANIZATIONS.md
+      MISSIONS.md
+      NAVIGATION.md
+      ENGINEERING-STANDARDS.md
+      KNOWLEDGE.md
+      FAQ.md
+      DOCUMENTATION-INDEX.md
+      ECOSYSTEM.md
+      REPOSITORY-MAP.md
+```
+
+The mind map above illustrates the current public documentation structure.
+
+Future documents may extend the repository while preserving engineering consistency.
+
+---
+
+# Documentation Layers
+
+```mermaid
+flowchart TB
+
+README["Repository Entry"]
+
+README --> FOUNDATION["Engineering Foundation"]
+
+FOUNDATION --> ARCHITECTURE["Architecture"]
+
+FOUNDATION --> GOVERNANCE["Governance"]
+
+FOUNDATION --> ORGANIZATIONS["Organizations"]
+
+FOUNDATION --> MISSIONS["Mission Architecture"]
+
+FOUNDATION --> KNOWLEDGE["Engineering Knowledge"]
+
+FOUNDATION --> STANDARDS["Engineering Standards"]
+
+FOUNDATION --> ECOSYSTEM["Public Ecosystem"]
+
+FOUNDATION --> NAVIGATION["Documentation Navigation"]
+
+FOUNDATION --> INDEX["Documentation Index"]
+```
+
+The documentation layers above describe public documentation architecture only.
+
+They do not represent implementation architecture or runtime topology.
+
+---
+
+# Engineering Documentation Strategy
+
+The repository is intended to grow through independent engineering documents rather than one continuously expanding README.
+
+Each document should have:
+
+- one primary engineering responsibility;
+- clearly defined architectural scope;
+- canonical terminology;
+- long-term maintainability;
+- references to related engineering documents.
+
+This strategy improves navigation, documentation quality and semantic discoverability.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Engineering Documentation Portal
+
+↓
+
+Engineers • Researchers • Organizations • AI Systems
+
+The relationship above represents only the approved public engineering context.
+
+---
+
+# Public Repository Scope
+
+This document describes:
+
+- repository organization;
+- documentation architecture;
+- navigation philosophy;
+- engineering documentation strategy;
+- long-term documentation evolution.
+
+This document intentionally excludes:
+
+- implementation source code;
+- runtime architecture;
+- deployment systems;
+- operational engineering;
+- internal Skills;
+- internal Plugins;
+- confidential engineering assets.
+
+---
+
+# Long-Term Vision
+
+The Repository Map is intended to remain the canonical navigation reference for the Legion Public documentation portal.
+
+As the engineering knowledge ecosystem expands, this document will continue providing a structured overview while preserving the Public / Private Boundary, engineering consistency and responsible technical communication.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
