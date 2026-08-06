@@ -4649,3 +4649,152 @@ Current public documentation includes:
 - docs/PUBLIC-PRIVATE-BOUNDARY.md
 
 Additional engineering documentation will be published as the public architectural knowledge base expands.
+# Legion Public Governance
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document describes the approved public engineering governance principles of Legion.
+
+Its purpose is to explain how governance supports architectural consistency, professional responsibility and long-term engineering quality within the public documentation of the IMPERIAL Core ecosystem.
+
+This document intentionally describes engineering governance concepts.
+
+It does not describe implementation, runtime authorization, security mechanisms or confidential operational procedures.
+
+---
+
+# Public Governance Philosophy
+
+Engineering governance exists to ensure that architectural direction, documentation quality and professional engineering practices remain consistent throughout the public engineering ecosystem.
+
+The objective is not centralized control.
+
+The objective is responsible coordination based upon transparent engineering principles.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Professional AI-Native Organizations
+
+↓
+
+Governed Professional Missions
+
+↓
+
+Engineering Knowledge
+
+↓
+
+Continuous Improvement
+
+This relationship documents the approved public engineering context only.
+
+---
+
+# Engineering Governance Principles
+
+The Legion Public repository follows permanent engineering principles.
+
+## Architecture Before Implementation
+
+Architectural direction is established before implementation activities begin.
+
+---
+
+## Evidence Before Status
+
+Public documentation distinguishes architectural vision from verified implementation.
+
+Engineering claims should remain truthful and evidence-based.
+
+---
+
+## Professional Responsibility
+
+Engineering activities are intended to preserve clear ownership, accountability and professional communication.
+
+---
+
+## Documentation Integrity
+
+Public engineering documentation should remain technically accurate, internally consistent and suitable for long-term reference.
+
+---
+
+## Public / Private Boundary
+
+Public repositories intentionally exclude confidential engineering implementation, operational infrastructure and protected engineering assets.
+
+---
+
+## Long-Term Maintainability
+
+Engineering documentation should remain understandable, maintainable and valuable over many years.
+
+---
+
+# Public Repository Scope
+
+This document describes:
+
+- engineering governance;
+- architectural responsibilities;
+- engineering principles;
+- documentation philosophy;
+- public engineering relationships.
+
+This document intentionally excludes:
+
+- implementation source code;
+- runtime governance mechanisms;
+- deployment infrastructure;
+- operational engineering;
+- internal Skills;
+- internal Plugins;
+- confidential engineering systems.
+
+---
+
+# Long-Term Vision
+
+The long-term objective is to establish a trusted engineering governance model supporting high-quality public documentation throughout the IMPERIAL Core ecosystem.
+
+The Legion Public repository communicates this architectural direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
