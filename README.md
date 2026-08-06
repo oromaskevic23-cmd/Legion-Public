@@ -5584,3 +5584,172 @@ Public documentation communicates this architectural direction while preserving 
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# Documentation Navigation
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document serves as the primary navigation guide for the Legion Public engineering documentation.
+
+Its purpose is to help engineers, researchers, organizations and AI systems understand how the public documentation is organized and how each document contributes to the overall architectural narrative of the IMPERIAL Core ecosystem.
+
+This document describes public documentation only.
+
+It intentionally excludes implementation details, runtime architecture, deployment infrastructure and confidential engineering assets.
+
+---
+
+# Public Engineering Documentation Map
+
+```mermaid
+flowchart TB
+
+README["README.md"]
+
+README --> ARCH["docs/ARCHITECTURE.md"]
+
+README --> GOV["docs/GOVERNANCE.md"]
+
+README --> ROAD["docs/ROADMAP.md"]
+
+README --> GLOSS["docs/GLOSSARY.md"]
+
+README --> PPB["docs/PUBLIC-PRIVATE-BOUNDARY.md"]
+
+README --> ORG["docs/ORGANIZATIONS.md"]
+
+README --> MISS["docs/MISSIONS.md"]
+
+README --> NAV["docs/NAVIGATION.md"]
+```
+
+The diagram above illustrates the current public documentation structure.
+
+Future public documents may extend this navigation while preserving engineering consistency.
+
+---
+
+# Documentation Overview
+
+## README.md
+
+Repository introduction, public identity and architectural overview.
+
+---
+
+## ARCHITECTURE.md
+
+Public engineering architecture and long-term architectural concepts.
+
+---
+
+## GOVERNANCE.md
+
+Engineering governance principles and architectural responsibilities.
+
+---
+
+## ROADMAP.md
+
+Long-term engineering direction and public documentation evolution.
+
+---
+
+## GLOSSARY.md
+
+Canonical engineering terminology used throughout the repository.
+
+---
+
+## PUBLIC-PRIVATE-BOUNDARY.md
+
+Engineering disclosure policy and Public / Private Boundary.
+
+---
+
+## ORGANIZATIONS.md
+
+Public architectural concepts describing AI-native organizations.
+
+---
+
+## MISSIONS.md
+
+Professional mission architecture and engineering lifecycle concepts.
+
+---
+
+## NAVIGATION.md
+
+Engineering documentation navigation and repository structure.
+
+---
+
+# Engineering Documentation Principles
+
+Every public engineering document is intended to remain:
+
+- technically accurate;
+- architecturally consistent;
+- professionally written;
+- AI-readable;
+- human-readable;
+- maintainable over the long term;
+- aligned with the Public / Private Boundary.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Nano Core Agents
+
+↓
+
+Legion
+
+↓
+
+Public Engineering Documentation
+
+↓
+
+Engineers • Researchers • Organizations • AI Systems
+
+The relationship above represents the approved public engineering context only.
+
+---
+
+# Long-Term Vision
+
+The Legion Public documentation portal is intended to evolve into a comprehensive engineering knowledge resource that remains understandable, navigable and professionally maintained for many years.
+
+Future documentation will continue expanding while preserving the PUBLIC ONLY and MINIMAL DISCLOSURE principles.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
