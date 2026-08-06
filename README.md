@@ -7057,4 +7057,117 @@ Public documentation should maximize architectural understanding while protectin
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+FOUNDATION-RELEASE.md
+# Legion Public Foundation Release
+
+Version: 1.0.0
+
+Release Name: Foundation Release
+
+Classification: PUBLIC
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+Maintained Under:
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+---
+
+# Purpose
+
+This document records the first complete public engineering foundation of the Legion Public repository.
+
+It establishes a stable documentation baseline describing the long-term architectural vision of Legion within the IMPERIAL Core ecosystem.
+
+This release documents public engineering architecture only.
+
+Implementation, runtime systems, deployment infrastructure and confidential engineering assets remain outside the scope of this repository.
+
+---
+
+# Foundation Scope
+
+The Foundation Release includes the approved public engineering documentation covering:
+
+- Architecture
+- Governance
+- Roadmap
+- Glossary
+- Public / Private Boundary
+- Organizations
+- Missions
+- Navigation
+- Engineering Standards
+- Engineering Knowledge
+- Documentation Index
+- Ecosystem
+- Repository Map
+- Contributing
+- Security
+
+Together these documents establish the first complete public engineering documentation baseline for Legion.
+
+---
+
+# Engineering Objectives
+
+The Foundation Release is intended to:
+
+- provide architectural transparency;
+- preserve documentation quality;
+- establish canonical terminology;
+- strengthen engineering consistency;
+- improve long-term maintainability;
+- support engineers, researchers and AI systems;
+- preserve the Public / Private Boundary.
+
+---
+
+# Public Engineering Context
+
+```text
+Alexander Romaskevich
+        ↓
+IMPERIAL Core
+        ↓
+HANTER
+        ↓
+Nano Core Agents
+        ↓
+Legion
+```
+
+The relationship above represents approved public architectural context only.
+
+---
+
+# Public Release Statement
+
+Legion Public Foundation Release represents the official public engineering documentation baseline.
+
+It communicates architectural vision and engineering direction without disclosing confidential implementation, operational infrastructure or protected engineering assets.
+
+---
+
+# Long-Term Vision
+
+Future public releases will expand this engineering knowledge portal while preserving:
+
+- PUBLIC ONLY;
+- MINIMAL DISCLOSURE;
+- Architecture Before Implementation;
+- Evidence Before Status;
+- Professional Engineering Integrity.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
