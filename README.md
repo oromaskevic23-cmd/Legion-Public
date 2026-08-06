@@ -3768,3 +3768,176 @@ The repository intentionally excludes:
 The long-term objective of Legion is to establish a professional engineering governance architecture capable of supporting scalable AI-native organizations while preserving engineering integrity, transparent documentation, professional accountability and evidence-driven collaboration.
 
 Public documentation communicates this architectural direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+---
+
+# AI-Native Organization Lifecycle
+
+The long-term public vision of Legion includes a structured lifecycle describing how AI-native organizations may evolve while preserving engineering quality, governance and architectural consistency.
+
+Rather than focusing solely on software delivery, the public engineering vision emphasizes the continuous evolution of professional organizations, engineering knowledge and organizational capabilities.
+
+This section documents only the approved public architectural vision.
+
+It does not describe implementation details, runtime behavior, deployment architecture or confidential engineering systems.
+
+---
+
+# Public Organization Lifecycle
+
+```mermaid
+flowchart LR
+
+V["Vision"]
+
+--> A["Architecture"]
+
+A --> O["Organization Design"]
+
+O --> T["Professional Teams"]
+
+T --> M["Professional Missions"]
+
+M --> E["Evidence"]
+
+E --> K["Engineering Knowledge"]
+
+K --> I["Continuous Improvement"]
+
+I --> V
+```
+
+The lifecycle above represents the approved public engineering concept.
+
+It intentionally distinguishes architectural vision from implementation and operational capability.
+
+---
+
+# Organization Evolution Model
+
+Every future AI-native organization is publicly envisioned to evolve through complementary engineering stages.
+
+| Lifecycle Stage | Public Engineering Purpose |
+|-----------------|----------------------------|
+| Vision | Define long-term engineering direction |
+| Architecture | Establish structural engineering principles |
+| Organization Design | Create professional organizational models |
+| Professional Teams | Assemble specialized engineering expertise |
+| Professional Missions | Coordinate governed engineering activities |
+| Evidence | Preserve engineering transparency and traceability |
+| Engineering Knowledge | Capture organizational learning |
+| Continuous Improvement | Strengthen future engineering capability |
+
+The lifecycle stages describe architectural direction only.
+
+They must not be interpreted as implementation status or production functionality.
+
+---
+
+# Organizational Evolution Principles
+
+The long-term evolution of AI-native organizations is intended to preserve permanent engineering commitments.
+
+• Architecture Before Implementation.
+
+• Evidence Before Status.
+
+• Professional Responsibility.
+
+• Engineering Transparency.
+
+• Federated Professional Coordination.
+
+• Human Oversight.
+
+• Public / Private Boundary.
+
+• Continuous Organizational Learning.
+
+Organizations are publicly envisioned to improve through accumulated engineering knowledge rather than uncontrolled growth.
+
+---
+
+# Public Engineering Relationships
+
+```mermaid
+flowchart TB
+
+Alexander_Romaskevich
+
+--> IMPERIAL_Core
+
+IMPERIAL_Core
+
+--> HANTER
+
+HANTER
+
+--> Legion
+
+Legion
+
+--> Professional_Organizations
+
+Professional_Organizations
+
+--> Professional_Teams
+
+Professional_Teams
+
+--> Missions
+
+Missions
+
+--> Evidence
+
+Evidence
+
+--> Engineering_Knowledge
+
+Engineering_Knowledge
+
+--> Continuous_Improvement
+```
+
+The diagram above illustrates only the approved public engineering relationship.
+
+It intentionally excludes runtime architecture, deployment infrastructure, internal orchestration logic and confidential engineering assets.
+
+---
+
+# Public and Private Engineering
+
+## Public Repository
+
+This repository documents:
+
+- organization lifecycle concepts;
+- engineering architecture;
+- governance philosophy;
+- professional organizational evolution;
+- documentation standards;
+- long-term engineering direction.
+
+## Private Engineering
+
+Private repositories may contain:
+
+- implementation source code;
+- runtime orchestration;
+- lifecycle automation;
+- internal Skills;
+- internal Plugins;
+- infrastructure;
+- deployment systems;
+- operational engineering;
+- confidential engineering documentation.
+
+Those materials remain intentionally excluded from this repository.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional lifecycle architecture where AI-native organizations continuously improve through architecture, governance, engineering knowledge and evidence-driven collaboration.
+
+Public documentation communicates this engineering direction while preserving the Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
