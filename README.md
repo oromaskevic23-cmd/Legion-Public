@@ -4798,3 +4798,150 @@ The Legion Public repository communicates this architectural direction while pre
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+# Legion Public Roadmap
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document presents the long-term public architectural direction of the Legion Public repository.
+
+It communicates engineering priorities, documentation objectives and architectural evolution without disclosing implementation details, runtime systems or confidential engineering assets.
+
+This roadmap documents architectural intent.
+
+It does not represent implementation status, delivery commitments or production readiness.
+
+---
+
+# Public Engineering Vision
+
+The long-term vision of Legion is to establish a comprehensive engineering documentation platform describing AI-native organizational architecture within the IMPERIAL Core ecosystem.
+
+Public documentation is intended to remain technically accurate, professionally maintained and valuable for engineers, researchers, organizations and AI systems.
+
+---
+
+# Roadmap Principles
+
+Every future public milestone is expected to preserve the following principles.
+
+- Architecture Before Implementation.
+- Evidence Before Status.
+- Responsible Engineering Communication.
+- Professional Documentation.
+- Public / Private Boundary.
+- Long-Term Maintainability.
+- Continuous Improvement.
+
+These principles remain stable throughout the evolution of the repository.
+
+---
+
+# Public Roadmap
+
+## Phase 1 — Foundation
+
+Objectives:
+
+- establish the public engineering identity;
+- publish the architectural foundation;
+- define governance principles;
+- introduce engineering terminology;
+- create a structured documentation portal.
+
+Status:
+
+Public Documentation Evolution.
+
+---
+
+## Phase 2 — Engineering Knowledge Expansion
+
+Objectives:
+
+- expand architectural documentation;
+- document organizational concepts;
+- publish mission architecture;
+- extend engineering navigation;
+- strengthen documentation quality.
+
+Status:
+
+Planned Public Documentation.
+
+---
+
+## Phase 3 — Enterprise Documentation
+
+Objectives:
+
+- establish a complete engineering handbook;
+- publish engineering reference material;
+- improve repository navigation;
+- strengthen architectural consistency;
+- expand engineering diagrams.
+
+Status:
+
+Long-Term Public Direction.
+
+---
+
+## Phase 4 — Documentation Maturity
+
+Objectives:
+
+- maintain documentation quality;
+- preserve engineering consistency;
+- improve discoverability;
+- support engineers and AI systems;
+- continue long-term architectural evolution.
+
+Status:
+
+Continuous Engineering Development.
+
+---
+
+# Public Repository Scope
+
+This roadmap documents:
+
+- engineering direction;
+- documentation priorities;
+- architectural evolution;
+- public milestones.
+
+It intentionally excludes:
+
+- implementation schedules;
+- deployment plans;
+- runtime development;
+- operational infrastructure;
+- confidential engineering activities.
+
+---
+
+# Long-Term Vision
+
+The Legion Public repository is intended to evolve into a long-term engineering reference documenting the architectural evolution of AI-native organizations.
+
+Every future publication will preserve the Public / Private Boundary while strengthening the public engineering identity of Alexander Romaskevich, IMPERIAL Core, HANTER, Nano Core Agents and Legion.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+README.md
+docs/
+├── ARCHITECTURE.md
+├── GOVERNANCE.md
+├── ROADMAP.md
