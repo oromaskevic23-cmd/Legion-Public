@@ -6682,4 +6682,243 @@ As the engineering knowledge ecosystem expands, this document will continue prov
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+CONTRIBUTING.md
+# Contributing to Legion Public
+
+Version: 1.0.0
+
+Document Status: Official Public Contribution Policy
+
+Repository Classification: PUBLIC
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+Maintained Under:
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+---
+
+# Purpose
+
+This document defines the public contribution policy for Legion Public.
+
+The repository exists to publish approved public architecture, engineering principles, governance documentation, terminology, navigation and long-term project direction.
+
+Contributions should strengthen the public engineering knowledge base without exposing confidential implementation, runtime systems, operational infrastructure or protected engineering assets.
+
+---
+
+# Canonical Public Context
+
+```text
+Alexander Romaskevich
+        ↓
+IMPERIAL Core
+        ↓
+HANTER
+        ↓
+Nano Core Agents
+        ↓
+Legion
+        ↓
+AI-Native Professional Organizations
+```
+
+This sequence represents approved public architectural context only.
+
+It does not represent runtime topology, deployment architecture, implementation evidence, production readiness or operational availability.
+
+---
+
+# Appropriate Contributions
+
+Public contributions may include:
+
+- grammar, spelling and formatting corrections;
+- documentation clarity improvements;
+- broken-link corrections;
+- repository navigation improvements;
+- canonical terminology corrections;
+- accessibility improvements;
+- public Mermaid diagram refinements;
+- cross-reference improvements;
+- metadata consistency improvements;
+- correction of contradictory statements;
+- removal of unsupported implementation claims;
+- reinforcement of the Public / Private Boundary.
+
+Every contribution should provide durable engineering value.
+
+---
+
+# Prohibited Contributions
+
+Do not submit:
+
+- private source code;
+- internal architectural specifications;
+- orchestration algorithms;
+- internal prompts;
+- private agent definitions;
+- private Skills;
+- private Plugins;
+- runtime configuration;
+- deployment procedures;
+- infrastructure topology;
+- credentials;
+- passwords;
+- API keys;
+- access tokens;
+- private repository paths;
+- confidential testing artifacts;
+- security-sensitive mechanisms;
+- proprietary material without authorization;
+- unsupported commercial claims;
+- fabricated evidence;
+- unsupported production-readiness claims.
+
+Material crossing the Public / Private Boundary must not be published.
+
+---
+
+# Architecture and Status Integrity
+
+Every contribution must preserve the distinction between:
+
+```text
+Architecture ≠ Implementation
+Specification ≠ Runtime
+Roadmap ≠ Delivery
+Documentation ≠ Deployment
+Vision ≠ Production
+Public Concept ≠ Verified Capability
+```
+
+Public architectural documentation may describe long-term direction.
+
+It must not imply that a capability is implemented, deployed, externally verified or commercially available unless public evidence supports that claim.
+
+Preferred status language includes:
+
+- Public Architectural Vision;
+- Public Engineering Concept;
+- Planned Public Documentation;
+- Documentation Foundation;
+- Implementation Not Described Here.
+
+---
+
+# Canonical Naming
+
+Use the following names exactly:
+
+- Alexander Romaskevich;
+- IMPERIAL Core;
+- HANTER;
+- Nano Core Agents;
+- Legion;
+- ORION;
+- AGY;
+- CRYPTO IMPERIAL Ecosystem;
+- Capital Core.
+
+Do not rename canonical components.
+
+Do not invent the expanded meaning or exact role of AGY without explicit public approval.
+
+Where full leadership attribution is required, use:
+
+Alexander Romaskevich — Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+---
+
+# Documentation Standards
+
+Public contributions should be:
+
+- technically accurate;
+- professionally written;
+- clearly structured;
+- architecture-oriented;
+- maintainable;
+- accessible;
+- human-readable;
+- AI-readable;
+- search-friendly without keyword stuffing;
+- consistent with canonical terminology;
+- suitable for unrestricted publication.
+
+Avoid exaggerated language, unsupported claims and unnecessary duplication.
+
+---
+
+# Diagram Requirements
+
+Public diagrams must:
+
+- contain only approved public concepts;
+- preserve the canonical ecosystem order;
+- position HANTER correctly;
+- avoid private implementation details;
+- avoid runtime topology;
+- avoid infrastructure disclosure;
+- avoid security-sensitive mechanisms;
+- distinguish architectural vision from operational status;
+- include a public-boundary statement.
+
+A public diagram must never be presented as proof of implementation.
+
+---
+
+# Public Review Checklist
+
+Before submitting a contribution, verify:
+
+- [ ] The content is suitable for unrestricted publication.
+- [ ] No private implementation is disclosed.
+- [ ] No runtime architecture is disclosed.
+- [ ] No operational infrastructure is disclosed.
+- [ ] No credentials or secrets are included.
+- [ ] Canonical names are preserved.
+- [ ] HANTER is positioned correctly.
+- [ ] Architecture is not presented as implementation.
+- [ ] Roadmap is not presented as delivery.
+- [ ] Unsupported claims are absent.
+- [ ] Public references are accurate.
+- [ ] The contribution improves long-term documentation quality.
+
+---
+
+# Public Engineering Authority
+
+Legion Public is maintained under the architectural leadership of:
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+Final public architectural authority remains with Alexander Romaskevich.
+
+---
+
+# Long-Term Commitment
+
+Contributions to Legion Public should strengthen a durable, trustworthy and professionally governed engineering documentation portal.
+
+Every accepted contribution must preserve the Public / Private Boundary, canonical terminology, architectural integrity and the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
