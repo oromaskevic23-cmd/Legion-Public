@@ -7302,4 +7302,137 @@ Future publications will preserve the principles of PUBLIC ONLY, MINIMAL DISCLOS
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+LEGION-PUBLIC-v1.0.md
+# Legion Public Foundation v1.0
+
+Version: 1.0.0
+
+Status: OFFICIAL PUBLIC FOUNDATION RELEASE
+
+Repository Classification: PUBLIC
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Official Statement
+
+Legion Public Foundation v1.0 represents the first complete public engineering documentation baseline for the Legion repository.
+
+This publication establishes a long-term architectural reference describing the public engineering vision of Legion within the IMPERIAL Core ecosystem.
+
+The repository communicates architecture, governance, engineering principles and documentation standards.
+
+It intentionally does not publish implementation source code, runtime systems, deployment infrastructure or confidential engineering assets.
+
+---
+
+# Foundation Documents
+
+The Foundation Release includes the following public engineering documentation.
+
+- Architecture
+- Governance
+- Roadmap
+- Glossary
+- Public / Private Boundary
+- Organizations
+- Mission Architecture
+- Documentation Navigation
+- Engineering Standards
+- Engineering Knowledge
+- Frequently Asked Questions
+- Documentation Index
+- Public Ecosystem
+- Repository Map
+- Contribution Policy
+- Security Policy
+- Foundation Release
+- Foundation Status
+
+Together these documents establish the first official public engineering knowledge portal for Legion.
+
+---
+
+# Engineering Principles
+
+The Foundation Release permanently adopts the following engineering principles.
+
+- Architecture Before Implementation
+- Evidence Before Status
+- Public / Private Boundary
+- Responsible Engineering Communication
+- Professional Documentation
+- Canonical Terminology
+- Long-Term Maintainability
+- Engineering Transparency
+- Continuous Improvement
+
+These principles are intended to remain stable throughout the future evolution of Legion Public.
+
+---
+
+# Canonical Public Engineering Context
+
+```text
+Alexander Romaskevich
+        ↓
+IMPERIAL Core
+        ↓
+HANTER
+        ↓
+Nano Core Agents
+        ↓
+Legion
+        ↓
+AI-Native Professional Organizations
+```
+
+The relationship above represents approved public architectural context only.
+
+---
+
+# Public Engineering Mission
+
+Legion Public exists to provide engineers, researchers, organizations and AI systems with a professional engineering documentation portal describing the long-term architectural direction of Legion.
+
+Its objective is to preserve engineering knowledge while maintaining a permanent distinction between public architectural documentation and confidential engineering implementation.
+
+---
+
+# Foundation Commitment
+
+Future public publications will continue strengthening:
+
+- engineering quality;
+- documentation consistency;
+- architectural transparency;
+- responsible disclosure;
+- semantic discoverability;
+- AI readability;
+- long-term knowledge preservation.
+
+Every future publication will preserve the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+
+# Founder
+
+Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+
+Architect and final authority of IMPERIAL Core
+
+---
+
+# Foundation Milestone
+
+Legion Public Foundation v1.0 establishes the first official public engineering documentation milestone of Legion within the IMPERIAL Core ecosystem and provides a stable architectural foundation for future public documentation.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
 
