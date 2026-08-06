@@ -5410,3 +5410,177 @@ docs/
 © Alexander Romaskevich
 
 Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
+---
+# Mission Architecture
+
+Version: 1.0
+
+Classification: PUBLIC ONLY
+
+Disclosure Policy: MINIMAL DISCLOSURE
+
+---
+
+# Purpose
+
+This document describes the approved public architectural concept of professional missions within the Legion ecosystem.
+
+A mission represents a structured engineering activity designed to achieve a defined objective through professional coordination, engineering governance and evidence-driven collaboration.
+
+This document communicates architectural concepts only.
+
+It intentionally excludes implementation details, runtime orchestration, deployment infrastructure and confidential engineering systems.
+
+---
+
+# Public Mission Philosophy
+
+Within the public engineering vision of Legion, a mission is not simply a task.
+
+A mission is a governed engineering process that coordinates professional expertise, architectural consistency and organizational knowledge while preserving engineering quality and transparency.
+
+Future AI-native organizations are publicly envisioned to perform work through governed professional missions rather than isolated actions.
+
+---
+
+# Public Mission Architecture
+
+```mermaid
+flowchart TB
+
+VISION["Business or Engineering Vision"]
+
+VISION --> OBJECTIVE["Mission Objective"]
+
+OBJECTIVE --> HANTER["HANTER"]
+
+HANTER --> ORCH["Domain & Functional Orchestrators"]
+
+ORCH --> TEAM["Professional Nano Core Agent Teams"]
+
+TEAM --> EXEC["Professional Mission Activities"]
+
+EXEC --> REVIEW["Engineering Review"]
+
+REVIEW --> EVIDENCE["Evidence & Traceability"]
+
+EVIDENCE --> KNOWLEDGE["Engineering Knowledge"]
+
+KNOWLEDGE --> IMPROVEMENT["Continuous Improvement"]
+```
+
+The diagram above represents the approved public architectural relationship.
+
+It intentionally excludes implementation architecture, runtime orchestration, deployment infrastructure and confidential engineering systems.
+
+---
+
+# Mission Lifecycle
+
+Every future professional mission is publicly envisioned as progressing through complementary engineering stages.
+
+| Stage | Public Architectural Purpose |
+|--------|------------------------------|
+| Vision | Define the engineering objective |
+| Mission Definition | Establish professional scope |
+| Coordination | Organize professional expertise |
+| Execution | Perform governed engineering activities |
+| Review | Evaluate engineering quality |
+| Evidence | Preserve transparency and traceability |
+| Knowledge | Capture organizational learning |
+| Improvement | Strengthen future engineering capability |
+
+The lifecycle communicates architectural intent only.
+
+It does not represent implementation status or operational capability.
+
+---
+
+# Engineering Mission Principles
+
+Professional missions are intended to preserve permanent engineering commitments.
+
+- Architecture Before Implementation.
+- Evidence Before Status.
+- Professional Responsibility.
+- Engineering Transparency.
+- Federated Coordination.
+- Human Oversight.
+- Public / Private Boundary.
+- Continuous Improvement.
+
+---
+
+# Canonical Public Engineering Context
+
+Alexander Romaskevich
+
+↓
+
+IMPERIAL Core
+
+↓
+
+HANTER
+
+↓
+
+Legion
+
+↓
+
+Professional Organizations
+
+↓
+
+Professional Missions
+
+↓
+
+Engineering Evidence
+
+↓
+
+Engineering Knowledge
+
+↓
+
+Continuous Improvement
+
+The relationship above represents only the approved public engineering context.
+
+---
+
+# Public Repository Scope
+
+This document describes:
+
+- mission architecture;
+- engineering mission concepts;
+- lifecycle philosophy;
+- governance relationships;
+- long-term engineering direction.
+
+This document intentionally excludes:
+
+- implementation source code;
+- runtime orchestration;
+- deployment infrastructure;
+- operational engineering;
+- internal Skills;
+- internal Plugins;
+- confidential engineering systems.
+
+---
+
+# Long-Term Vision
+
+The long-term objective of Legion is to establish a professional mission architecture supporting AI-native organizations through governed engineering activities, transparent documentation, evidence-driven collaboration and continuous improvement.
+
+Public documentation communicates this architectural direction while preserving the established Public / Private Boundary and maintaining the principles of PUBLIC ONLY and MINIMAL DISCLOSURE.
+
+---
+
+© Alexander Romaskevich
+
+Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core
