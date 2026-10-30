@@ -9,6 +9,12 @@ LEGION is the professional digital workforce of IMPERIAL Core, intended to suppo
 
 The work taxonomy is implemented in legion/sectors.py and includes software, websites, quality assurance, permitted defensive security, design, video/animation, audio, content, localization, marketing, ethical SEO, customer service, CRM, e-commerce, documentation, research, analytics, operations, education, recruiting administration, digital products, project management and more. Inclusion is NOT evidence of paying opportunities, platform authorization, demand, legality or platform API availability. All work must respect contracts, client consent, applicable law, account terms, anti-spam rules and personal data boundaries.
 
+## Stage 2: sector-specific synthetic policy examination
+
+[370-sector-case lab and QA gates](PROFESSIONAL_SIMULATION_GATES.md) supplies ten synthetic scenarios per sector, with independent implementation of safety scoring and reproducible SHA-256 evidence. This is **not a trained LLM** or domain skill certification. A valid result remains sandbox-only until true professional and security QA, live AI Passport, Guardian Core and Approval Gateway are verified.
+
+**Mission lease correction:** registration now records a finite mission expiry, including for commercial SALE_OFFER products that have no agent-level calendar expiry. The engine denies a missing or expired lease even when the product entitlement is perpetual.
+
 ## Agent lifecycle
 
 1. DESIGN: select mission, profession, sector, tenant and least-privilege skills.
