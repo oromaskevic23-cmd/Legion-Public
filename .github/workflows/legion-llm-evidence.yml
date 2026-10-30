@@ -1,0 +1,84 @@
+name: LEGION real local LLM professional practice and independent rubric evidence
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/legion-llm-evidence.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legion-llm-evidence
+  cancel-in-progress: false
+
+jobs:
+  real-local-llm:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    env:
+      OLLAMA_HOST: "127.0.0.1:11434"
+      OLLAMA_NO_CLOUD: "1"
+      OLLAMA_MODELS: "/tmp/legion-private-ollama-models"
+    steps:
+      - name: Checkout exact revision without credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Verify standard-library professional evaluation
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+          python3 -m legion.professional_exam
+      - name: Install checksum-verified Ollama on ephemeral CPU runner
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v zstd >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq zstd
+          fi
+          curl --proto '=https' --tlsv1.2 -fL --retry 2 --connect-timeout 15 --max-time 480 \
+            'https://github.com/ollama/ollama/releases/download/v0.40.11/ollama-linux-amd64.tar.zst' \
+            --output "$RUNNER_TEMP/ollama-v0.40.11.tar.zst"
+          echo "7bedab90dd122661be78798e9f0edf37fccf0cccf2699d2c58ea1a3afdc04b6d  $RUNNER_TEMP/ollama-v0.40.11.tar.zst" | sha256sum --check
+          mkdir -p "$RUNNER_TEMP/ollama-install"
+          tar --zstd -xf "$RUNNER_TEMP/ollama-v0.40.11.tar.zst" -C "$RUNNER_TEMP/ollama-install"
+          test -x "$RUNNER_TEMP/ollama-install/bin/ollama"
+          "$RUNNER_TEMP/ollama-install/bin/ollama" --version
+      - name: Start loopback-only inference engine and download public small model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$OLLAMA_MODELS"
+          "$RUNNER_TEMP/ollama-install/bin/ollama" serve > "$RUNNER_TEMP/ollama-local.log" 2>&1 &
+          for i in $(seq 1 60); do
+            if curl --noproxy '*' -fsS 'http://127.0.0.1:11434/api/tags' >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --noproxy '*' -fsS 'http://127.0.0.1:11434/api/tags' >/dev/null
+          timeout 240 "$RUNNER_TEMP/ollama-install/bin/ollama" pull smollm2:135m-instruct-q4_K_M
+          "$RUNNER_TEMP/ollama-install/bin/ollama" list
+      - name: Run six professional practice cases, three coached revisions and six heldout exams
+        shell: bash
+        env:
+          LEGION_LOCAL_MODEL_PROBE: I_APPROVE_SYNTHETIC_LOCAL_INFERENCE
+        run: |
+          set -euo pipefail
+          python3 -m legion.llm_training --live | tee "$RUNNER_TEMP/legion-qa-report.json"
+          python3 - "$RUNNER_TEMP/legion-qa-report.json" >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json,sys
+          report=json.load(open(sys.argv[1],encoding='utf-8'))
+          print("## LEGION — local LLM exam (no production authority)")
+          print(f"- Real inference calls: {report['inference_calls']}")
+          print(f"- Practice cases: {report['practice_cases']}")
+          print(f"- Heldout rubric: {report['passed']}/{report['case_count']}")
+          print(f"- Exam status: {report['exam_result']}")
+          print(f"- Independent human QA: {report['independently_operated_qa']}")
+          print(f"- Professionally qualified: {report['professional_qualified']}")
+          print(f"- Commercial-platform access: {report['commercial_platform_access']}")
+          print(f"- Evidence SHA-256: {report['evidence_sha256']}")
+          PY
