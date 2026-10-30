@@ -1,5 +1,7 @@
 # LEGION
 
+**Project founder and founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship and contribution provenance](AUTHORS.md).
+
 Professional teams of Nano Core Agents operating within federated domains and explicit permissions.
 
 **Status: SPECIFIED — public team architecture; private test claims are not public proof.**  
