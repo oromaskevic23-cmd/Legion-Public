@@ -5,3 +5,8 @@
 /.github/workflows/enterprise-founder-authorship.yml @oromaskevic23-cmd
 /LICENSE* @oromaskevic23-cmd
 /NOTICE* @oromaskevic23-cmd
+/legion/ @oromaskevic23-cmd
+/tests/ @oromaskevic23-cmd
+/docs/LEGION_UNIVERSAL_WORKFORCE_ARCHITECTURE.md @oromaskevic23-cmd
+/docs/LEGION_BRAND_SYSTEM.md @oromaskevic23-cmd
+/.github/workflows/legion-offline.yml @oromaskevic23-cmd
