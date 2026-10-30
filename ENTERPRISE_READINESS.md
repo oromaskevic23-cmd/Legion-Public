@@ -26,6 +26,10 @@
 | Evidence | Local SHA-256 audit integrity and reproducible CI | No independent signed Audit Ledger, ProofGraph or QA |
 | Commercial execution | None; all external side effects denied | No verified customer, price, license sale or revenue |
 
+## Stage 2 evidence — policy-only
+
+[Professional simulation](docs/PROFESSIONAL_SIMULATION_GATES.md) adds 370 deterministic, synthetic policy cases across 37 sectors with a separately authored evaluator and deny-first scoring. Positive results **do not raise E2/E3 to E4/E5/E6**; they are no evidence of model training or career qualifications. Every agent mission must now have finite local lease even if its SALE_OFFER product record is perpetual.
+
 ## Release-blocking work
 
 1. Enforce truly authenticated Owner Kill Switch, signed versioned control state and cross-orchestrator propagation with cancellation semantics and proof of measured latency.

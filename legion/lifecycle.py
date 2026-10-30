@@ -42,6 +42,10 @@ class Legion:
                     scope TEXT NOT NULL, subject TEXT NOT NULL, reason TEXT NOT NULL,
                     PRIMARY KEY(scope, subject)
                 );
+                CREATE TABLE IF NOT EXISTS mission_leases(
+                    agent_id TEXT PRIMARY KEY,
+                    expires_at INTEGER NOT NULL
+                );
                 CREATE TABLE IF NOT EXISTS audit(
                     seq INTEGER PRIMARY KEY AUTOINCREMENT,
                     event TEXT NOT NULL, prior_sha TEXT NOT NULL, entry_sha TEXT NOT NULL
@@ -83,6 +87,14 @@ class Legion:
                                ("agent",row["id"]),("mission",row["mission"])):
             if cx.execute("SELECT 1 FROM kills WHERE scope=? AND subject=?", (scope,subject)).fetchone():
                 raise Denied("OWNER_KILL_SWITCH")
+        lease = cx.execute(
+            "SELECT expires_at FROM mission_leases WHERE agent_id=?",
+            (row["id"],)
+        ).fetchone()
+        if lease is None:
+            raise Denied("MISSING_MISSION_LEASE")
+        if now >= lease["expires_at"]:
+            raise Denied("MISSION_EXPIRED")
         if row["state"] == "STOPPED":
             raise Denied("AGENT_STOPPED")
         if row["expires_at"] is not None and now >= row["expires_at"]:
@@ -90,7 +102,9 @@ class Legion:
 
     def register(self, *, agent_id: str, role: str, sector: str,
                  mission: str, product_class: str = "INTERNAL",
-                 lifetime_seconds: int | None = 3600, now: int | None = None):
+                 lifetime_seconds: int | None = 3600,
+                 mission_lifetime_seconds: int = 3600,
+                 now: int | None = None):
         """Perpetual SALE_OFFER has no agent expiration; no sale/entitlement is issued."""
         ts = self._now(now)
         if not self._identifier(agent_id) or not self._identifier(mission):
@@ -109,6 +123,9 @@ class Legion:
             if type(lifetime_seconds) is not int or not 1 <= lifetime_seconds <= 31_536_000:
                 raise Denied("FINITE_INTERNAL_TTL_REQUIRED")
             expiry = ts + lifetime_seconds
+        if type(mission_lifetime_seconds) is not int or not 1 <= mission_lifetime_seconds <= 86400:
+            raise Denied("FINITE_MISSION_TTL_REQUIRED")
+        mission_expiry = ts + mission_lifetime_seconds
         squad = ALL_ROLE_INDEX[role].squad
         with self._db() as cx:
             cx.execute("BEGIN IMMEDIATE")
@@ -125,8 +142,13 @@ class Legion:
                     (agent_id,role,sector,squad,mission,product_class,expiry))
             except sqlite3.IntegrityError:
                 raise Denied("DUPLICATE_AGENT") from None
+            cx.execute(
+                "INSERT INTO mission_leases(agent_id,expires_at) VALUES (?,?)",
+                (agent_id, mission_expiry)
+            )
             self._append(cx,{"type":"REGISTERED","id":agent_id,"mission":mission,
-                             "product_class":product_class,"expires_at":expiry})
+                             "product_class":product_class,"expires_at":expiry,
+                             "mission_expires_at":mission_expiry})
 
     def simulate(self, agent_id: str, *, now: int | None = None) -> dict:
         """Twelve synthetic exercises; deterministic scoring is NOT model training."""
@@ -216,7 +238,12 @@ class Legion:
     def inspect(self, agent_id: str) -> dict:
         with self._db() as cx:
             row=self._agent(cx,agent_id)
-            return dict(row)
+            record = dict(row)
+            lease = cx.execute(
+                "SELECT expires_at FROM mission_leases WHERE agent_id=?", (agent_id,)
+            ).fetchone()
+            record["mission_expires_at"] = lease["expires_at"] if lease else None
+            return record
 
     def audit_valid(self) -> bool:
         with self._db() as cx:

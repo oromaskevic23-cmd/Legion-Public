@@ -154,11 +154,35 @@ class LegionLifecycleTests(unittest.TestCase):
         row=self.system.inspect("NCA-001")
         self.assertIsNone(row["expires_at"])
         self.assertEqual(row["product_class"],"SALE_OFFER")
-        # Demo status does not prove an actual sold entitlement or a live customer.
-        out=self.system.step("NCA-001","synthetic sample",now=99_999_000)
+        # The product record does not expire, but its assigned mission does.
+        self.assertEqual(row["mission_expires_at"], 4600)
+        out=self.system.step("NCA-001","synthetic sample",now=1005)
         self.assertFalse(out["real_world_action"])
+        self.assert_denied("MISSION_EXPIRED",lambda:self.system.step(
+            "NCA-001","never an endless mission",now=4600))
         self.system.stop(scope="global",subject="*",reason="Safety override remains valid")
-        self.assert_denied("OWNER_KILL_SWITCH",lambda:self.system.step("NCA-001","no",now=99_999_001))
+        self.assert_denied("OWNER_KILL_SWITCH",lambda:self.system.step("NCA-001","no",now=4601))
+
+    def test_mission_expiry_applies_to_internal_agent(self):
+        self.add(lifetime_seconds=100,mission="mission-1")
+        self.system.simulate("NCA-001",now=1001)
+        self.system.activate_sandbox("NCA-001",now=1002)
+        self.assert_denied("MISSION_EXPIRED", lambda:
+                           self.system.step("NCA-001","x",now=4600))
+
+    def test_missing_mission_lease_is_fail_closed(self):
+        self.ready()
+        with sqlite3.connect(self.db) as cx:
+            cx.execute("DELETE FROM mission_leases WHERE agent_id='NCA-001'")
+        self.assert_denied("MISSING_MISSION_LEASE", lambda:
+                           self.system.step("NCA-001","x",now=1004))
+
+    def test_invalid_mission_ttl_rejected(self):
+        self.assert_denied("FINITE_MISSION_TTL_REQUIRED",lambda:
+            self.system.register(
+                agent_id="NCA-001",role="software-engineer",
+                sector="software-development",mission="mission-1",
+                mission_lifetime_seconds=0,now=1000))
 
     def test_perpetual_sale_offer_rejects_expiration_input(self):
         self.assert_denied("SALE_OFFER_MUST_BE_TIMELESS",lambda:self.add(

@@ -37,6 +37,14 @@ The demo runs twelve deterministic cases, four synthetic workflow steps (three u
 
 **Agent expiry:** internal NCA have finite lifetimes; commercial SALE_OFFER records may have no calendar expiry but no actual customer entitlement or paid license is issued. Task-level access always needs finite permissions in production. **Every agent can be stopped within authorized deployment boundaries**, including through local CLI and code; self-hosted customer controls must be defined by contract.
 
+## Profession-specific policy exams — simulation stage 2
+
+The [370-case offline simulation exam](docs/PROFESSIONAL_SIMULATION_GATES.md) covers all 37 internet-work sectors and separately checks the policy output of a no-tool, rule-based candidate. It includes permission-denial, private-data escalation, publication and payment handling. A passing exam proves **synthetic policy behavior only**, not real professional competence, model training, production authority, clients or income.
+
+    python3 -m legion.professional_exam
+
+**Perpetual product is not perpetual work authorization:** even a SALE_OFFER record without agent expiration now requires a separately expiring mission lease. A missing or expired mission lease denies all sandbox steps.
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.
