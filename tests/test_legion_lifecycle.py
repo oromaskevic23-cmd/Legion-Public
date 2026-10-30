@@ -7,7 +7,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from legion.catalog import ROLES, ROLE_INDEX, SQUADS, validate_catalog
+from legion.catalog import (ROLES, ROLE_INDEX, SQUADS, validate_catalog,
+                            PROFESSIONAL_ROLE_INDEX, PROFESSIONAL_ROLE_SECTORS, ALL_ROLE_INDEX)
 from legion.lifecycle import Denied, Legion
 from legion.sectors import SECTORS
 from legion.simulator import run_simulation
@@ -48,6 +49,32 @@ class LegionLifecycleTests(unittest.TestCase):
         self.assertEqual(len(SQUADS), 5)
         self.assertEqual(len(ROLE_INDEX), 25)
         self.assertGreaterEqual(len(SECTORS), 30)
+
+    def test_professional_catalog_covers_every_declared_online_sector(self):
+        self.assertGreaterEqual(len(PROFESSIONAL_ROLE_INDEX), 35)
+        self.assertEqual(set(PROFESSIONAL_ROLE_SECTORS.values()), SECTORS)
+        self.assertGreater(len(ALL_ROLE_INDEX), 25)
+
+    def test_creative_professional_simulation_then_bounded_work(self):
+        self.ready("NCA-DESIGN", role="professional-graphic-designer",
+                   sector="graphic-design", mission="design-mission")
+        result = self.system.step("NCA-DESIGN", "synthetic brand title",
+                                  now=1003)
+        self.assertEqual(result["review"], "AUTO")
+        self.assertFalse(result["real_world_action"])
+
+    def test_marketing_profession_not_authorized_for_external_effect(self):
+        self.ready("NCA-MARKETING", role="professional-marketing-analyst",
+                   sector="digital-marketing", mission="marketing-mission")
+        self.assert_denied("EXTERNAL_EFFECTS_FORBIDDEN", lambda:
+                           self.system.step("NCA-MARKETING",
+                               "send mass unsolicited outreach",
+                               external_effect=True, now=1003))
+
+    def test_profession_cannot_impersonate_other_sector(self):
+        self.assert_denied("ROLE_SECTOR_MISMATCH", lambda:
+                           self.add(role="professional-graphic-designer",
+                                    sector="financial-reporting-research"))
 
     def test_simulation_for_all_three_safe_skills(self):
         for skill in ("TEXT_METRICS", "RISK_MARKERS", "SHA256_TEXT"):

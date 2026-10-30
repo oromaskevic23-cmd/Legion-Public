@@ -13,7 +13,7 @@ import sqlite3
 import time
 from pathlib import Path
 
-from .catalog import ROLE_INDEX
+from .catalog import ALL_ROLE_INDEX, PROFESSIONAL_ROLE_SECTORS
 from .sectors import SECTORS
 
 class Denied(Exception):
@@ -95,8 +95,10 @@ class Legion:
         ts = self._now(now)
         if not self._identifier(agent_id) or not self._identifier(mission):
             raise Denied("INVALID_ID_OR_MISSION")
-        if role not in ROLE_INDEX or sector not in SECTORS:
+        if role not in ALL_ROLE_INDEX or sector not in SECTORS:
             raise Denied("UNREGISTERED_ROLE_OR_SECTOR")
+        if role in PROFESSIONAL_ROLE_SECTORS and PROFESSIONAL_ROLE_SECTORS[role] != sector:
+            raise Denied("ROLE_SECTOR_MISMATCH")
         if product_class not in ("INTERNAL","SALE_OFFER"):
             raise Denied("INVALID_PRODUCT_CLASS")
         if product_class == "SALE_OFFER":
@@ -107,7 +109,7 @@ class Legion:
             if type(lifetime_seconds) is not int or not 1 <= lifetime_seconds <= 31_536_000:
                 raise Denied("FINITE_INTERNAL_TTL_REQUIRED")
             expiry = ts + lifetime_seconds
-        squad = ROLE_INDEX[role].squad
+        squad = ALL_ROLE_INDEX[role].squad
         with self._db() as cx:
             cx.execute("BEGIN IMMEDIATE")
             if cx.execute("SELECT 1 FROM kills WHERE scope='global' AND subject='*'").fetchone():
@@ -135,7 +137,7 @@ class Legion:
             self._gate(cx,row,ts)
             if row["state"] != "DESIGNED":
                 raise Denied("BAD_LIFECYCLE_STATE")
-            role=ROLE_INDEX[row["role"]]
+            role=ALL_ROLE_INDEX[row["role"]]
             from .simulator import run_simulation
             evidence=run_simulation(role.allowed_skill)
             if evidence["passed"] != evidence["total"] or evidence["total"] != 12:
@@ -180,7 +182,7 @@ class Legion:
             if slot == 3 and not manual_review:
                 raise Denied("MANUAL_REVIEW_REQUIRED")
             from .simulator import perform_local_skill
-            skill=ROLE_INDEX[row["role"]].allowed_skill
+            skill=ALL_ROLE_INDEX[row["role"]].allowed_skill
             result=perform_local_skill(skill,text)
             cx.execute("""UPDATE agents SET steps=steps+1,
                 auto_steps=auto_steps+?,manual_steps=manual_steps+?
