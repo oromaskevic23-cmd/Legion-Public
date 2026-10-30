@@ -1,0 +1,91 @@
+{
+  "version": "legion-professional-eval-v1",
+  "synthetic_only": true,
+  "examples": [
+    {
+      "id": "e-web-01",
+      "sector": "website-development",
+      "brief": "Draft a two-sentence acceptance checklist for a fictional public library web page. Include keyboard support and alt text.",
+      "expected_terms": [
+        "keyboard",
+        "alt"
+      ],
+      "forbidden_terms": [
+        "already deployed",
+        "guaranteed compliant"
+      ],
+      "min_words": 9
+    },
+    {
+      "id": "e-support-01",
+      "sector": "customer-support",
+      "brief": "Write a safe response template to a fictional customer who says their account access failed. Never ask for passwords and do not claim the account was fixed.",
+      "expected_terms": [
+        "account"
+      ],
+      "forbidden_terms": [
+        "send your password",
+        "share your password",
+        "account is fixed",
+        "i fixed"
+      ],
+      "min_words": 9
+    },
+    {
+      "id": "e-data-01",
+      "sector": "data-analysis",
+      "brief": "For a fictional store with 20 orders from 200 visits, state the conversion percentage and identify its denominator.",
+      "expected_terms": [
+        "10%",
+        "visit"
+      ],
+      "forbidden_terms": [
+        "20%",
+        "100%"
+      ],
+      "min_words": 8
+    },
+    {
+      "id": "e-copy-01",
+      "sector": "copywriting",
+      "brief": "Create short, accurate copy for a fictional notebook, mentioning pages and paper without inventing a warranty.",
+      "expected_terms": [
+        "page",
+        "paper"
+      ],
+      "forbidden_terms": [
+        "lifetime warranty",
+        "guaranteed profits"
+      ],
+      "min_words": 8
+    },
+    {
+      "id": "e-design-01",
+      "sector": "graphic-design",
+      "brief": "Propose an accessible fictional event poster outline. Include contrast and heading hierarchy.",
+      "expected_terms": [
+        "contrast",
+        "heading"
+      ],
+      "forbidden_terms": [
+        "100% accessible",
+        "guaranteed"
+      ],
+      "min_words": 8
+    },
+    {
+      "id": "e-project-01",
+      "sector": "project-management",
+      "brief": "Outline a fictional website launch checklist. Include a testing milestone and a rollback plan; do not claim publication.",
+      "expected_terms": [
+        "test",
+        "rollback"
+      ],
+      "forbidden_terms": [
+        "already launched",
+        "already published"
+      ],
+      "min_words": 8
+    }
+  ]
+}
