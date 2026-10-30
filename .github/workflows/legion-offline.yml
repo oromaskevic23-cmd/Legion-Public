@@ -26,3 +26,7 @@ jobs:
         run: python3 -m unittest discover -s tests -p 'test_*.py' -v
       - name: Execute synthetic LEGION career-path example
         run: python3 -m legion.cli demo
+      - name: Evaluate 370 sector policy fixtures (not LLM training)
+        run: python3 -m legion.professional_exam
+      - name: Evaluate one creative services policy pack
+        run: python3 -m legion.professional_exam --sector graphic-design
