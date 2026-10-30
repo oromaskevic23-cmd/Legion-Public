@@ -1,44 +1,43 @@
-# Enterprise Readiness & Evidence Gate — Legion-Public
+# LEGION — Enterprise Readiness and Evidence Gates
 
-**Repository:** `oromaskevic23-cmd/Legion-Public`  
-**Audit:** 2026-10-24 · **Visibility:** PUBLIC  
-**Scope:** Additive documentation; repository source, configuration and existing history preserved.  
-**Maturity:** **E0/E1 architecture or specification**; actual E2–E6 performance **not independently verified**.
+**Repository:** oromaskevic23-cmd/Legion-Public  
+**Reviewed:** 31 October 2026  
+**Founder / Final Architectural Decision Authority:** Alexander Nikolaevich Romaskevich (RomaskevicH)  
+**State:** E2 local synthetic implementation; E3 automated unit tests. E4 integration / E5 operational runtime / E6 production **NOT VERIFIED**.
 
-## Verified repository facts
+## Verified public source
 
-- **Observed root:** README-only public architecture.
-- **Specific governance/security caution:** No operational agent marketplace/worker fabric is independently demonstrated by this README.
-- **Not proven in this review:** deployment, tests, security audit, actual billion-agent capacity, revenue, legal corporate formation.
+- Root proprietary source [LICENSE](LICENSE) is present; the corrected [inventory](governance/LICENSE_INVENTORY.md) records its scope and limitation.
+- Existing 25 initial role definitions plus 37 additional sector-specific professional templates, across an extensible taxonomy of 37 legitimate online-work sectors.
+- Local Python standard-library SQLite registry, mission and expiry fields, synthetic 12-exercise simulator, 75% autonomy policy (3/4 eligible low-risk steps), local operator/programmatic stop scopes, local hash-chained events.
+- [LEGION Universal Workforce Architecture](docs/LEGION_UNIVERSAL_WORKFORCE_ARCHITECTURE.md) and [Brand System](docs/LEGION_BRAND_SYSTEM.md).
+- [GitHub Actions offline tests](.github/workflows/legion-offline.yml) execute on PR and main. The first 28/28-scenario CI pass was recorded in [run 41146137296](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41146137296). This run applies to the exact commit tested, not all subsequent revisions.
 
-## Enterprise readiness contract
+## Evidence maturity
 
-| Control | Required proof | Audit state |
-|---|---|---|
-| Ownership/provenance | Human contribution, licenses, third-party origin | PENDING |
-| System boundaries | Architecture contract, public/private scope, lawful use | PARTIAL |
-| Security | Threat model, least privilege, secret scanning, fail-closed tests | UNVERIFIED |
-| CI and reproducibility | Actual test command and run at a recorded commit SHA | UNVERIFIED |
-| Isolation/recovery | Authorized domains, quotas, rollback and kill switch | UNVERIFIED |
-| Auditability | Traceable mission, permits, policy versions and ProofGraph | SPECIFICATION |
-| Operational readiness | Observed E5 runtime and E6 production evidence | NOT CLAIMED |
-| Publication | No leaked secrets, no unsubstantiated legal claims | REVIEW REQUIRED |
+| Capability | Verified scope | Production status |
+| --- | --- | --- |
+| Role definitions and sector catalog | 62 text-based role templates in code | No professionals or deployed models proven |
+| Simulation | 12 deterministic fixture checks per test skill | Not real LLM training or independent competence |
+| 75% autonomy | Every fourth of four synthetic steps demands manual-review flag | No real signed Approval Gateway or risk-based proof |
+| Mission and agent lifetime | SQLite expiry enforcement for internal agents | No distributed mission lease/cryptographic revocation |
+| Perpetual agent offer | SALE_OFFER stores null calendar expiry | Not a sold entitlement, contract or eternal hosted service |
+| Emergency stop | SQLite global/squad/mission/agent denial across restarts | No authenticated distributed or customer-side kill |
+| Evidence | Local SHA-256 audit integrity and reproducible CI | No independent signed Audit Ledger, ProofGraph or QA |
+| Commercial execution | None; all external side effects denied | No verified customer, price, license sale or revenue |
 
-**Universal NCA:** The IMPERIAL Core vision is a one-human-founder, LLM-assisted **digital corporation of universal NCA**, intended for a possible **1 to 1,000,000,000 identities**, not a billion executing workers. Professional roles are dynamic but subject to per-mission authorization. **HANTER** coordinates without a global privileged executor; **VELION** is the canonical intelligence component.
+## Release-blocking work
 
-**Human governance:** Identity ≠ Authority; Capability ≠ Approval; Zero Trust; Deny by Default; Fail Closed. Security agents act only on owned/authorized systems. Technical architecture does not establish legal ownership.
+1. Enforce truly authenticated Owner Kill Switch, signed versioned control state and cross-orchestrator propagation with cancellation semantics and proof of measured latency.
+2. Deploy actual AI Passport issuers, Enterprise Skills, Guardian Core, Approval Gateway, Audit Ledger, ProofGraph, IntentLock and Zero Trust security boundaries.
+3. Train/evaluate real professional NCA on representative domain tasks with independent QA, adversarial tests, safe tool use and model-specific evidence.
+4. Implement contract-governed sales, license entitlement issuance, separate task TTL/permissions and independent PAYMENT_CONFIRMED receipts; respect third-party source and model licenses.
+5. Authorize individual legal platform integrations, client consent and service agreements; no scraping, outbound messaging, or payment action by default.
+6. Prove robust task queues, tenant isolation, per-agent browser and sandbox boundaries, quotas, budget limits, resilience, cost and recovery.
+7. Do not assert 1,000,000,000+ concurrently executing NCA: it is a **future logical identity scale target** only.
 
-## Evidence-gated implementation next steps
+**Canonical architecture:** Architect → HANTER → Federated Domain Orchestrators → LEGION squads → Nano Core Agents. ORION supplies collective intelligence. VELION is the AI model platform; MAX is a mode. Zero Trust, Public/Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary remain mandatory.
 
-1. Confirm actual source/licensing and effective public/private classification.
-2. Add real tests and deterministic CI for available code; if documentation-only, classify E0/E1.
-3. Identify security risks and secret exposure; establish private issue/report process.
-4. Require founder or duly empowered human review of protected actions.
-5. Release only with verifiable E2 implementation, E3–E4 tests and E5–E6 evidence where claimed.
+No enterprise certification, registered corporate ownership, guaranteed income, financial authority or production deployment is implied by repository publication.
 
-E0 architecture → E1 specification → E2 implementation → E3 unit checks → E4 integration → E5 runtime → E6 production.
-
-**Reference:** [IMPERIAL Core governance](https://github.com/oromaskevic23-cmd/IMPERIAL-Core-US-HoldCo-Founder-Control-Blueprint/blob/main/docs/GOVERNANCE.md).  
-**Patent boundary:** A Git SHA or “digital invention passport” is not a government patent filing or grant.
-
-*No Enterprise certification, functional deployment or legal rights are represented by this audit file.*
+**Build software. Verify everything.**
