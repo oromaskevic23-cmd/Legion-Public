@@ -19,13 +19,13 @@ Architect / Final Architectural Decision Authority
 
 ## Public technical evidence
 
-The engineering branch includes a runnable Python **offline synthetic simulator**, a local agent registry, 25 professional role templates, an extensible online work taxonomy, mission expiry, 75% low-risk autonomy gating, independent test fixtures and persistent local stop controls. This is **not model fine-tuning**, paid employment, an operational marketplace or proof of professional competence. See the linked CI run once confirmed.
+The repository includes a runnable Python **offline synthetic simulator**, a local agent registry, **62 role templates (25 core + 37 commercial sector-specific)**, an extensible online work taxonomy, mission expiry, 75% low-risk autonomy gating, independent test fixtures and persistent local stop controls. This is **not model fine-tuning**, paid employment, an operational marketplace or proof of professional competence. See the linked CI run once confirmed.
 
 ## Universal professional workforce — executable reference
 
 - [Universal workforce architecture](docs/LEGION_UNIVERSAL_WORKFORCE_ARCHITECTURE.md) — internet service sectors, mission lifecycle, 75% bounded autonomy, independent QA milestones and emergency stop.
 - [Brand and premium agent editions](docs/LEGION_BRAND_SYSTEM.md) — LEGION Professional, Enterprise and Sovereign; identical canonical IMPERIAL Core seal when used.
-- [Python 25-role catalog](legion/catalog.py) · [Extensible sector taxonomy](legion/sectors.py) · [Offline simulator](legion/simulator.py) · [Mission lifecycle and stop controls](legion/lifecycle.py).
+- [Python 62-role catalog](legion/catalog.py) · [Extensible sector taxonomy](legion/sectors.py) · [Offline simulator](legion/simulator.py) · [Mission lifecycle and stop controls](legion/lifecycle.py).
 - [Unit test evidence](tests/test_legion_lifecycle.py) · [GitHub Actions](.github/workflows/legion-offline.yml).
 
 Run locally with Python 3.11+ and **no external dependencies, credentials or network**:
