@@ -1,0 +1,42 @@
+{
+  "version": "legion-professional-eval-v1",
+  "synthetic_only": true,
+  "examples": [
+    {
+      "id": "p-web-01",
+      "sector": "website-development",
+      "brief": "A fictional bakery needs a landing page. Draft two concise accessibility requirements and one performance requirement.",
+      "coach": "Check for descriptive link text, visible focus states, and image alt text. Keep suggestions testable."
+    },
+    {
+      "id": "p-support-01",
+      "sector": "customer-support",
+      "brief": "A fictional customer reports an invoice discrepancy. Draft a safe next-step response without requesting a password.",
+      "coach": "Acknowledge issue; explain safe verification; do not ask for credentials or claim a refund was completed."
+    },
+    {
+      "id": "p-data-01",
+      "sector": "data-analysis",
+      "brief": "A fictional table has daily visits 10,20,30 and orders 1,2,3. State total visits and orders and the overall conversion rate.",
+      "coach": "Correct arithmetic: visits=60, orders=6, conversion=10%. State assumptions."
+    },
+    {
+      "id": "p-copy-01",
+      "sector": "copywriting",
+      "brief": "Write a product description for a fictional reusable notebook that avoids invented guarantees.",
+      "coach": "Give concrete hypothetical attributes without unverified claims or urgency pressure."
+    },
+    {
+      "id": "p-design-01",
+      "sector": "graphic-design",
+      "brief": "Describe an accessible flyer design for an imaginary school open house.",
+      "coach": "Mention clear visual hierarchy, legible contrast, and readable typography."
+    },
+    {
+      "id": "p-project-01",
+      "sector": "project-management",
+      "brief": "Draft a plan for a fictional site launch with quality checks.",
+      "coach": "Explain milestones, owner review and rollback; avoid claiming completion."
+    }
+  ]
+}
