@@ -13,3 +13,8 @@
 /.github/workflows/legion-llm-evidence.yml @oromaskevic23-cmd
 /docs/LEGION_LLM_APPRENTICESHIP_QA.md @oromaskevic23-cmd
 /docs/LEGION_LLM_BENCHMARK_EVIDENCE.md @oromaskevic23-cmd
+/legion/qualification_evidence.py @oromaskevic23-cmd
+/legion/competency_matrix.py @oromaskevic23-cmd
+/legion/evidence/ @oromaskevic23-cmd
+/tests/test_qualification_evidence.py @oromaskevic23-cmd
+/docs/LEGION_ENTERPRISE_WORKFORCE_BLUEPRINT.md @oromaskevic23-cmd
