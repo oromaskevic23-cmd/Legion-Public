@@ -38,6 +38,12 @@ The [LLM apprenticeship and separate QA rubric](docs/LEGION_LLM_APPRENTICESHIP_Q
 
 **Verified LLM evidence:** [135M initial exam](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) 1/6; [1.7B comparison](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647) 5/6, same frozen six-item holdout. [Limitations and results](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) explicitly prohibit claiming professional qualification, independent human QA, model weight training or real platform access. All real-model CI is now manual-only.
 
+## Enterprise qualification evidence
+
+The [complete Enterprise Workforce Blueprint](docs/LEGION_ENTERPRISE_WORKFORCE_BLUEPRINT.md), [37-sector competency matrix](legion/competency_matrix.py) and [fail-closed QA readiness policy](legion/qualification_evidence.py) establish **additional criteria**, not a claim that those criteria are met.
+
+The real observed 135M and 1.7B LLM scores (1/6 and 5/6) are preserved in [machine-readable source-linked evidence](legion/evidence/llm_baseline_20261031.json). The existing [benchmark evidence report](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) links source GitHub runs and explains limits. A six-item public exam is inadequate for commercial professional accreditation. No independently operated expert QA, protected model weight digests, external attestation or deployed production trust services have been verified.
+
 ## Release-blocking work
 
 1. Enforce truly authenticated Owner Kill Switch, signed versioned control state and cross-orchestrator propagation with cancellation semantics and proof of measured latency.

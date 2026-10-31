@@ -57,6 +57,19 @@ This is **inference-time coaching, not model weight training**. No professional 
 
 **Verified local LLM comparison:** [Evidence report](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) · [135M: 1/6](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) · [1.7B: 5/6](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647), same six-item synthetic holdout. **Neither result establishes professional competence or commercial authorization.**
 
+## Enterprise qualification and scale blueprint — evidence-first
+
+The [LEGION Enterprise Workforce Blueprint](docs/LEGION_ENTERPRISE_WORKFORCE_BLUEPRINT.md) defines the full professional-lifecycle program for 37 sectors, federated domain execution, 75% maximum unattended eligible-step autonomy, finite mission permits, authenticated Owner Kill Switch requirements, zero-trust boundaries and premium agent licensing.
+
+[Source-backed 135M vs 1.7B model evidence](legion/evidence/llm_baseline_20261031.json) is analyzed by the [fail-closed qualification assessor](legion/qualification_evidence.py). Actual observations remain **1/6 and 5/6** on the same six-item public rubric. The program computes descriptive uncertainty, tracks missing QA/model provenance and **never** issues professional certificates, production permissions or commercial-platform access. [37 sector competency standards](legion/competency_matrix.py) define independent-review requirements, risk classifications and evaluation coverage.
+
+Reproduce only local checks:
+
+    python3 -m unittest discover -s tests -p 'test_*.py' -v
+    python3 -m legion.qualification_evidence
+
+The actual LLM workflow is manual-only; this check does **not** download or run a model, deploy a worker or charge an API.
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.

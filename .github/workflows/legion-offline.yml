@@ -30,3 +30,5 @@ jobs:
         run: python3 -m legion.professional_exam
       - name: Evaluate one creative services policy pack
         run: python3 -m legion.professional_exam --sector graphic-design
+      - name: Verify actual benchmark evidence and fail-closed qualification gate
+        run: python3 -m legion.qualification_evidence
