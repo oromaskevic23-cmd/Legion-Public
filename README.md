@@ -104,6 +104,19 @@ Run explicitly with the additional pinned optional browser dependency:
     python -m unittest discover -s browser_tests -p 'test_*.py' -v
     python -m legion.browser_qa_exam
 
+## Sprint 013 — cryptographically authenticated demo mission permits
+
+The [Sprint 013 signed mission engineering report](docs/LEGION_SIGNED_DISPATCH_SPRINT_013.md) adds actual Ed25519 verification for a **local synthetic-only** HANTER → federated orchestrator → Website QA NCA protocol pilot. Each permit is bound to one agent, a synthetic mission, exact document hash, unique nonce, and a maximum five-minute lifetime. SQLite rejects replay after restart, and existing stop/lease/autonomy gates still apply.
+
+- [Signed demo verification and dispatch](legion/signed_demo_dispatch.py) · [17 adversarial tests](signed_tests/test_signed_demo_dispatch.py) · [pinned cryptographic dependency](signed-requirements.txt) · [GitHub Actions](.github/workflows/legion-signed-dispatch.yml).
+- Signed **HANTER-DEMO-ONLY** grants are not actual HANTER service authentication or Owner approval. No private production signing key, AI Passport, Guardian Core authorization, Approval Gateway permission, distributed audit guarantee, professional certification or commercial access is implemented.
+- Commercial connectors remain denied and the existing dependency-free offline suite remains unchanged.
+
+Run the separate cryptographic pilot:
+
+    python -m pip install --requirement signed-requirements.txt
+    python -m unittest discover -s signed_tests -p 'test_*.py' -v
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.
