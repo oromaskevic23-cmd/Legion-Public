@@ -1,0 +1,89 @@
+{
+  "version": "legion-browser-qa-independent-oracle-v1",
+  "cases": [
+    {
+      "id": "legion-browser-01",
+      "category": "click",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button id=\"increase\" onclick=\"document.querySelector('#count').textContent='1'\">Increase</button><span id=\"count\">0</span></body></html>",
+      "expected_pass": true
+    },
+    {
+      "id": "legion-browser-02",
+      "category": "click",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button id=\"increase\">Increase</button><span id=\"count\">0</span></body></html>",
+      "expected_pass": false
+    },
+    {
+      "id": "legion-browser-03",
+      "category": "keyboard",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button id=\"target\">Continue</button></body></html>",
+      "expected_pass": true
+    },
+    {
+      "id": "legion-browser-04",
+      "category": "keyboard",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><div id=\"target\" role=\"button\">Continue</div></body></html>",
+      "expected_pass": false
+    },
+    {
+      "id": "legion-browser-05",
+      "category": "label",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><label for=\"email\">Email</label><input id=\"email\" type=\"text\"></body></html>",
+      "expected_pass": true
+    },
+    {
+      "id": "legion-browser-06",
+      "category": "label",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><input id=\"email\" type=\"text\"></body></html>",
+      "expected_pass": false
+    },
+    {
+      "id": "legion-browser-07",
+      "category": "status",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button onclick=\"document.querySelector('#status').textContent='Saved'\">Save</button><div role=\"status\" id=\"status\">Waiting</div></body></html>",
+      "expected_pass": true
+    },
+    {
+      "id": "legion-browser-08",
+      "category": "status",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button onclick=\"document.querySelector('#status').textContent='Saved'\">Save</button><div id=\"status\">Waiting</div></body></html>",
+      "expected_pass": false
+    },
+    {
+      "id": "legion-browser-09",
+      "category": "disclosure",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button aria-expanded=\"false\" aria-controls=\"panel\" onclick=\"this.setAttribute('aria-expanded','true');document.querySelector('#panel').hidden=false\">Details</button><section id=\"panel\" hidden>Visible details</section></body></html>",
+      "expected_pass": true
+    },
+    {
+      "id": "legion-browser-10",
+      "category": "disclosure",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><button aria-expanded=\"false\" aria-controls=\"panel\" onclick=\"document.querySelector('#panel').hidden=false\">Details</button><section id=\"panel\" hidden>Visible details</section></body></html>",
+      "expected_pass": false
+    },
+    {
+      "id": "legion-browser-11",
+      "category": "form",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><form onsubmit=\"event.preventDefault();document.querySelector('#sent').textContent='yes'\"><label for=\"email\">Email</label><input id=\"email\" required><button>Submit</button></form><output id=\"sent\">no</output></body></html>",
+      "expected_pass": true
+    },
+    {
+      "id": "legion-browser-12",
+      "category": "form",
+      "synthetic_only": true,
+      "html": "<!doctype html><html lang=\"en\"><head><title>Owned QA Fixture</title></head><body><form onsubmit=\"event.preventDefault();document.querySelector('#sent').textContent='yes'\"><label for=\"email\">Email</label><input id=\"email\"><button>Submit</button></form><output id=\"sent\">no</output></body></html>",
+      "expected_pass": false
+    }
+  ]
+}
