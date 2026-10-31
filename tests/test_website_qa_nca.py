@@ -45,7 +45,7 @@ class WebsiteQATests(unittest.TestCase):
         for case in load_cases():
             result=scan_html(case["html"])
             self.assertEqual(result["finding_codes"],sorted(case["expected_codes"]))
-            self.assertFalse(result["real_client_access"])
+            self.assertFalse(result["client_site_access"])
             self.assertFalse(result["wcag_conformant"])
 
     def test_missing_lang_detected(self):
