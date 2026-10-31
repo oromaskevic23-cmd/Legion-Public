@@ -6,10 +6,17 @@ model provider, arbitrary endpoint, model auto-download, or network redirect.
 from __future__ import annotations
 
 import json
+import os
 import urllib.error
 import urllib.request
 
-MODEL = "smollm2:135m-instruct-q4_K_M"
+ALLOWED_MODELS = frozenset((
+    "smollm2:135m-instruct-q4_K_M",
+    "smollm2:1.7b-instruct-q4_K_M",
+))
+MODEL = os.environ.get("LEGION_LOCAL_MODEL", "smollm2:135m-instruct-q4_K_M")
+if MODEL not in ALLOWED_MODELS:
+    raise ValueError("UNAPPROVED_LOCAL_MODEL")
 URL = "http://127.0.0.1:11434/api/generate"
 MAX_PROMPT = 2400
 MAX_REPLY = 20_000
