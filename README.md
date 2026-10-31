@@ -55,6 +55,8 @@ The [professional LLM apprenticeship and QA specification](docs/LEGION_LLM_APPRE
 
 This is **inference-time coaching, not model weight training**. No professional qualification, third-party account access, buyer-license issuance, actual independent external QA, customer payments, or 24/7 agents are claimed. The 370 previous synthetic safety cases remain separate from model quality evidence.
 
+**Verified local LLM comparison:** [Evidence report](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) · [135M: 1/6](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) · [1.7B: 5/6](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647), same six-item synthetic holdout. **Neither result establishes professional competence or commercial authorization.**
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.
