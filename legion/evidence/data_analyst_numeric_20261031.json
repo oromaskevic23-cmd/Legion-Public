@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "MEASURED_AND_NOT_QUALIFIED",
+  "source": "PUBLIC_GITHUB_ACTIONS_COMPLETED_JOB_LOG",
+  "model": "smollm2:1.7b-instruct-q4_K_M",
+  "run_id": 41149646836,
+  "tested_commit_sha": "2deb9bc26862257d9ccd7789a42be738006f3481",
+  "benchmark_version": "legion-data-analyst-30-v1",
+  "exam_cases": 30,
+  "attempted_model_calls": 30,
+  "completed_model_calls": 30,
+  "passed": 5,
+  "failed": 25,
+  "pass_rate": 0.1667,
+  "category_scores": {
+    "conversion": {
+      "passed": 0,
+      "total": 10
+    },
+    "total": {
+      "passed": 3,
+      "total": 10
+    },
+    "mean": {
+      "passed": 2,
+      "total": 10
+    }
+  },
+  "failure_reasons": {
+    "ARITHMETIC_ERROR": 24,
+    "INVALID_JSON": 1,
+    "WRONG_UNIT": 9
+  },
+  "evidence_sha256": "250670164f97fdf8cf9a2bc80e656d68fe6849253aa9ca155ffe6857b329a974",
+  "independent_implementation_qa": true,
+  "independently_operated_qa": false,
+  "professional_qualified": false,
+  "commercial_platform_access": false,
+  "model_weights_modified": false,
+  "revenue_confirmed": false,
+  "limitations": "Public artificial arithmetic fixture; no hidden professional holdout or independent human QA."
+}
