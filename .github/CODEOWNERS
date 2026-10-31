@@ -18,3 +18,9 @@
 /legion/evidence/ @oromaskevic23-cmd
 /tests/test_qualification_evidence.py @oromaskevic23-cmd
 /docs/LEGION_ENTERPRISE_WORKFORCE_BLUEPRINT.md @oromaskevic23-cmd
+# LEGION professional numeric benchmark: evidence and runtime require Owner review.
+/legion/data_analyst_cases.py @oromaskevic23-cmd
+/legion/data_analyst_exam.py @oromaskevic23-cmd
+/tests/test_data_analyst_exam.py @oromaskevic23-cmd
+/.github/workflows/legion-data-analyst-llm.yml @oromaskevic23-cmd
+/docs/LEGION_DATA_ANALYST_30_CASE_QA.md @oromaskevic23-cmd

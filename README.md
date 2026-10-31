@@ -70,6 +70,12 @@ Reproduce only local checks:
 
 The actual LLM workflow is manual-only; this check does **not** download or run a model, deploy a worker or charge an API.
 
+## Stage 4 — 30-case Data Analyst NCA arithmetic QA
+
+The [Data Analyst numerical QA pilot](docs/LEGION_DATA_ANALYST_30_CASE_QA.md) tests thirty new synthetic tasks (ten conversion rates, ten order totals, and ten daily averages) against independently computed Python arithmetic references. [Benchmark cases](legion/data_analyst_cases.py) and a [strict structured-output evaluator](legion/data_analyst_exam.py) record per-case evidence digests and exact error categories. The [real local LLM workflow](.github/workflows/legion-data-analyst-llm.yml) is separate from the standard CI and must become manual-only after its one-time evidence run.
+
+The model is a **third-party local 1.7B checkpoint**; no parameters are trained. Even perfect arithmetic is **not** a professional qualification or permission for commercial platforms. **Verified real 30-task result: 5/30 (16.7%)**, with 0/10 conversion, 3/10 totals, and 2/10 daily means; the agent remains NOT QUALIFIED. [GitHub Actions evidence](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41149646836) · [Machine-readable score](legion/evidence/data_analyst_numeric_20261031.json). The real-model workflow is now manual-only. All missions remain time-limited, high-risk actions require true independent authorization, and the maximum unattended eligible-step ratio is 75%.
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.
