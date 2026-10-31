@@ -44,6 +44,12 @@ The [complete Enterprise Workforce Blueprint](docs/LEGION_ENTERPRISE_WORKFORCE_B
 
 The real observed 135M and 1.7B LLM scores (1/6 and 5/6) are preserved in [machine-readable source-linked evidence](legion/evidence/llm_baseline_20261031.json). The existing [benchmark evidence report](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) links source GitHub runs and explains limits. A six-item public exam is inadequate for commercial professional accreditation. No independently operated expert QA, protected model weight digests, external attestation or deployed production trust services have been verified.
 
+## Website QA NCA pilot — additional offline evidence
+
+[Sprint 011](docs/LEGION_WEBSITE_QA_SPRINT_011.md) adds a bounded **static HTML-only** NCA candidate. Six structural heuristics are tested against 30 manually annotated synthetic local documents. Local SQLite mission expiry and three-of-four unattended low-risk steps are exercised; the global Owner stop blocks subsequent sandbox tasks.
+
+This strengthens reproducible *engineering* verification only. No Playwright browser execution, genuine WCAG conformance assertion, independent human QA, paid customer or production issuer/kill propagation has been verified. The pilot remains blocked from all commercial platforms. The earlier 30-task real data-analyst LLM benchmark (5/30) is a different evidence class.
+
 ## Release-blocking work
 
 1. Enforce truly authenticated Owner Kill Switch, signed versioned control state and cross-orchestrator propagation with cancellation semantics and proof of measured latency.
