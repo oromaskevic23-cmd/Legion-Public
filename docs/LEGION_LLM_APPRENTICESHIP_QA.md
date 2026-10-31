@@ -50,6 +50,10 @@ To run real local inference, explicitly provision Ollama and the approved model 
 
 The one-time [GitHub Actions LLM evidence workflow](../.github/workflows/legion-llm-evidence.yml) contains checksum-based Ollama installation and explicit model pull on disposable infrastructure. Do not pass client files, tokens, passwords, API keys or personal data through public CI. Verify the exact SHA and run URL before reporting real inference.
 
+## Verified comparative outcome
+
+Both runs performed 15 genuine loopback-only Ollama inference calls on the same practice/holdout design. [SmolLM2 135M](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) scored 1/6 (16.7%). [SmolLM2 1.7B](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647) scored 5/6 (83.3%); graphic design did not pass its rubric. See the [evidence ledger](LEGION_LLM_BENCHMARK_EVIDENCE.md). Neither model is qualified for commercial use; these are narrow synthetically authored, word-based assessments rather than independent expert evaluation. The LLM workflow has been switched to manual-only after the experiments.
+
 ## 6. Release criteria for truly saleable professional NCA
 
 1. Independently authored, licensed professional curriculum, heldout exams and human QA for the claimed profession, with error, hallucination and client-impact scoring.
