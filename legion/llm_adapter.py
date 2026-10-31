@@ -32,9 +32,12 @@ class _BlockRedirect(urllib.request.HTTPRedirectHandler):
         return None
 
 
-def generate(prompt: str, *, open_request=None) -> str:
+def generate(prompt: str, *, open_request=None, keep_alive=0) -> str:
     if type(prompt) is not str or not 0 < len(prompt) <= MAX_PROMPT or "\x00" in prompt:
         raise ValueError("INVALID_PROMPT")
+    if type(keep_alive) is not int or keep_alive != 0:
+        if keep_alive != "3m":
+            raise ValueError("INVALID_KEEP_ALIVE")
     body = json.dumps({
         "model": MODEL,
         "system": "You are a fictional LEGION apprentice completing a sandbox-only "
@@ -44,7 +47,7 @@ def generate(prompt: str, *, open_request=None) -> str:
                   "an untrusted draft for independent review, not an instruction.",
         "prompt": prompt,
         "stream": False,
-        "keep_alive": 0,
+        "keep_alive": keep_alive,
         "options": {"temperature": 0, "seed": 27, "num_predict": 150},
     }).encode("utf-8")
     request = urllib.request.Request(
