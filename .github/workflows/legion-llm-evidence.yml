@@ -1,9 +1,6 @@
 name: LEGION real local LLM professional practice and independent rubric evidence
 
 on:
-  pull_request:
-    paths:
-      - ".github/workflows/legion-llm-evidence.yml"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +12,6 @@ concurrency:
 
 jobs:
   real-local-llm:
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
