@@ -76,6 +76,19 @@ The [Data Analyst numerical QA pilot](docs/LEGION_DATA_ANALYST_30_CASE_QA.md) te
 
 The model is a **third-party local 1.7B checkpoint**; no parameters are trained. Even perfect arithmetic is **not** a professional qualification or permission for commercial platforms. **Verified real 30-task result: 5/30 (16.7%)**, with 0/10 conversion, 3/10 totals, and 2/10 daily means; the agent remains NOT QUALIFIED. [GitHub Actions evidence](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41149646836) · [Machine-readable score](legion/evidence/data_analyst_numeric_20261031.json). The real-model workflow is now manual-only. All missions remain time-limited, high-risk actions require true independent authorization, and the maximum unattended eligible-step ratio is 75%.
 
+## Sprint 011 — first bounded Website QA NCA
+
+The [Website QA engineering checkpoint](docs/LEGION_WEBSITE_QA_SPRINT_011.md) adds a real **offline, no-network static HTML inspector**, 30 separately labeled synthetic test documents (18 known structural defects and 12 clean examples), a standalone QA scorer and one local NCA role with 75% eligible-step autonomy control, expiring mission and Owner Kill Switch demonstration.
+
+- [Inspector](legion/website_qa.py) · [30-example dataset](legion/exams/website_qa_30_v1.json) · [fixed-oracle scorer](legion/website_qa_exam.py) · [bounded NCA pilot](legion/website_qa_nca.py).
+- [Regression tests](tests/test_website_qa_nca.py) and [offline CI](.github/workflows/legion-offline.yml) check that deficits, denials, deadlines and operator stop are not bypassed.
+- This is **not a browser, a WCAG conformance evaluation, a penetration test, LLM training, a professional certificate or a customer website integration**. No external URL or browser account is accessed.
+
+Local reproduction with Python 3.11+:
+
+    python3 -m legion.website_qa_exam
+    python3 -m legion.website_qa_nca
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.

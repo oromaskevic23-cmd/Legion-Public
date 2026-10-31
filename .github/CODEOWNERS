@@ -24,3 +24,9 @@
 /tests/test_data_analyst_exam.py @oromaskevic23-cmd
 /.github/workflows/legion-data-analyst-llm.yml @oromaskevic23-cmd
 /docs/LEGION_DATA_ANALYST_30_CASE_QA.md @oromaskevic23-cmd
+/legion/website_qa.py @oromaskevic23-cmd
+/legion/website_qa_exam.py @oromaskevic23-cmd
+/legion/website_qa_nca.py @oromaskevic23-cmd
+/legion/exams/website_qa_30_v1.json @oromaskevic23-cmd
+/tests/test_website_qa_nca.py @oromaskevic23-cmd
+/docs/LEGION_WEBSITE_QA_SPRINT_011.md @oromaskevic23-cmd

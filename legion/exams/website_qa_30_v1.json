@@ -1,0 +1,252 @@
+{
+  "version": "legion-website-qa-hand-labeled-v1",
+  "origin": "authored synthetic HTML only, no live websites",
+  "cases": [
+    {
+      "id": "wqa-language-01",
+      "category": "language",
+      "html": "<!doctype html><html><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [
+        "MISSING_HTML_LANG"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-language-02",
+      "category": "language",
+      "html": "<!doctype html><html lang=\"\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [
+        "MISSING_HTML_LANG"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-language-03",
+      "category": "language",
+      "html": "<!doctype html><html lang=\"  \"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [
+        "MISSING_HTML_LANG"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-language-04",
+      "category": "language",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-language-05",
+      "category": "language",
+      "html": "<!doctype html><html lang=\"fr\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-title-01",
+      "category": "title",
+      "html": "<!doctype html><html lang=\"en\"><head><title></title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [
+        "EMPTY_PAGE_TITLE"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-title-02",
+      "category": "title",
+      "html": "<!doctype html><html lang=\"en\"><head><title> </title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [
+        "EMPTY_PAGE_TITLE"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-title-03",
+      "category": "title",
+      "html": "<!doctype html><html lang=\"en\"><head></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [
+        "EMPTY_PAGE_TITLE"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-title-04",
+      "category": "title",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-title-05",
+      "category": "title",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Accessible Sample</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-images-01",
+      "category": "images",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><img src=\"fictional.png\"></main></body></html>",
+      "expected_codes": [
+        "IMAGE_MISSING_ALT"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-images-02",
+      "category": "images",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><img src=\"fictional.jpg\" class=\"hero\"></main></body></html>",
+      "expected_codes": [
+        "IMAGE_MISSING_ALT"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-images-03",
+      "category": "images",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><img src=\"fictional.svg\" loading=\"lazy\"></main></body></html>",
+      "expected_codes": [
+        "IMAGE_MISSING_ALT"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-images-04",
+      "category": "images",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><img src=\"fictional.png\" alt=\"Sample artwork\"></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-images-05",
+      "category": "images",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><img src=\"decoration.svg\" alt=\"\"></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-links-01",
+      "category": "links",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><a href=\"/help\"></a></main></body></html>",
+      "expected_codes": [
+        "LINK_MISSING_NAME"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-links-02",
+      "category": "links",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><a href=\"/help\"><span> </span></a></main></body></html>",
+      "expected_codes": [
+        "LINK_MISSING_NAME"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-links-03",
+      "category": "links",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><a href=\"/help\"><img src=\"icon.svg\" alt=\"\"></a></main></body></html>",
+      "expected_codes": [
+        "LINK_MISSING_NAME"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-links-04",
+      "category": "links",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><a href=\"/help\">Help information</a></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-links-05",
+      "category": "links",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><a href=\"/help\" aria-label=\"Help information\"></a></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-inputs-01",
+      "category": "inputs",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><form><input id=\"email\" type=\"email\"></form></main></body></html>",
+      "expected_codes": [
+        "INPUT_MISSING_LABEL"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-inputs-02",
+      "category": "inputs",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><form><input type=\"text\" name=\"query\"></form></main></body></html>",
+      "expected_codes": [
+        "INPUT_MISSING_LABEL"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-inputs-03",
+      "category": "inputs",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><form><input id=\"name\" placeholder=\"Name\"></form></main></body></html>",
+      "expected_codes": [
+        "INPUT_MISSING_LABEL"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-inputs-04",
+      "category": "inputs",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><form><label for=\"email\">Email</label><input id=\"email\" type=\"email\"></form></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-inputs-05",
+      "category": "inputs",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><form><label>Your message <input id=\"msg\" type=\"text\"></label></form></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-headings-01",
+      "category": "headings",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><h3>Skipped second level</h3></main></body></html>",
+      "expected_codes": [
+        "HEADING_LEVEL_SKIP"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-headings-02",
+      "category": "headings",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><h4>Skipped levels</h4></main></body></html>",
+      "expected_codes": [
+        "HEADING_LEVEL_SKIP"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-headings-03",
+      "category": "headings",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><h6>Deep heading too early</h6></main></body></html>",
+      "expected_codes": [
+        "HEADING_LEVEL_SKIP"
+      ],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-headings-04",
+      "category": "headings",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><h2>Details</h2></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    },
+    {
+      "id": "wqa-headings-05",
+      "category": "headings",
+      "html": "<!doctype html><html lang=\"en\"><head><title>Example Site</title></head><body><main><h1>Welcome</h1><p>Fictional training page.</p><h2>Details</h2><h3>Subdetails</h3></main></body></html>",
+      "expected_codes": [],
+      "synthetic_only": true
+    }
+  ]
+}

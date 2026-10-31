@@ -32,3 +32,7 @@ jobs:
         run: python3 -m legion.professional_exam --sector graphic-design
       - name: Verify actual benchmark evidence and fail-closed qualification gate
         run: python3 -m legion.qualification_evidence
+      - name: Execute independently labeled Website QA synthetic exam
+        run: python3 -m legion.website_qa_exam
+      - name: Prove scoped Website QA NCA mission and global stop
+        run: python3 -m legion.website_qa_nca
