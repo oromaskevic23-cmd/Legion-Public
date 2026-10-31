@@ -36,6 +36,8 @@ The [LLM apprenticeship and separate QA rubric](docs/LEGION_LLM_APPRENTICESHIP_Q
 
 **Maturity does not advance beyond E2/E3 solely through this pilot**. No independent organizational QA, true model fine-tuning, enterprise key custody, actual Guardian Core/Approval Gateway integration or real revenue has been established.
 
+**Verified LLM evidence:** [135M initial exam](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) 1/6; [1.7B comparison](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647) 5/6, same frozen six-item holdout. [Limitations and results](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) explicitly prohibit claiming professional qualification, independent human QA, model weight training or real platform access. All real-model CI is now manual-only.
+
 ## Release-blocking work
 
 1. Enforce truly authenticated Owner Kill Switch, signed versioned control state and cross-orchestrator propagation with cancellation semantics and proof of measured latency.
