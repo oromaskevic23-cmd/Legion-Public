@@ -22,9 +22,17 @@
 
 The single passed synthetic task was customer support. Five failures lacked one or more exact required rubric terms; none of the six model answer hashes or results justify commercial competency. Exact rubric checks alone do not reveal nuanced answer quality, and results should be complemented with independent expert QA.
 
-## Stronger-model evaluation
+## Verified stronger-model comparison
 
-A second one-time comparative run uses **SmolLM2 1.7B Q4_K_M** with the same six held-out briefs and rubric. Its results must be read directly from the successful or failed [run 41147711647](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647). Do not assume it passed or improved merely because the model has more parameters. The current repository is not allowed to publish a claimed result until that run completes with inspectable evidence.
+| Model | CI source | Genuine calls | Held-out rubric | Outcome |
+| --- | --- | ---: | ---: | --- |
+| SmolLM2 1.7B Q4_K_M | [Run 41147711647](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647), PR head `ea5a4acaf` | 15 | **5/6 (83.3%)** | NEEDS_IMPROVEMENT; NOT QUALIFIED |
+
+The model passed the fixed word-based checks for website development, customer support, data analysis, copywriting and project management. The graphic-design case **failed a required rubric term**. All six answers were genuine generated text; no answer was modified or manually corrected before scoring. Both models used the identical frozen six-item holdout. The measured difference is **4 additional passed items**, or **66.7 percentage points**, on this tiny synthetic benchmark. This is **not** a statistically robust professional ability claim.
+
+**Decision:** use 1.7B as a better **candidate for further professional testing**, NOT a certified worker. The rubric's required word check can miss paraphrases or accept semantically wrong answers. Next professional QA must include independent human review, larger unseen tasks, scenario variation, longer and adversarial client instructions, data privacy, role-specific correctness and measured business value. No client-platform integration or paid release is authorized.
+
+**Execution control:** After the evidence-producing trials, [the LLM workflow](../.github/workflows/legion-llm-evidence.yml) is manual-only. Its runtime uses temporary CPU runners; no permanent Ollama service is provisioned.
 
 ## Prohibited inferences
 
