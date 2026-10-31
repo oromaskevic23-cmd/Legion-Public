@@ -89,6 +89,21 @@ Local reproduction with Python 3.11+:
     python3 -m legion.website_qa_exam
     python3 -m legion.website_qa_nca
 
+## Sprint 012 — real Chromium Website QA behavioral examination
+
+The [Sprint 012 implementation report](docs/LEGION_BROWSER_QA_SPRINT_012.md) adds a **real headless Chromium / Playwright** examination of **12 owned synthetic page behaviors**: clicking, keyboard focus, accessible textbox names, ARIA status updates, disclosure state and native form validation. The independent, frozen dataset contains six successful cases and six negative controls.
+
+- [Browser probe](legion/browser_qa.py) · [12 labeled browser cases](legion/exams/browser_qa_12_v1.json) · [separate scorer](legion/browser_qa_exam.py) · [five browser test methods](browser_tests/test_browser_qa_exam.py).
+- [GitHub Actions run 41192323368](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41192323368) **PASS** on Sprint 012 PR #13, with pinned Playwright 1.64.1; original local evidence: 12/12 cases and 5/5 test methods using Chromium 144.0.7559.96.
+- Real browser execution is **not** proof of a hardened sandbox, independent professional qualification, comprehensive WCAG compliance, access to client websites, a deployed NCA worker or customer revenue. All commercial-access gates remain closed.
+
+Run explicitly with the additional pinned optional browser dependency:
+
+    python -m pip install -r browser-requirements.txt
+    python -m playwright install chromium
+    python -m unittest discover -s browser_tests -p 'test_*.py' -v
+    python -m legion.browser_qa_exam
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.
