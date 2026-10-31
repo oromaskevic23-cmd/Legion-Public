@@ -1,9 +1,6 @@
 name: LEGION one-time real Data Analyst 30-case LLM evidence
 
 on:
-  pull_request:
-    paths:
-      - ".github/workflows/legion-data-analyst-llm.yml"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +12,6 @@ concurrency:
 
 jobs:
   numeric-professional-exam:
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     timeout-minutes: 25
     env:
