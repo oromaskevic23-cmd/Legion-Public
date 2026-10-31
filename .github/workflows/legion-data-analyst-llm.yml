@@ -1,0 +1,100 @@
+name: LEGION one-time real Data Analyst 30-case LLM evidence
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/legion-data-analyst-llm.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: legion-data-analyst-local-llm
+  cancel-in-progress: false
+
+jobs:
+  numeric-professional-exam:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      OLLAMA_HOST: "127.0.0.1:11434"
+      OLLAMA_NO_CLOUD: "1"
+      OLLAMA_MODELS: "/tmp/legion-data-analyst-ollama-models"
+      LEGION_LOCAL_MODEL: "smollm2:1.7b-instruct-q4_K_M"
+      LEGION_LOCAL_MODEL_PROBE: "I_APPROVE_SYNTHETIC_LOCAL_INFERENCE"
+    steps:
+      - name: Checkout exact revision without storing GitHub credentials
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Run all local safety and numerical regression tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Install checksum-verified Ollama CPU release on disposable runner
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v zstd >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq zstd
+          fi
+          curl --proto '=https' --tlsv1.2 -fL --retry 2 --connect-timeout 15 --max-time 480 \
+            'https://github.com/ollama/ollama/releases/download/v0.40.11/ollama-linux-amd64.tar.zst' \
+            --output "$RUNNER_TEMP/ollama-v0.40.11.tar.zst"
+          echo "7bedab90dd122661be78798e9f0edf37fccf0cccf2699d2c58ea1a3afdc04b6d  $RUNNER_TEMP/ollama-v0.40.11.tar.zst" | sha256sum --check
+          mkdir -p "$RUNNER_TEMP/ollama-install"
+          tar --zstd -xf "$RUNNER_TEMP/ollama-v0.40.11.tar.zst" -C "$RUNNER_TEMP/ollama-install"
+          test -x "$RUNNER_TEMP/ollama-install/bin/ollama"
+          "$RUNNER_TEMP/ollama-install/bin/ollama" --version
+      - name: Start loopback-only Ollama, download a small open third-party model
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$OLLAMA_MODELS"
+          "$RUNNER_TEMP/ollama-install/bin/ollama" serve > "$RUNNER_TEMP/ollama-local.log" 2>&1 &
+          for i in $(seq 1 60); do
+            if curl --noproxy '*' -fsS 'http://127.0.0.1:11434/api/tags' >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --noproxy '*' -fsS 'http://127.0.0.1:11434/api/tags' >/dev/null
+          timeout 240 "$RUNNER_TEMP/ollama-install/bin/ollama" pull smollm2:1.7b-instruct-q4_K_M
+      - name: Run 30 actual inference tasks and score against independent numeric references
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m legion.data_analyst_exam --live > "$RUNNER_TEMP/legion-data-analyst-qa.json"
+          python3 - "$RUNNER_TEMP/legion-data-analyst-qa.json" <<'PY'
+          import json, sys
+          with open(sys.argv[1], encoding="utf-8") as f:
+              report=json.load(f)
+          assert report["exam_cases"] == 30
+          assert report["attempted_model_calls"] == 30
+          assert report["completed_model_calls"] == 30
+          assert report["production_authorized"] is False
+          assert report["professionally_qualified"] is False
+          assert report["commercial_platform_access"] is False
+          print("LEGION REAL LLM SCORE:",report["passed"],"/",report["exam_cases"])
+          print("RESULT:",report["exam_result"])
+          print("MODEL:",report["model"])
+          print("EVIDENCE_SHA256:",report["evidence_sha256"])
+          print("CATEGORY_SCORES:",report["categories"])
+          print("FAILURE_REASONS:",report["failure_reasons"])
+          print("COMMERCIAL_ACCESS:",report["commercial_platform_access"])
+          PY
+          python3 - "$RUNNER_TEMP/legion-data-analyst-qa.json" >> "$GITHUB_STEP_SUMMARY" <<'PY'
+          import json,sys
+          r=json.load(open(sys.argv[1],encoding="utf-8"))
+          print("## LEGION — 30-case real Data Analyst benchmark")
+          print(f"- Real model: {r['model']}")
+          print(f"- Completed local LLM calls: {r['completed_model_calls']}/30")
+          print(f"- Numeric QA score: {r['passed']}/{r['exam_cases']}")
+          print(f"- Category breakdown: {r['categories']}")
+          print(f"- Grading status: {r['exam_result']}")
+          print(f"- Evidence SHA-256: {r['evidence_sha256']}")
+          print("- Independently operated expert QA: NOT VERIFIED")
+          print("- Professional qualification: FALSE")
+          print("- Commercial access: BLOCKED")
+          PY
