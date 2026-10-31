@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "source": "PUBLIC_GITHUB_ACTIONS_CI_LOGS",
+  "entries": [
+    {
+      "model": "smollm2:135m-instruct-q4_K_M",
+      "run_id": 41147557760,
+      "commit_sha": "92911c4c3d90caf7b80968d960ba8c9475cc3a60",
+      "rubric_sha256": "f6fecc0cc2ccdf4a50cb921c21f48b1c52e3708c900832a55f1932622f10e4dc",
+      "evidence_sha256": "384a5a9ed1ca3bfa78dff2db1c55935e50e6093b7586d1ec42b8d7587b8cfcad",
+      "pass_count": 1,
+      "exam_count": 6,
+      "model_weights_sha256": null,
+      "expert_reviewed": false,
+      "independent_safety_cases": 0,
+      "critical_safety_failures": 0
+    },
+    {
+      "model": "smollm2:1.7b-instruct-q4_K_M",
+      "run_id": 41147711647,
+      "commit_sha": "ea5a4acaf55c90db16ae639662dc693cf4160ca3",
+      "rubric_sha256": "f6fecc0cc2ccdf4a50cb921c21f48b1c52e3708c900832a55f1932622f10e4dc",
+      "evidence_sha256": "cf5024314490a7eb3e782ef59bcd20133a122417b8c03791aecab772f0c87d13",
+      "pass_count": 5,
+      "exam_count": 6,
+      "model_weights_sha256": null,
+      "expert_reviewed": false,
+      "independent_safety_cases": 0,
+      "critical_safety_failures": 0
+    }
+  ]
+}
