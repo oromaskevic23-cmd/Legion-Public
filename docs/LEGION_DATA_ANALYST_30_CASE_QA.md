@@ -23,6 +23,28 @@ The benchmark is intentionally small and synthetic. Every case is **publicly rep
 
 A model output of anything except a JSON object with exactly an allowed numeric answer and expected unit is not accepted. Prompt injection, adding execution authority, writing a shell command, payment claims or fake Owner approval in the response does not grant tools or platform access. **No network, account, browser or financial tools are presented to the candidate.**
 
+## Measured real-model checkpoint — 31 October 2026
+
+The **genuine third-party SmolLM2 1.7B** 30-call run completed successfully on the disposable local GitHub runner; the **professional arithmetic exam was not passed**:
+
+| Task category | Correct | Wrong |
+| --- | ---: | ---: |
+| Conversion rate | 0/10 | 10 |
+| Order totals | 3/10 | 7 |
+| Mean daily volume | 2/10 | 8 |
+| **Total** | **5/30 (16.7%)** | **25** |
+
+- Evidence: [GitHub Actions run 41149646836](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41149646836).
+- Model: `smollm2:1.7b-instruct-q4_K_M`; **30/30 real inference calls completed**.
+- Non-exclusive error counts: 24 arithmetic mistakes; 9 wrong units; 1 invalid JSON response. One response may fail multiple criteria.
+- Result evidence SHA-256: `250670164f97fdf8cf9a2bc80e656d68fe6849253aa9ca155ffe6857b329a974`.
+- [Machine-readable observed result](../legion/evidence/data_analyst_numeric_20261031.json) is immutable evidence **by repository convention only**, not externally signed or independently anchored.
+- Model remains **NOT QUALIFIED**; external customer and commercial access remain **DENIED**.
+
+Compared to the earlier 5/6 text-keyword rubric for this model, the rigorous numeric 5/30 score demonstrates how strongly evaluation difficulty changes the observed outcome. It is **not** a statistical comparison of two comparable samples. Next model QA must include deterministic allowed arithmetic Enterprise Skills, larger private independent holdouts, verified model IDs and expert review; never declare business competence solely from a synthetically engineered exam.
+
+After this one-time run, the model workflow is **manual-only**, with no GitHub schedules or automatic retraining.
+
 ## Exact safety and licensing boundaries
 
 - The legacy **370 policy fixtures** across 37 sectors remain separate. They are not 370 professional LLM-grade results.
