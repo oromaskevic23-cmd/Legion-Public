@@ -28,6 +28,16 @@ class ProfessionalLLMTests(unittest.TestCase):
         self.assertIn("TRAINING SANDBOX ONLY.", prompt)
         return "Draft for fictional work only. Please review accessibility and customer consent before any action."
 
+    def test_live_model_workflow_is_explicitly_manual_only(self):
+        from pathlib import Path
+        root=Path(__file__).resolve().parents[1]
+        workflow=(root/".github/workflows/legion-llm-evidence.yml").read_text()
+        self.assertIn("on:\n  workflow_dispatch:",workflow)
+        for automatic in ("  pull_request:", "  push:", "  schedule:"):
+            self.assertNotIn(automatic,workflow)
+        self.assertIn("LEGION_LOCAL_MODEL:",workflow)
+        self.assertIn("python3 -m legion.llm_training --live",workflow)
+
     def test_holdout_is_separate_from_practice(self):
         p = load_manifest("practice_v1")["examples"]
         h = load_manifest("holdout_v1")["examples"]
