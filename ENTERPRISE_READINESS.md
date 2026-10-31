@@ -30,6 +30,14 @@
 
 [Professional simulation](docs/PROFESSIONAL_SIMULATION_GATES.md) adds 370 deterministic, synthetic policy cases across 37 sectors with a separately authored evaluator and deny-first scoring. Positive results **do not raise E2/E3 to E4/E5/E6**; they are no evidence of model training or career qualifications. Every agent mission must now have finite local lease even if its SALE_OFFER product record is perpetual.
 
+## Next-stage local LLM evaluation
+
+The [LLM apprenticeship and separate QA rubric](docs/LEGION_LLM_APPRENTICESHIP_QA.md) tests **six** of 37 sectors with real model inference, practice/coaching and six heldout briefs. The [code](legion/llm_training.py) keeps responses non-executable; the [commercial access gate](legion/commercial_gate.py) denies all platform access, regardless of exam scores. The separate [real-model evidence workflow](.github/workflows/legion-llm-evidence.yml) is an optional disposable CPU-runner test. Verify actual runs and achieved model rubric score before describing evidence.
+
+**Maturity does not advance beyond E2/E3 solely through this pilot**. No independent organizational QA, true model fine-tuning, enterprise key custody, actual Guardian Core/Approval Gateway integration or real revenue has been established.
+
+**Verified LLM evidence:** [135M initial exam](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) 1/6; [1.7B comparison](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647) 5/6, same frozen six-item holdout. [Limitations and results](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) explicitly prohibit claiming professional qualification, independent human QA, model weight training or real platform access. All real-model CI is now manual-only.
+
 ## Release-blocking work
 
 1. Enforce truly authenticated Owner Kill Switch, signed versioned control state and cross-orchestrator propagation with cancellation semantics and proof of measured latency.

@@ -45,6 +45,18 @@ The [370-case offline simulation exam](docs/PROFESSIONAL_SIMULATION_GATES.md) co
 
 **Perpetual product is not perpetual work authorization:** even a SALE_OFFER record without agent expiration now requires a separately expiring mission lease. A missing or expired mission lease denies all sandbox steps.
 
+## Real local LLM apprenticeship — professional QA pilot
+
+The [professional LLM apprenticeship and QA specification](docs/LEGION_LLM_APPRENTICESHIP_QA.md) adds **six synthetic practice briefs, three coached revisions and six held-out exam tasks** across website development, customer support, analytics, copywriting, design and project management. The model is a real third-party local SmolLM2 through loopback-only Ollama. A separate fixed-rubric scorer measures quality and safety without executing LLM output.
+
+- [Practice corpus](legion/exams/practice_v1.json) · [held-out exam](legion/exams/holdout_v1.json) · [independent-implementation evaluator](legion/llm_exam.py).
+- [Real Ollama practice runner](legion/llm_training.py) · [never-authorize commercial gate](legion/commercial_gate.py).
+- [Real LLM evidence workflow](.github/workflows/legion-llm-evidence.yml); after first verified run, manual only.
+
+This is **inference-time coaching, not model weight training**. No professional qualification, third-party account access, buyer-license issuance, actual independent external QA, customer payments, or 24/7 agents are claimed. The 370 previous synthetic safety cases remain separate from model quality evidence.
+
+**Verified local LLM comparison:** [Evidence report](docs/LEGION_LLM_BENCHMARK_EVIDENCE.md) · [135M: 1/6](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147557760) · [1.7B: 5/6](https://github.com/oromaskevic23-cmd/Legion-Public/actions/runs/41147711647), same six-item synthetic holdout. **Neither result establishes professional competence or commercial authorization.**
+
 ## Architecture and governance
 
 Preserve the Federated Multi-Orchestrator Architecture, multiple organizational structures, professional teams and dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway and Audit Ledger remain architectural requirements. Identity ≠ Authority; Capability ≠ Approval. Zero Trust, Deny by Default and Fail Closed apply across the Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary.

@@ -10,3 +10,6 @@
 /docs/LEGION_UNIVERSAL_WORKFORCE_ARCHITECTURE.md @oromaskevic23-cmd
 /docs/LEGION_BRAND_SYSTEM.md @oromaskevic23-cmd
 /.github/workflows/legion-offline.yml @oromaskevic23-cmd
+/.github/workflows/legion-llm-evidence.yml @oromaskevic23-cmd
+/docs/LEGION_LLM_APPRENTICESHIP_QA.md @oromaskevic23-cmd
+/docs/LEGION_LLM_BENCHMARK_EVIDENCE.md @oromaskevic23-cmd
