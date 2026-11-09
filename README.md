@@ -1,6 +1,10 @@
 # LEGION
 
+<img src="https://raw.githubusercontent.com/oromaskevic23-cmd/oromaskevic23-cmd/main/assets/alexander-romaskevich-portrait-20261110.jpg" alt="Alexander Nikolaevich Romaskevich, Founder of IMPERIAL Core" width="160" />
+
 **Project founder and founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship and contribution provenance](AUTHORS.md).
+
+[▶ Watch the short LEGION introduction](assets/legion-introduction.mp4)
 
 **Many specialists. One mission. Verified results.**
 
