@@ -1,14 +1,14 @@
 # LEGION
 
+[▶ Watch the short LEGION introduction](assets/legion-introduction.mp4)
+
+**Many specialists. One mission. Verified results.**
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/oromaskevic23-cmd/oromaskevic23-cmd/main/assets/alexander-romaskevich-portrait-20261110.jpg" alt="Alexander Nikolaevich Romaskevich, Founder of IMPERIAL Core" width="160" />
 </p>
 
 **Project founder and founding architect:** Alexander Nikolaevich Romaskevich (RomaskevicH). [Authorship and contribution provenance](AUTHORS.md).
-
-[▶ Watch the short LEGION introduction](assets/legion-introduction.mp4)
-
-**Many specialists. One mission. Verified results.**
 
 LEGION is the planned **premium digital workforce of IMPERIAL Core**: flexible professional Nano Core Agent teams for authorized online work. Agents first pass simulated test scenarios, then require independent quality gates and actual scoped authorization before any real customer work. The public repository contains only a reproducible synthetic implementation and design.
 
